@@ -63,7 +63,7 @@ const principles = [
   {
     icon: Building,
     title: "Embedded, not bolted on",
-    body: "IDM 2.0 is an integral part of the efficiency workflow inside RA+, not a standalone tab at the end of the journey.",
+    body: "RA+ is an integral part of the efficiency workflow inside RA+, not a standalone tab at the end of the journey.",
   },
   {
     icon: ShieldCheck,
@@ -92,7 +92,7 @@ export const IDMVisionSection = () => {
             Phase 1 Deep Dive · Axis: client autonomy
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 text-foreground">
-            IDM 2.0 Vision
+            RA+ Vision
           </h2>
           <p className="text-sm sm:text-base lg:text-lg text-muted-foreground max-w-3xl mx-auto">
             Re-platform IDM into RA+ as a differentiated, agent-ready capability. Not a lift-and-shift, not a tab, not a faster version of today.
@@ -110,7 +110,7 @@ export const IDMVisionSection = () => {
               </span>
             </div>
             <p className="text-lg sm:text-xl text-foreground leading-relaxed max-w-4xl">
-              IDM 2.0 turns interval data into an enriched, agent-ready context layer inside RA+, blending telemetry with the field and consultancy work product that only Schneider can bring.
+              RA+ turns interval data into an enriched, agent-ready context layer inside RA+, blending telemetry with the field and consultancy work product that only Schneider can bring.
             </p>
           </div>
         </div>

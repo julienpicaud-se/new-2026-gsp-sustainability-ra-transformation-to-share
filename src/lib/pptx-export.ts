@@ -291,18 +291,18 @@ export const exportToPptx = async () => {
       s1,
       "HUMAN IN THE LOOP",
       "Expert Services Layer on the RA+ Spine",
-      "AI executes, humans apply judgment. Same IDM 2.0 spine, two ways to consume it.",
+      "AI executes, humans apply judgment. Same RA+ spine, two ways to consume it.",
     );
     const archetypes = [
       {
         title: "Self-Serve Operator",
         tagline: "FULL AUTONOMY, AI-DRIVEN",
-        body: "Wants the keys. Runs IDM 2.0 analytics, builds ECM scenarios, and acts on Sera recommendations without waiting for a human. RA+ is their cockpit; expert services are a-la-carte.",
+        body: "Wants the keys. Runs RA+ analytics, builds ECM scenarios, and acts on Sera recommendations without waiting for a human. RA+ is their cockpit; expert services are a-la-carte.",
       },
       {
         title: "Guided Decision Client",
         tagline: "HUMAN IN THE LOOP",
-        body: "Wants a trusted Schneider expert in the room for high-stakes calls. The platform drives the work; the expert validates, interprets, and translates IDM 2.0 outputs into board-ready decisions.",
+        body: "Wants a trusted Schneider expert in the room for high-stakes calls. The platform drives the work; the expert validates, interprets, and translates RA+ outputs into board-ready decisions.",
       },
     ];
     archetypes.forEach((a, i) => {
@@ -322,13 +322,13 @@ export const exportToPptx = async () => {
       s2,
       "JUDGMENT LAYER",
       "Where Schneider Experts Add Value",
-      "Service advisors become the judgment layer on top of IDM 2.0 and Sera — across four roles, across three engagement tiers.",
+      "Service advisors become the judgment layer on top of RA+ and Sera — across four roles, across three engagement tiers.",
     );
     const pillars = [
-      { t: "Validation", d: "Pressure-test IDM 2.0 baselines, ECM assumptions, and Sera outputs against engineering and field reality." },
-      { t: "Interpretation", d: "Turn IDM 2.0 telemetry and ECM stacks into a clear portfolio narrative and realistic envelope of action." },
-      { t: "Risk translation", d: "Frame downside, tenant impact, compliance, and execution risk around IDM 2.0 surfaced measures." },
-      { t: "Exec communication", d: "Package IDM 2.0 evidence and Sera reasoning into board-grade recommendations and capital narratives." },
+      { t: "Validation", d: "Pressure-test RA+ baselines, ECM assumptions, and Sera outputs against engineering and field reality." },
+      { t: "Interpretation", d: "Turn RA+ telemetry and ECM stacks into a clear portfolio narrative and realistic envelope of action." },
+      { t: "Risk translation", d: "Frame downside, tenant impact, compliance, and execution risk around RA+ surfaced measures." },
+      { t: "Exec communication", d: "Package RA+ evidence and Sera reasoning into board-grade recommendations and capital narratives." },
     ];
     pillars.forEach((p, i) => {
       const xPos = 0.5 + i * 2.3;
@@ -341,12 +341,12 @@ export const exportToPptx = async () => {
     });
 
     const tiers = [
-      ["Self-Serve", "Self-Serve Operator", "On demand", "Experts a-la-carte", "Full RA+ + IDM 2.0 + Sera"],
-      ["Assisted", "Mixed maturity", "Async + QBRs", "Expert validates IDM 2.0 outputs", "Shared RA+ workspace, annotated IDM 2.0 readouts"],
-      ["Advisory", "Guided Decision Client", "Embedded", "Named expert owns interpretation", "Co-piloted RA+ + IDM 2.0 with expert IP"],
+      ["Self-Serve", "Self-Serve Operator", "On demand", "Experts a-la-carte", "Full RA+ + RA+ + Sera"],
+      ["Assisted", "Mixed maturity", "Async + QBRs", "Expert validates RA+ outputs", "Shared RA+ workspace, annotated RA+ readouts"],
+      ["Advisory", "Guided Decision Client", "Embedded", "Named expert owns interpretation", "Co-piloted RA+ + RA+ with expert IP"],
     ];
     const tableY = 3.75;
-    const headers = ["Tier", "Best for", "Cadence", "Human role", "Platform / IDM 2.0"];
+    const headers = ["Tier", "Best for", "Cadence", "Human role", "Platform / RA+"];
     const colWidths = [1.1, 1.7, 1.3, 2.3, 2.8];
     let xCursor = 0.5;
     headers.forEach((h, i) => {
@@ -363,7 +363,7 @@ export const exportToPptx = async () => {
         xCursor += colWidths[ci];
       });
     });
-    s2.addText("One IDM 2.0 spine, one RA+ workspace. Clients move between tiers without losing context or model continuity.", {
+    s2.addText("One RA+ spine, one RA+ workspace. Clients move between tiers without losing context or model continuity.", {
       x: 0.5, y: 5.4, w: 9, h: 0.3, fontSize: 8, italic: true, color: BRAND_GREEN, align: "center", fit: "shrink",
     });
   };
@@ -402,7 +402,7 @@ export const exportToPptx = async () => {
       { title: "Do It For Me", subtitle: "Full service", body: "Schneider continues to handle data, KPIs, analysis, and program management." },
     ];
     const s = newSlide();
-    addTitle(s, "IDM 2.0 VISION", "Embedded, Differentiated, Agentic", "Client-autonomy axis: from full self-serve to fully delivered. RA+ supports all three without forcing one path.");
+    addTitle(s, "RA+ VISION", "Embedded, Differentiated, Agentic", "Client-autonomy axis: from full self-serve to fully delivered. RA+ supports all three without forcing one path.");
     idmUseCases.forEach((u, i) => {
       const xPos = 0.5 + i * 3.05;
       s.addShape("rect" as PptxGenJS.ShapeType, { x: xPos, y: 1.95, w: 2.95, h: 1.5, fill: { color: CARD_BG }, line: { color: BRAND_GREEN, width: 1 } });

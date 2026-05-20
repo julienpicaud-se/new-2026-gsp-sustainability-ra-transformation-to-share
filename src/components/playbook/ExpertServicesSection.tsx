@@ -7,9 +7,9 @@ const archetypes = [
     title: "Self-Serve Operator",
     tagline: "FULL AUTONOMY, AI-DRIVEN",
     description:
-      "Wants the keys. Runs IDM 2.0 analytics, builds ECM scenarios, and acts on Sera recommendations without waiting for a human. RA+ is their cockpit; the platform must stand on its own.",
+      "Wants the keys. Runs RA+ analytics, builds ECM scenarios, and acts on Sera recommendations without waiting for a human. RA+ is their cockpit; the platform must stand on its own.",
     bullets: [
-      "Self-directed exploration of IDM 2.0 interval data and benchmarks",
+      "Self-directed exploration of RA+ interval data and benchmarks",
       "Agent-led scoping, ROM estimates, and what-if scenarios on demand",
       "Expert services available a-la-carte, never required to make progress",
     ],
@@ -19,11 +19,11 @@ const archetypes = [
     title: "Guided Decision Client",
     tagline: "HUMAN IN THE LOOP",
     description:
-      "Wants a trusted expert in the room for high-stakes calls. The platform still drives the work, but a Schneider expert validates, interprets, and translates IDM 2.0 outputs into board-ready decisions.",
+      "Wants a trusted expert in the room for high-stakes calls. The platform still drives the work, but a Schneider expert validates, interprets, and translates RA+ outputs into board-ready decisions.",
     bullets: [
-      "Senior auditor co-pilots IDM 2.0 readouts and ECM trade-offs",
+      "Senior auditor co-pilots RA+ readouts and ECM trade-offs",
       "Expert-led risk framing for capital, compliance, and tenant impact",
-      "Recurring advisory cadence tied to the same RA+ workspace and IDM 2.0 spine",
+      "Recurring advisory cadence tied to the same RA+ workspace and RA+ spine",
     ],
   },
 ];
@@ -33,25 +33,25 @@ const judgementPillars = [
     icon: ShieldCheck,
     title: "Validation",
     description:
-      "Experts pressure-test IDM 2.0 baselines, ECM assumptions, and Sera outputs before they become commitments — confirming that what the agent proposes survives engineering and field reality.",
+      "Experts pressure-test RA+ baselines, ECM assumptions, and Sera outputs before they become commitments — confirming that what the agent proposes survives engineering and field reality.",
   },
   {
     icon: Lightbulb,
     title: "Interpretation",
     description:
-      "Translates IDM 2.0 telemetry, anomaly patterns, and ECM stacks into a clear narrative — what is happening in the portfolio, why it matters, and what the realistic envelope of action looks like.",
+      "Translates RA+ telemetry, anomaly patterns, and ECM stacks into a clear narrative — what is happening in the portfolio, why it matters, and what the realistic envelope of action looks like.",
   },
   {
     icon: AlertTriangle,
     title: "Risk translation",
     description:
-      "Frames downside, tenant impact, compliance exposure, and execution risk for measures that IDM 2.0 surfaces — so clients see both the upside model and the operational guardrails.",
+      "Frames downside, tenant impact, compliance exposure, and execution risk for measures that RA+ surfaces — so clients see both the upside model and the operational guardrails.",
   },
   {
     icon: Presentation,
     title: "Executive communication",
     description:
-      "Packages IDM 2.0 evidence and Sera reasoning into board-grade recommendations, capital narratives, and stakeholder talking points that move decisions, not just dashboards.",
+      "Packages RA+ evidence and Sera reasoning into board-grade recommendations, capital narratives, and stakeholder talking points that move decisions, not just dashboards.",
   },
 ];
 
@@ -61,21 +61,21 @@ const tiers = [
     audience: "Self-Serve Operator",
     cadence: "On demand",
     human: "Expert services available a-la-carte",
-    platform: "Full RA+ + IDM 2.0 + Sera autonomy",
+    platform: "Full RA+ + RA+ + Sera autonomy",
   },
   {
     name: "Assisted",
     audience: "Mixed maturity",
     cadence: "Async reviews + QBRs",
-    human: "Expert validates IDM 2.0 outputs and ECM scopes on cadence",
-    platform: "Shared RA+ workspace with annotated IDM 2.0 readouts",
+    human: "Expert validates RA+ outputs and ECM scopes on cadence",
+    platform: "Shared RA+ workspace with annotated RA+ readouts",
   },
   {
     name: "Advisory",
     audience: "Guided Decision Client",
     cadence: "Embedded engagement",
     human: "Named expert owns interpretation and exec communication",
-    platform: "Co-piloted RA+ + IDM 2.0 spine with expert IP layered in",
+    platform: "Co-piloted RA+ + RA+ spine with expert IP layered in",
   },
 ];
 
@@ -176,7 +176,7 @@ export const ExpertServicesSection = () => {
                   <th className="py-3 pr-4 text-xs uppercase tracking-wider text-primary font-semibold">Best for</th>
                   <th className="py-3 pr-4 text-xs uppercase tracking-wider text-primary font-semibold">Cadence</th>
                   <th className="py-3 pr-4 text-xs uppercase tracking-wider text-primary font-semibold">Human role</th>
-                  <th className="py-3 text-xs uppercase tracking-wider text-primary font-semibold">Platform / IDM 2.0</th>
+                  <th className="py-3 text-xs uppercase tracking-wider text-primary font-semibold">Platform / RA+</th>
                 </tr>
               </thead>
               <tbody>
@@ -193,7 +193,7 @@ export const ExpertServicesSection = () => {
             </table>
           </div>
           <p className="text-xs text-muted-foreground italic mt-5">
-            One IDM 2.0 spine, one RA+ workspace. Clients move between tiers without losing context, history, or model continuity.
+            One RA+ spine, one RA+ workspace. Clients move between tiers without losing context, history, or model continuity.
           </p>
         </div>
       </div>

@@ -36,7 +36,7 @@ const players = [
 
 const whyWeWin = [
   "CoE expertise plus RA+ platform, not a slideware-only consultancy or a data-only tool",
-  "IDM 2.0 re-platformed inside RA+ as the agent-ready interval data spine, not a siloed legacy tool",
+  "RA+ re-platformed inside RA+ as the agent-ready interval data spine, not a siloed legacy tool",
   "Telemetry blended with field and consultancy work product, an on-premise context layer pure software players cannot reach",
   "Decades of audit IP reactivated as structured, reusable ECM intelligence inside the product",
   "Sera as a unified guided interface reasoning over IDM-grade data across Energy Managers, Data Ops, Sustainability, and Executives",

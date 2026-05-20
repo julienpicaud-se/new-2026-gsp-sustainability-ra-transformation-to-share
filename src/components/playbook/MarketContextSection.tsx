@@ -40,7 +40,7 @@ const forces = [
   {
     icon: Database,
     title: "Agent-Ready Data Expectations",
-    body: "Buyers assume telemetry, asset context, and audit IP are unified so agents like Sera can reason over them. IDM 2.0 is what makes that real inside RA+.",
+    body: "Buyers assume telemetry, asset context, and audit IP are unified so agents like Sera can reason over them. RA+ is what makes that real inside RA+.",
   },
 ];
 

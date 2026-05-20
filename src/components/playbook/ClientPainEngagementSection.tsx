@@ -5,7 +5,7 @@ const signals = [
   {
     icon: TrendingDown,
     quote: "Our energy bills keep climbing and we cannot tell which sites are worst",
-    response: "Portfolio-wide ECM screening grounded in IDM 2.0 interval data, surfacing the highest-impact sites and measures first.",
+    response: "Portfolio-wide ECM screening grounded in RA+ interval data, surfacing the highest-impact sites and measures first.",
   },
   {
     icon: Leaf,
@@ -20,7 +20,7 @@ const signals = [
   {
     icon: Activity,
     quote: "Our interval data sits in IDM and never reaches the people making decisions",
-    response: "IDM 2.0 re-platformed inside RA+ so telemetry, asset context, and audit IP flow into the same workflow Energy Managers and Sera already use.",
+    response: "RA+ re-platformed inside RA+ so telemetry, asset context, and audit IP flow into the same workflow Energy Managers and Sera already use.",
   },
   {
     icon: Database,
