@@ -1508,7 +1508,7 @@ export const jobsToBeDone = {
     { num: 10, type: "Analytical", title: "Manage action plans and follow-through", description: "When committing to a decarbonization improvement, track action items, site-level progress, and target attainment against measured outcomes, so follow-through is ensured and continuous improvement is provable." },
     { num: 11, type: "Analytical", title: "Prioritize across portfolio", description: "When responsible for multiple Maisons or sites, know which units need attention most urgently using portfolio-wide signals, so time is spent where it has the greatest abatement and risk impact." },
     { num: 12, type: "Operational", title: "Bring sustainability data into the workflow", description: "When working in RA+, expect emissions, risk, supplier, and engagement context in the same screens, with no tool hop, no spreadsheet export, and no re-stitching by hand." },
-    { num: 13, type: "Analytical", title: "Reason over sustainability data with Sera", description: "When investigating a question, ask Sera in natural language and have it reason over the RA+ context layer, blending client data with GSP methodologies, CLICK research, and NTBS offsetting options." },
+    { num: 13, type: "Analytical", title: "Reason over sustainability data with Sera", description: "When investigating a question, ask Sera in natural language and have it reason over the RA+ context layer, blending client data with GSP methodologies and NTBS offsetting options." },
   ],
 };
 
