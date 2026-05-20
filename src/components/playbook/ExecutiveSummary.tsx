@@ -128,7 +128,7 @@ const risks: { risk: string; mitigation: string }[] = [
   {
     risk: "Sustainability guidance becomes inconsistent across regions",
     mitigation:
-      "Govern taxonomy, required fields, emission factors, and CLICK review so the library becomes the single source of truth.",
+      "Govern taxonomy, required fields, emission factors, and SME review so the library becomes the single source of truth.",
   },
 ];
 
