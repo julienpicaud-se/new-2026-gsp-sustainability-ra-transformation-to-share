@@ -67,6 +67,7 @@ const groups: NavGroup[] = [
     label: "How",
     items: [
       { id: "existing-tools", label: "Technology Landscape" },
+      { id: "raplus-platform-foundation", label: "RA+ Platform Foundation" },
       { id: "ecm-mapping", label: "Capability Mapping" },
       { id: "regional-journeys", label: "Regional Journeys" },
       { id: "operating-model", label: "Operating Model" },

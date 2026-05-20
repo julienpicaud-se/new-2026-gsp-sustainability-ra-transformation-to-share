@@ -4,29 +4,36 @@ import { Search } from "lucide-react";
 
 const glossaryTerms = [
   {
-    category: "Energy Efficiency domain",
+    category: "Sustainability domain",
     terms: [
-      { abbr: "ECM", full: "Energy Conservation Measure" },
-      { abbr: "EE", full: "Energy Efficiency" },
-      { abbr: "M&V", full: "Measurement & Verification (IPMVP-aligned savings validation)" },
-      { abbr: "IPMVP", full: "International Performance Measurement & Verification Protocol" },
-      { abbr: "ROM", full: "Rough Order of Magnitude (early-stage savings/cost estimate)" },
-      { abbr: "ROI", full: "Return on Investment" },
-      { abbr: "EnPI", full: "Energy Performance Indicator" },
-      { abbr: "EUI", full: "Energy Use Intensity (kWh/sqft or kWh/m²)" },
-      { abbr: "kWh / MWh / GJ", full: "energy units" },
-      { abbr: "HVAC", full: "Heating, Ventilation & Air Conditioning" },
-      { abbr: "BAS", full: "Building Automation System" },
+      { abbr: "GSP", full: "Global Sustainability Practice (Schneider Electric's sustainability advisory business)" },
+      { abbr: "GHG Protocol", full: "Greenhouse Gas Protocol (corporate accounting and reporting standard)" },
+      { abbr: "SBTi", full: "Science Based Targets initiative" },
+      { abbr: "CSRD", full: "Corporate Sustainability Reporting Directive (EU)" },
+      { abbr: "ISSB", full: "International Sustainability Standards Board" },
+      { abbr: "CDP", full: "Carbon Disclosure Project" },
+      { abbr: "TCFD", full: "Task Force on Climate-related Financial Disclosures" },
+      { abbr: "TNFD", full: "Taskforce on Nature-related Financial Disclosures" },
+      { abbr: "PCAF", full: "Partnership for Carbon Accounting Financials" },
+      { abbr: "ISO 14064", full: "Standard for GHG inventories and verification" },
+      { abbr: "ISSA 5000", full: "Sustainability assurance standard" },
+      { abbr: "NTBS", full: "Nature-based and Technology-based Solutions (offsetting)" },
+      { abbr: "tCO2", full: "Tonnes of carbon dioxide equivalent" },
+      { abbr: "Scope 1 / 2 / 3", full: "Direct, energy-related, and value-chain emissions categories" },
     ],
   },
   {
-    category: "Service / Commercial models",
+    category: "RA+ platform & technology",
     terms: [
-      { abbr: "EaaS", full: "Energy as a Service" },
-      { abbr: "ESCO", full: "Energy Service Company" },
-      { abbr: "EPC", full: "Energy Performance Contract" },
-      { abbr: "PPA", full: "Power Purchase Agreement" },
-      { abbr: "O&M", full: "Operations & Maintenance" },
+      { abbr: "RA+", full: "Resource Advisor Plus (Schneider Electric's sustainability platform)" },
+      { abbr: "Sustainability graph", full: "Shared semantic data spine connecting entities, emissions, targets, and lineage" },
+      { abbr: "EF library", full: "Emission Factor library with automated matching to activity data" },
+      { abbr: "Lineage", full: "End-to-end traceability from source data through calculations to disclosures" },
+      { abbr: "SERA", full: "RA+ agentic assistant guiding sustainability workflows" },
+      { abbr: "Ingest & transform", full: "Governed pipelines for onboarding and normalizing client data" },
+      { abbr: "AI quality system", full: "Evaluation harness and feedback loops governing agent outputs" },
+      { abbr: "Zeigo / ZCP", full: "Schneider Electric sustainability tools connected to RA+" },
+      { abbr: "Unified / Proactive / Adaptive", full: "The three RA+ platform pillars" },
     ],
   },
   {
@@ -34,7 +41,8 @@ const glossaryTerms = [
     terms: [
       { abbr: "VOC", full: "Voice of Customer" },
       { abbr: "JTBD", full: "Jobs To Be Done" },
-      { abbr: "OKR", full: "Objectives & Key Results" },
+      { abbr: "CSO", full: "Chief Sustainability Officer" },
+      { abbr: "CoE", full: "Center of Excellence" },
       { abbr: "PoC", full: "Proof of Concept" },
       { abbr: "SLA", full: "Service Level Agreement" },
     ],
@@ -69,7 +77,7 @@ export const GlossarySection = () => {
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search terms (e.g. ECM, IPMVP, EaaS)..."
+          placeholder="Search terms (e.g. SBTi, SERA, EF library)..."
           className="pl-9"
           aria-label="Search glossary"
         />
