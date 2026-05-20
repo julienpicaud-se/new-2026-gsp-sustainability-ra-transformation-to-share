@@ -3,44 +3,44 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const forces = [
   {
-    icon: Zap,
-    title: "Rising Energy Costs & Volatility",
-    body: "Customers face unpredictable utility bills and capacity charges, putting efficiency back at the top of the operating agenda.",
+    icon: TrendingUp,
+    title: "Regulatory Acceleration",
+    body: "CSRD, ISSB, EU Taxonomy, and SEC climate rules turn voluntary reporting into mandatory, audit-grade disclosure with tight deadlines.",
   },
   {
-    icon: TrendingUp,
-    title: "Decarbonization Pressure",
-    body: "Scope 1 and 2 commitments turn efficiency from a nice-to-have into a measurable contribution to corporate climate targets.",
+    icon: Leaf,
+    title: "Net-Zero Commitments",
+    body: "SBTi-validated targets are now table stakes. Boards expect credible transition plans backed by measurable abatement, not pledges.",
   },
   {
     icon: Layers,
-    title: "Aging Building Stock",
-    body: "Portfolios mix legacy HVAC, controls, and envelopes, creating broad decarbonization opportunity but also high diagnostic complexity.",
+    title: "Scope 3 Complexity",
+    body: "Up to 90% of corporate footprints sit in supply chains and product use. Customers need scalable supplier engagement and activity-based data.",
   },
   {
     icon: Sparkles,
     title: "AI & Self-Service Expectations",
-    body: "Energy Managers expect guided, in-product recommendations, not static reports delivered weeks after data is collected.",
-  },
-  {
-    icon: Leaf,
-    title: "Audit & Incentive Programs",
-    body: "Regulatory mandates (CSRD, CDP, SBTi) and voluntary disclosures reward customers who can show calibrated, evidence-backed decarbonization plans.",
+    body: "Sustainability Leads expect guided, in-product recommendations and natural-language analysis, not static reports delivered weeks after the cycle closes.",
   },
   {
     icon: ShieldCheck,
-    title: "Operational Resilience",
-    body: "Efficiency is increasingly tied to resilience and uptime, not only cost, raising the bar on data quality and traceability.",
+    title: "Assurance & Trust",
+    body: "Limited and reasonable assurance (ISAE 3000, ISSA 5000) raise the bar on methodology transparency, audit trails, and data lineage.",
   },
   {
     icon: Activity,
-    title: "Interval Data Everywhere",
-    body: "Sub-hourly meter and submeter data is now standard, but legacy IDM workflows leave it stranded. Customers expect it live inside the efficiency product, not exported to spreadsheets.",
+    title: "Nature & Climate Risk",
+    body: "TNFD, physical risk, and transition risk disclosures require new data sources, scenario analysis, and biodiversity context alongside emissions.",
+  },
+  {
+    icon: Zap,
+    title: "Decarbonization Investment",
+    body: "Customers are deploying capital into renewables, electrification, and NTBS offsetting and need prioritized, abatement-ranked guidance.",
   },
   {
     icon: Database,
-    title: "Agent-Ready Data Expectations",
-    body: "Buyers assume telemetry, asset context, and audit IP are unified so agents like Sera can reason over them. RA+ is what makes that real inside RA+.",
+    title: "Sustainability Data Everywhere",
+    body: "Emissions, supplier, operational, and financial data sit in fragmented systems. Customers expect a unified, agent-ready foundation Sera can reason over.",
   },
 ];
 
@@ -63,7 +63,7 @@ export const MarketContextSection = () => {
             Forces Shaping Customer Needs
           </h2>
           <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-            Customers face the most demanding efficiency landscape in a generation. These pressures define where the Efficiency CoE and RA+ must deliver.
+            Customers face the most demanding sustainability landscape in a generation. These pressures define where GSP and RA+ must deliver.
           </p>
         </div>
 

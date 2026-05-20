@@ -7,19 +7,19 @@ const challenges = [
     color: "rose",
     title: "Knowledge Fragmentation",
     points: [
-      "Decades of audit IP locked inside PowerPoint deliverables that are hard to search or reuse",
-      "decarbonization levers, assumptions, and savings logic are scattered across consultants and engagements",
-      "Every new audit starts from a near-blank page instead of building on prior evidence",
+      "Decades of GSP advisory IP locked inside PowerPoint deliverables that are hard to search or reuse",
+      "Decarbonization levers, emission factors, and methodology choices are scattered across consultants and engagements",
+      "Every new engagement starts from a near-blank page instead of building on prior evidence",
     ],
   },
   {
     icon: Clock,
     color: "amber",
-    title: "Manual Audit Workflows",
+    title: "Manual Disclosure Workflows",
     points: [
-      "decarbonization scoping is slow, expert-bound, and hard to scale beyond a handful of senior auditors",
-      "Templated calculations and sensitivity sweeps are redone by hand on every engagement",
-      "Capacity to serve more clients is capped by available expert time, not by opportunity",
+      "CSRD, ISSB, CDP, and TCFD outputs are stitched together by hand across multiple vendor tools and spreadsheets",
+      "Templated calculations and supplier follow-ups are redone on every cycle",
+      "Capacity to serve more clients is capped by available expert time, not by demand",
     ],
   },
   {
@@ -27,9 +27,9 @@ const challenges = [
     color: "orange",
     title: "Opportunity Latency",
     points: [
-      "Customers wait for a full audit cycle to learn what efficiency moves are possible",
-      "Early advisory is delivered late and does not scale beyond individual consultants",
-      "RA+ users see operational data but no in-product efficiency recommendations",
+      "Customers wait for a full disclosure cycle to learn what decarbonization moves are possible",
+      "Early sustainability advisory is delivered late and does not scale beyond individual consultants",
+      "RA+ users see operational data but no in-product sustainability recommendations",
     ],
   },
   {
@@ -37,19 +37,19 @@ const challenges = [
     color: "violet",
     title: "Disconnected Deliverables",
     points: [
-      "Slide-driven outputs require manual assembly and break the link to underlying data",
-      "M&V results rarely feed back into future recommendations or scoping logic",
-      "No shared building data spine across discovery, scoping, proposals, and follow-up",
+      "Slide-driven outputs require manual assembly and break the link to underlying client data",
+      "Assurance findings rarely feed back into future recommendations or scoping logic",
+      "No shared client data spine across discovery, advisory, disclosure, and follow-up",
     ],
   },
   {
     icon: Database,
     color: "sky",
-    title: "IDM 1.0 Stranded",
+    title: "Scope 3 Stranded",
     points: [
-      "Interval data lives in a standalone IDM tool, disconnected from the RA+ efficiency workflow",
-      "Field and consultancy work product never reaches the same layer telemetry sits in",
-      "Sera and downstream agents cannot reason over IDM data because it is not agent-ready",
+      "Supplier and value-chain emissions live in scattered spreadsheets and surveys, disconnected from the sustainability workflow",
+      "Activity and spend-based data never reaches the same layer where corporate inventory and disclosure sit",
+      "Sera and downstream agents cannot reason over supply chain data because it is not unified or agent-ready",
     ],
   },
   {
@@ -57,9 +57,9 @@ const challenges = [
     color: "emerald",
     title: "No Agent-Ready Spine",
     points: [
-      "Telemetry, asset context, and audit IP live in separate systems with no shared semantics",
-      "Each engagement re-stitches data instead of pulling from a governed building spine",
-      "Self-serve, hybrid, and fully serviced clients cannot be supported on the same data foundation",
+      "Emissions, supplier, financial, and methodology data live in separate systems with no shared semantics",
+      "Each engagement re-stitches data instead of pulling from a governed sustainability spine",
+      "Self-serve, expert-supported, and fully-managed clients cannot be supported on the same data foundation",
     ],
   },
 ];
@@ -104,10 +104,10 @@ const colorStyles: Record<string, { border: string; bg: string; iconBg: string; 
 };
 
 const kpis = [
-  { value: "1000s", label: "Legacy audit deliverables waiting to be reactivated", color: "text-rose-400" },
+  { value: "1000s", label: "Legacy GSP engagement deliverables waiting to be reactivated", color: "text-rose-400" },
   { value: "Weeks", label: "Typical time to first decarbonization roadmap today", color: "text-amber-400" },
-  { value: "1 IDM", label: "Standalone tool today, re-platformed as the RA+ data spine", color: "text-sky-400" },
-  { value: "1 spine", label: "Unified building data target across every service line", color: "text-orange-400" },
+  { value: "Multi", label: "Vendor tools clients juggle for CSRD, ISSB, CDP, and TCFD", color: "text-sky-400" },
+  { value: "1 spine", label: "Unified sustainability data target across every service line", color: "text-orange-400" },
 ];
 
 export const KeyChallengesGridSection = () => {
@@ -128,7 +128,7 @@ export const KeyChallengesGridSection = () => {
             Key Challenges
           </h2>
           <p className="text-sm sm:text-base lg:text-lg text-muted-foreground">
-            Efficiency value today is bottlenecked by knowledge sitting in slides, manual scoping, and deliverables that do not connect back to the RA+ data spine.
+            Sustainability value today is bottlenecked by knowledge sitting in slides, manual disclosure workflows, and deliverables that do not connect back to the RA+ data spine.
           </p>
         </div>
 
