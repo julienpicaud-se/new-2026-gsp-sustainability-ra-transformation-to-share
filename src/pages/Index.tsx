@@ -12,7 +12,7 @@ import { PainInventorySection } from "@/components/playbook/PainInventorySection
 import { KeyChallengesSection } from "@/components/playbook/KeyChallengesSection";
 import { StrategicPillars } from "@/components/playbook/StrategicPillars";
 import { ExistingToolsSection } from "@/components/playbook/ExistingToolsSection";
-import { RegionalJourneyComparison } from "@/components/playbook/RegionalJourneyComparison";
+
 import { ECMIngestionEngineSection } from "@/components/playbook/ECMIngestionEngineSection";
 import { StrategicContextSection } from "@/components/playbook/StrategicContextSection";
 import { WhatIfSection } from "@/components/playbook/WhatIfSection";
@@ -75,7 +75,7 @@ const Index = () => {
       {/* How – ECM Foundation cluster */}
       <ExistingToolsSection />
       <ECMCapabilityMapping />
-      <RegionalJourneyComparison />
+      
       <OperatingModelSection />
       <ExpertServicesSection />
       {/* Delivery */}
