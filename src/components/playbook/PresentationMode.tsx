@@ -12,7 +12,7 @@ const sections = [
   { id: "client-pain-engagement", title: "Client Pain to Engagement" },
   // Vision
   { id: "what-if", title: "What If Tomorrow" },
-  { id: "platform-shift", title: "Efficiency Transformation" },
+  { id: "platform-shift", title: "Sustainability Transformation" },
   { id: "key-challenges", title: "Why Now" },
   // Audience
   { id: "personas", title: "Personas" },
@@ -22,6 +22,7 @@ const sections = [
   { id: "key-objectives", title: "Key Objectives" },
   // How
   { id: "existing-tools", title: "Technology Landscape" },
+  { id: "raplus-platform-foundation", title: "RA+ Platform Foundation" },
   { id: "ecm-mapping", title: "Capability Mapping" },
   { id: "regional-journeys", title: "Regional Journeys" },
   { id: "operating-model", title: "Operating Model" },

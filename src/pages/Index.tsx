@@ -23,7 +23,6 @@ import { JumpToTop } from "@/components/playbook/JumpToTop";
 import { ECMCapabilityMapping } from "@/components/playbook/ECMCapabilityMapping";
 
 import { MaturityLadderSection } from "@/components/playbook/MaturityLadderSection";
-// import { DeliveryRoadmapSection } from "@/components/playbook/DeliveryRoadmapSection";
 import { AppendixSection } from "@/components/playbook/AppendixSection";
 import { ExecutiveTakeaway } from "@/components/playbook/ExecutiveTakeaway";
 import { GlossarySection } from "@/components/playbook/GlossarySection";
@@ -86,7 +85,6 @@ const Index = () => {
       {/* Guardrails */}
       <SuccessMetricsSection />
       <StartStopMatrix />
-      {/* <DeliveryRoadmapSection /> */}
       {/* Close */}
       <ExecutiveTakeaway />
       {/* Appendix (reference, last) */}
