@@ -60,7 +60,7 @@ const sections: Section[] = [
     icon: Activity,
     tone: "muted",
     body:
-      "The Global Sustainability Practice already delivers trusted advisory, NTBS offsetting, CLICK research, and DIH digital assets across regions (400+ climate experts, 7,500+ projects, 426.5M tCO2 managed, ranked #1 globally by Sustainability Magazine). The opportunity is to convert that operating strength into a repeatable platform capability inside RA+, with Sera as the unified interface and client sustainability data as the trusted foundation, so customers are reached earlier, action is guided faster, and continuous improvement becomes the default.",
+      "The Global Sustainability Practice already delivers trusted advisory across regions (400+ climate experts, 7,500+ projects, 426.5M tCO2 managed, ranked #1 globally by Sustainability Magazine). The opportunity is to convert that operating strength into a repeatable platform capability inside RA+, with Sera as the unified interface and client sustainability data as the trusted foundation, so customers are reached earlier, action is guided faster, and continuous improvement becomes the default.",
   },
   {
     num: "02",
@@ -90,7 +90,7 @@ const sections: Section[] = [
     icon: Wrench,
     tone: "muted",
     body:
-      "The practical sequence is to finalize the unified sustainability taxonomy, publish a provisional decarbonization knowledge base with CLICK and SME review, define clean service boundaries, and connect trusted client signals to Strategy first. From there, RA+ can introduce Portfolio View, rule-based opportunity surfacing, customer self-service exploration, and platform-native disclosure outputs.",
+      "The practical sequence is to finalize the unified sustainability taxonomy, publish a provisional decarbonization knowledge base with SME review, define clean service boundaries, and connect trusted client signals to Strategy first. From there, RA+ can introduce Portfolio View, rule-based opportunity surfacing, customer self-service exploration, and platform-native disclosure outputs.",
   },
   {
     num: "05",
@@ -128,7 +128,7 @@ const risks: { risk: string; mitigation: string }[] = [
   {
     risk: "Sustainability guidance becomes inconsistent across regions",
     mitigation:
-      "Govern taxonomy, required fields, emission factors, and CLICK review so the library becomes the single source of truth.",
+      "Govern taxonomy, required fields, emission factors, and SME review so the library becomes the single source of truth.",
   },
 ];
 

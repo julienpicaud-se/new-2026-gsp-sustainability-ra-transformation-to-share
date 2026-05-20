@@ -55,7 +55,7 @@ export const strategicPillars = [
       "Continuous, contextual decarbonization and risk recommendations inside the platform",
       "Value delivered between formal advisory cycles, on top of live client sustainability data",
       "A shift from one-off CDP or CSRD value to ongoing transition planning value",
-      "Stronger platform stickiness through embedded GSP methodologies and CLICK research",
+      "Stronger platform stickiness through embedded GSP methodologies",
       "Self-serve, expert-supported, and fully-managed engagement profiles on one platform",
       "Goal-to-action recommendations integrated in Strategy module",
     ],
@@ -314,7 +314,7 @@ export const valuePillars = [
 export const strategicContext = {
   summary: "Today, sustainability advisory relies heavily on manual workflows, Excel templates, and PowerPoint deliverables. Client context is fragmented across tools and documents, GSP expertise is delivered engagement by engagement and does not scale, and early advice is not productized to generate recurring value inside RA+.",
   northStarTitle: "A governed GSP capability embedded in RA+",
-  northStar: "The north star is an authoritative sustainability foundation inside RA+ that connects client emissions and operational data, expert GSP knowledge from advisory, NTBS, CLICK and DIH, and guided workflows. It should power goal-based Strategy recommendations, site-level Portfolio View discovery, structured disclosure deliverables, and a clear path from early insight to expert engagement.",
+  northStar: "The north star is an authoritative sustainability foundation inside RA+ that connects client emissions and operational data, expert GSP knowledge from advisory, NTBS and DIH, and guided workflows. It should power goal-based Strategy recommendations, site-level Portfolio View discovery, structured disclosure deliverables, and a clear path from early insight to expert engagement.",
 };
 
 export const supportingScorecard = [
@@ -776,7 +776,7 @@ export const quarterlyRoadmap = [
       "Confirm the decarbonization measure and emissions data model, taxonomy, metadata, and governance needs",
       "Define minimum RA+ service boundaries for sustainability guidance and emissions signals",
       "Prioritize the top 200 decarbonization measures for the initial library launch",
-      "Start CLICK and SME review loops across regions to refine priorities",
+      "Start SME review loops across regions to refine priorities",
       "Ship targeted intelligence enhancements in existing vendor software workflows in parallel (June 2026) so existing customers feel forward motion",
     ],
     teamImpact: [
@@ -826,7 +826,7 @@ export const quarterlyRoadmap = [
     color: "violet",
     deliverables: [
       "Go live with SE Corporate as the lead reference customer in March 2027",
-      "Improve measure metadata quality and expand beyond the top 200 based on usage and CLICK review",
+      "Improve measure metadata quality and expand beyond the top 200 based on usage",
       "Deepen emissions integration for data-quality visibility, trend context, and assurance support",
       "Refine assumption defaults, applicability rules, and expert escalation triggers",
       "Add structured handoff outputs for GSP advisory and engagement preparation",
@@ -887,7 +887,7 @@ export const idmCapabilities = {
       },
     ],
     principle:
-      "The RA+ opportunity is not a reporting migration or visual lift-over. It is turning proven GSP capabilities (advisory, NTBS, CLICK, DIH) into shared platform intelligence that guides decisions, prioritization, and continuous improvement.",
+      "The RA+ opportunity is not a reporting migration or visual lift-over. It is turning proven GSP capabilities into shared platform intelligence that guides decisions, prioritization, and continuous improvement.",
   },
   bmsBypass: {
     title: "Vendor Software Bypass: Bypass the Heavy Implementation",
@@ -1022,7 +1022,7 @@ export const serviceModelComparison = [
 
 export const intelligenceFlywheel = {
   title: "Strategy-to-Improvement Flywheel",
-  subtitle: "The operating model that connects advisory, NTBS offsetting, CLICK research, DIH digital assets, and continuous performance improvement in RA+",
+  subtitle: "The operating model that connects advisory, NTBS offsetting, DIH digital assets, and continuous performance improvement in RA+",
   veeExplainer: {
     title: "DQA: Data Quality Assurance",
     description:
@@ -1061,7 +1061,7 @@ export const marketConstraints = [
 ];
 
 export const executiveNarrative = {
-  whatsHappening: "Sustainability Transformation is broader than a content library. It is the operating strategy for bringing GSP expertise, NTBS offsetting, CLICK research, DIH digital assets, and client context into a scalable RA+ capability.",
+  whatsHappening: "Sustainability Transformation is broader than a content library. It is the operating strategy for bringing GSP expertise, NTBS offsetting, DIH digital assets, and client context into a scalable RA+ capability.",
   trueProblem: "Today, client emissions and operational data, GSP advisory expertise, NTBS offsetting pathways, and disclosure workflows are not yet operating as one system. That limits RA+ from moving beyond reporting into guided sustainability improvement.",
   northStarTitle: "A governed GSP capability embedded in RA+",
   northStar: "The north star is an authoritative sustainability foundation inside RA+ that connects client data as the trusted system of record, expert GSP knowledge, and guided workflows. It should power goal-based Strategy recommendations, site- and asset-level Portfolio View discovery, structured disclosure deliverables, and a clear path from early insight to expert engagement.",
@@ -1294,7 +1294,7 @@ export const efficiencyStrategicContext = {
     implications: [
       {
         label: "GSP capability scale",
-        detail: "Turn proven advisory, NTBS offsetting, CLICK research, and DIH digital assets into RA+ services where they create platform leverage.",
+        detail: "Turn proven advisory, NTBS offsetting, and DIH digital assets into RA+ services where they create platform leverage.",
       },
       {
         label: "Phased evolution",
@@ -1396,7 +1396,7 @@ export const platformShift = {
       "Sustainability spine inside RA+ as the agent-ready context layer for emissions, risk, nature, and supply chain data",
       "One unified data model across all products, with client sustainability data as a first-class citizen",
       "Emissions and risk data live in dashboards, disclosures, and pathways natively, no tool hop",
-      "Client data blended with GSP methodology, NTBS offsetting, and CLICK research that Sera can reason over",
+      "Client data blended with GSP methodology and NTBS offsetting that Sera can reason over",
       "Sera as the primary interface from day one across all engagement profiles",
       "Self-serve onboarding, no spreadsheets, no export and re-import loop",
       "Disclosure digitization via existing sustainability surfaces, fed by the spine",
@@ -1417,11 +1417,6 @@ export const platformShift = {
         layer: "Accelerator",
         name: "Nature & Technology Based Solutions (NTBS)",
         detail: "25 experts financing and developing high-quality nature and tech-based projects. 300 projects analyzed per year, 20+ site audits annually under EcoScore. Forestry, blue carbon, and improved cookstoves.",
-      },
-      {
-        layer: "Feedback Loop",
-        name: "CLICK Research & DIH Digital",
-        detail: "Climate & Innovation Knowledge Center plus Digital Innovation Hub. Anticipates the next frontier of sustainability and turns science, policy, and tech trends into scalable methodologies and digital assets.",
       },
     ],
     soWhat:
@@ -1513,7 +1508,7 @@ export const jobsToBeDone = {
     { num: 10, type: "Analytical", title: "Manage action plans and follow-through", description: "When committing to a decarbonization improvement, track action items, site-level progress, and target attainment against measured outcomes, so follow-through is ensured and continuous improvement is provable." },
     { num: 11, type: "Analytical", title: "Prioritize across portfolio", description: "When responsible for multiple Maisons or sites, know which units need attention most urgently using portfolio-wide signals, so time is spent where it has the greatest abatement and risk impact." },
     { num: 12, type: "Operational", title: "Bring sustainability data into the workflow", description: "When working in RA+, expect emissions, risk, supplier, and engagement context in the same screens, with no tool hop, no spreadsheet export, and no re-stitching by hand." },
-    { num: 13, type: "Analytical", title: "Reason over sustainability data with Sera", description: "When investigating a question, ask Sera in natural language and have it reason over the RA+ context layer, blending client data with GSP methodologies, CLICK research, and NTBS offsetting options." },
+    { num: 13, type: "Analytical", title: "Reason over sustainability data with Sera", description: "When investigating a question, ask Sera in natural language and have it reason over the RA+ context layer, blending client data with GSP methodologies and NTBS offsetting options." },
   ],
 };
 
