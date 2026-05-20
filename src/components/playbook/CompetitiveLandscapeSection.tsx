@@ -1,4 +1,4 @@
-import { Building2, Check } from "lucide-react";
+import { Building2, Check, Award } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const players = [
@@ -114,6 +114,27 @@ export const CompetitiveLandscapeSection = () => {
               <div key={point} className="flex items-start gap-2.5">
                 <Check className="w-4 h-4 text-primary mt-0.5 shrink-0" />
                 <p className="text-sm text-foreground leading-relaxed">{point}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-10 rounded-xl border border-border/60 bg-card p-6 sm:p-8">
+          <div className="flex items-center gap-2 mb-5">
+            <Award className="w-5 h-5 text-primary" />
+            <h3 className="text-lg sm:text-xl font-bold text-foreground">External Validation & Accreditations</h3>
+          </div>
+          <p className="text-xs sm:text-sm text-muted-foreground mb-5 max-w-3xl">
+            Independent recognition that underwrites the credibility GSP brings to every RA+ engagement.
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {accreditations.map((a) => (
+              <div key={a.name} className="flex items-start gap-2.5 rounded-lg border border-border/40 bg-muted/20 p-3">
+                <Check className="w-3.5 h-3.5 text-primary mt-1 shrink-0" />
+                <div>
+                  <p className="text-xs font-semibold text-foreground leading-tight">{a.name}</p>
+                  <p className="text-[11px] text-muted-foreground mt-0.5">{a.detail}</p>
+                </div>
               </div>
             ))}
           </div>
