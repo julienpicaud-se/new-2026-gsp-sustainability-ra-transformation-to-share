@@ -8,7 +8,7 @@ const challenges = [
     title: "Knowledge Fragmentation",
     points: [
       "Decades of audit IP locked inside PowerPoint deliverables that are hard to search or reuse",
-      "ECM measures, assumptions, and savings logic are scattered across consultants and engagements",
+      "decarbonization levers, assumptions, and savings logic are scattered across consultants and engagements",
       "Every new audit starts from a near-blank page instead of building on prior evidence",
     ],
   },
@@ -17,7 +17,7 @@ const challenges = [
     color: "amber",
     title: "Manual Audit Workflows",
     points: [
-      "ECM scoping is slow, expert-bound, and hard to scale beyond a handful of senior auditors",
+      "decarbonization scoping is slow, expert-bound, and hard to scale beyond a handful of senior auditors",
       "Templated calculations and sensitivity sweeps are redone by hand on every engagement",
       "Capacity to serve more clients is capped by available expert time, not by opportunity",
     ],
@@ -105,7 +105,7 @@ const colorStyles: Record<string, { border: string; bg: string; iconBg: string; 
 
 const kpis = [
   { value: "1000s", label: "Legacy audit deliverables waiting to be reactivated", color: "text-rose-400" },
-  { value: "Weeks", label: "Typical time to first ECM proposal today", color: "text-amber-400" },
+  { value: "Weeks", label: "Typical time to first decarbonization roadmap today", color: "text-amber-400" },
   { value: "1 IDM", label: "Standalone tool today, re-platformed as the RA+ data spine", color: "text-sky-400" },
   { value: "1 spine", label: "Unified building data target across every service line", color: "text-orange-400" },
 ];

@@ -13,12 +13,12 @@ const keyObjectives = [
     id: "O1",
     tag: "Automation",
     tagIcon: Zap,
-    title: "Compress ECM audit cycle time with AI agents",
+    title: "Compress carbon footprint audit cycle time with AI agents",
     description:
       "Shift expert auditors from manual scoping to calibration. Agentic assistants draft ROM estimates, stack measures, and surface assumptions so experts focus on judgment.",
     keyResults: [
-      "Cut average ECM scoping time from weeks to days",
-      "Automate 90%+ of recurring ECM calculations and templating",
+      "Cut average decarbonization scoping time from weeks to days",
+      "Automate 90%+ of recurring GHG calculations and templating",
       "Free senior auditors to spend most of their time on client-facing judgment",
     ],
   },
@@ -28,10 +28,10 @@ const keyObjectives = [
     tagIcon: Compass,
     title: "Surface always-on efficiency opportunities inside RA+",
     description:
-      "Make early, credible efficiency advice visible in-product and keep it on between formal audits. Continuous interval-data detection surfaces staging, compressed air, and control ECMs the consultancy team would normally find manually.",
+      "Make early, credible efficiency advice visible in-product and keep it on between formal audits. Continuous interval-data detection surfaces Scope 3 hotspots, supplier engagement gaps, and biodiversity exposures the consultancy team would normally find manually.",
     keyResults: [
-      "Ship in-product ECM recommendations with transparent assumptions and confidence levels",
-      "Stand up always-on ECM detection on top of the RA+ interval-data spine",
+      "Ship in-product decarbonization recommendations with transparent assumptions and confidence levels",
+      "Stand up always-on abatement detection on top of the RA+ interval-data spine",
       "Generate qualified pull from RA+ discovery into deeper expert audit work",
       "Establish early advisory as a recurring touchpoint, not a one-off engagement",
     ],
@@ -44,7 +44,7 @@ const keyObjectives = [
     description:
       "Ingest, structure, and govern decades of audit deliverables so every future recommendation learns from past projects and M&V outcomes.",
     keyResults: [
-      "Extract structured ECM evidence from the historical audit library",
+      "Extract structured methodology evidence from the historical audit library",
       "Stand up a probabilistic estimator that improves with every new audit",
       "Feed M&V results back into the engine to sharpen future recommendations",
     ],
@@ -59,7 +59,7 @@ const keyObjectives = [
     keyResults: [
       "Retire the IDM 1.0 module hop and run interval data natively inside RA+",
       "Reuse building context across audits, quotes, and follow-ups without re-keying",
-      "Expose an enriched, agent-ready context layer (telemetry + asset + ECM + audit IP) to Sera",
+      "Expose an enriched, agent-ready context layer (sustainability data + emissions + methodology + advisory IP) to Sera",
       "Cover Give Me, Help Me, and Do It For Me engagement profiles on the same IDM-powered platform",
       "Align RA+ MVP with SE Corporate as design partner ahead of RA+ go-live",
     ],
@@ -90,7 +90,7 @@ export const KeyObjectivesSection = () => {
             Key Objectives
           </h2>
           <p className="text-sm sm:text-base lg:text-lg text-muted-foreground max-w-3xl mx-auto">
-            Customer-outcome focused objectives that frame the Beyond ECM Library transformation
+            Customer-outcome focused objectives that frame the Beyond Sustainability Library transformation
           </p>
         </div>
 

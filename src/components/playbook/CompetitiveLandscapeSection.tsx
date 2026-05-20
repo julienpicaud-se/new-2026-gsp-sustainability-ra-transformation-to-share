@@ -10,12 +10,12 @@ const players = [
   {
     name: "Ameresco",
     scope: "GLOBAL",
-    note: "Deep ESCO heritage with performance-contracted ECM delivery. Interval data is used to underwrite contracts, not exposed as an agent-ready layer customers can self-serve.",
+    note: "Deep ESCO heritage with performance-contracted decarbonization delivery. Interval data is used to underwrite contracts, not exposed as an agent-ready layer customers can self-serve.",
   },
   {
     name: "Johnson Controls (OpenBlue)",
     scope: "GLOBAL",
-    note: "OEM-backed building efficiency platform with strong telemetry, but ECM intelligence and audit IP remain in services, not codified in the product.",
+    note: "OEM-backed building efficiency platform with strong telemetry, but decarbonization intelligence and methodology IP remain in services, not codified in the product.",
   },
   {
     name: "Siemens (Building X)",
@@ -30,7 +30,7 @@ const players = [
   {
     name: "Regional Energy Consultancies",
     scope: "REGIONAL",
-    note: "Specialist ECM auditors with deep local code and incentive knowledge, but no platform, no IDM, and no continuous data layer behind their deliverables.",
+    note: "Specialist sustainability auditors with deep local code and incentive knowledge, but no platform, no IDM, and no continuous data layer behind their deliverables.",
   },
 ];
 
@@ -38,7 +38,7 @@ const whyWeWin = [
   "CoE expertise plus RA+ platform, not a slideware-only consultancy or a data-only tool",
   "RA+ re-platformed inside RA+ as the agent-ready interval data spine, not a siloed legacy tool",
   "Telemetry blended with field and consultancy work product, an on-premise context layer pure software players cannot reach",
-  "Decades of audit IP reactivated as structured, reusable ECM intelligence inside the product",
+  "Decades of audit IP reactivated as structured, reusable decarbonization intelligence inside the product",
   "Sera as a unified guided interface reasoning over IDM-grade data across Energy Managers, Data Ops, Sustainability, and Executives",
   "Three engagement profiles (Give Me, Help Me, Do It For Me) on a single IDM-powered platform, opening segments competitors cannot serve",
   "Sequenced for the Energy Manager first, with clear service boundaries between automated and expert work",

@@ -5,12 +5,12 @@ const signals = [
   {
     icon: TrendingDown,
     quote: "Our energy bills keep climbing and we cannot tell which sites are worst",
-    response: "Portfolio-wide ECM screening grounded in RA+ interval data, surfacing the highest-impact sites and measures first.",
+    response: "Portfolio-wide decarbonization screening grounded in RA+ interval data, surfacing the highest-impact sites and measures first.",
   },
   {
     icon: Leaf,
     quote: "We have to hit our carbon targets and need credible efficiency moves",
-    response: "Calibrated ECM recommendations tied to verified savings logic, ready to feed Scope 2 and CSRD-aligned reporting.",
+    response: "Calibrated decarbonization recommendations tied to verified savings logic, ready to feed Scope 2 and CSRD-aligned reporting.",
   },
   {
     icon: ShieldCheck,

@@ -20,7 +20,7 @@ const useCases = [
   {
     icon: Target,
     title: "Optimization Discovery",
-    body: "Use interval data to surface staging opportunities, compressed air inefficiencies, control re-architecture, and other ECMs the consultancy team would normally find manually.",
+    body: "Use interval data to surface Scope 3 hotspots, supplier engagement gaps, biodiversity exposures, and other decarbonization levers the consultancy team would normally find manually.",
   },
   {
     icon: Workflow,
@@ -48,7 +48,7 @@ const profiles = [
 ];
 
 const moatPoints = [
-  "Bring asset, ECM, audit, and energy-flow context into RA+, not just telemetry",
+  "Bring sustainability, emissions, methodology, and energy-flow context into RA+, not just telemetry",
   "Make field and consultancy work product first-class data inside the platform",
   "Expose the enriched context to Sera and downstream agents for richer reasoning",
   "Right to win comes from the combination of data plus expertise, not software alone",
