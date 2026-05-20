@@ -59,7 +59,7 @@ const phases = [
       "Surface area within RA+ vs. standalone module to be scoped",
       "Differentiation vs. adjacent S&S products (BDP, Foresight) must be clear",
     ],
-    dependencies: "Sequencing depends on IDM and ECM groundwork plus a clearer commercial case.",
+    dependencies: "Sequencing depends on RA+ and Decarbonization Library groundwork plus a clearer commercial case.",
   },
 ];
 

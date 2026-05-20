@@ -5,14 +5,14 @@ const kpis = [
   {
     icon: Clock,
     value: "Weeks to Days",
-    label: "ECM Scoping Cycle",
+    label: "GHG Inventory Cycle",
     detail: "Compress manual decarbonization scoping from weeks of expert time to days of guided drafting",
   },
   {
     icon: BookOpen,
     value: "90%+",
     label: "Audit IP Reused",
-    detail: "Legacy ECM deliverables reactivated as structured, searchable evidence",
+    detail: "Legacy GHG inventory and TCFD deliverables reactivated as structured, searchable evidence",
   },
   {
     icon: Database,

@@ -59,7 +59,7 @@ const keyObjectives = [
     keyResults: [
       "Retire the IDM 1.0 module hop and run interval data natively inside RA+",
       "Reuse building context across audits, quotes, and follow-ups without re-keying",
-      "Expose an enriched, agent-ready context layer (telemetry + asset + ECM + audit IP) to Sera",
+      "Expose an enriched, agent-ready context layer (sustainability data + emissions + methodology + advisory IP) to Sera",
       "Cover Give Me, Help Me, and Do It For Me engagement profiles on the same IDM-powered platform",
       "Align RA+ MVP with SE Corporate as design partner ahead of RA+ go-live",
     ],

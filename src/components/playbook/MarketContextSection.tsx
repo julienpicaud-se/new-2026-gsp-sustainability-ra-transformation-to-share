@@ -25,7 +25,7 @@ const forces = [
   {
     icon: Leaf,
     title: "Audit & Incentive Programs",
-    body: "Utility rebates, tax credits, and disclosure mandates reward customers who can show calibrated, evidence-backed decarbonization plans.",
+    body: "Regulatory mandates (CSRD, CDP, SBTi) and voluntary disclosures reward customers who can show calibrated, evidence-backed decarbonization plans.",
   },
   {
     icon: ShieldCheck,

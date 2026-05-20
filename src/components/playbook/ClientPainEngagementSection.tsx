@@ -5,7 +5,7 @@ const signals = [
   {
     icon: TrendingDown,
     quote: "Our energy bills keep climbing and we cannot tell which sites are worst",
-    response: "Portfolio-wide ECM screening grounded in RA+ interval data, surfacing the highest-impact sites and measures first.",
+    response: "Portfolio-wide decarbonization screening grounded in RA+ interval data, surfacing the highest-impact sites and measures first.",
   },
   {
     icon: Leaf,
