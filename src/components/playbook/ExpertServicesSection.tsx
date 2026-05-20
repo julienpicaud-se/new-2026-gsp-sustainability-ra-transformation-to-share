@@ -7,7 +7,7 @@ const archetypes = [
     title: "Self-Serve Operator",
     tagline: "FULL AUTONOMY, AI-DRIVEN",
     description:
-      "Wants the keys. Runs RA+ analytics, builds ECM scenarios, and acts on Sera recommendations without waiting for a human. RA+ is their cockpit; the platform must stand on its own.",
+      "Wants the keys. Runs RA+ analytics, builds decarbonization scenarios, and acts on Sera recommendations without waiting for a human. RA+ is their cockpit; the platform must stand on its own.",
     bullets: [
       "Self-directed exploration of RA+ interval data and benchmarks",
       "Agent-led scoping, ROM estimates, and what-if scenarios on demand",
@@ -21,7 +21,7 @@ const archetypes = [
     description:
       "Wants a trusted expert in the room for high-stakes calls. The platform still drives the work, but a Schneider expert validates, interprets, and translates RA+ outputs into board-ready decisions.",
     bullets: [
-      "Senior auditor co-pilots RA+ readouts and ECM trade-offs",
+      "Senior auditor co-pilots RA+ readouts and decarbonization trade-offs",
       "Expert-led risk framing for capital, compliance, and tenant impact",
       "Recurring advisory cadence tied to the same RA+ workspace and RA+ spine",
     ],
@@ -33,13 +33,13 @@ const judgementPillars = [
     icon: ShieldCheck,
     title: "Validation",
     description:
-      "Experts pressure-test RA+ baselines, ECM assumptions, and Sera outputs before they become commitments — confirming that what the agent proposes survives engineering and field reality.",
+      "Experts pressure-test RA+ baselines, decarbonization assumptions, and Sera outputs before they become commitments — confirming that what the agent proposes survives engineering and field reality.",
   },
   {
     icon: Lightbulb,
     title: "Interpretation",
     description:
-      "Translates RA+ telemetry, anomaly patterns, and ECM stacks into a clear narrative — what is happening in the portfolio, why it matters, and what the realistic envelope of action looks like.",
+      "Translates RA+ telemetry, anomaly patterns, and decarbonization roadmaps into a clear narrative — what is happening in the portfolio, why it matters, and what the realistic envelope of action looks like.",
   },
   {
     icon: AlertTriangle,
@@ -67,7 +67,7 @@ const tiers = [
     name: "Assisted",
     audience: "Mixed maturity",
     cadence: "Async reviews + QBRs",
-    human: "Expert validates RA+ outputs and ECM scopes on cadence",
+    human: "Expert validates RA+ outputs and decarbonization scopes on cadence",
     platform: "Shared RA+ workspace with annotated RA+ readouts",
   },
   {

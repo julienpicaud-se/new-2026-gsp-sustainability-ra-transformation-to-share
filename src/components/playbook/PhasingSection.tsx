@@ -26,14 +26,14 @@ const phases = [
   {
     id: "ecm",
     phase: "Phase 2",
-    title: "ECM Library",
+    title: "Decarbonization Library",
     tagline: "Cross-COE feeder",
     icon: Library,
     status: "strategic" as Status,
     statusLabel: "Adjacent strategic",
     timing: "Sequenced with Pricing & Savings Accelerator",
     summary:
-      "ECM Library is a feeder for many capabilities across RA+. It connects construction services, consultancy, and the energy efficiency product into one knowledge backbone.",
+      "Decarbonization Library is a feeder for many capabilities across RA+. It connects construction services, consultancy, and the energy efficiency product into one knowledge backbone.",
     bullets: [
       "Connects efficiency, consultancy, and construction services",
       "Strong overlap in mindset with the Pricing & Savings Accelerator data hub",
@@ -93,7 +93,7 @@ export const PhasingSection = () => {
             Phasing: Three No-Regret Moves
           </h2>
           <p className="text-sm sm:text-base lg:text-lg text-muted-foreground max-w-3xl mx-auto">
-            A clear order of operations for the Energy Efficiency build inside RA+. IDM first, then ECM Library, then AkitaBox.
+            A clear order of operations for the Energy Efficiency build inside RA+. IDM first, then Decarbonization Library, then AkitaBox.
           </p>
         </div>
 

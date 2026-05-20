@@ -15,7 +15,7 @@ const forces = [
   {
     icon: Layers,
     title: "Aging Building Stock",
-    body: "Portfolios mix legacy HVAC, controls, and envelopes, creating broad ECM opportunity but also high diagnostic complexity.",
+    body: "Portfolios mix legacy HVAC, controls, and envelopes, creating broad decarbonization opportunity but also high diagnostic complexity.",
   },
   {
     icon: Sparkles,
@@ -25,7 +25,7 @@ const forces = [
   {
     icon: Leaf,
     title: "Audit & Incentive Programs",
-    body: "Utility rebates, tax credits, and disclosure mandates reward customers who can show calibrated, evidence-backed ECM plans.",
+    body: "Utility rebates, tax credits, and disclosure mandates reward customers who can show calibrated, evidence-backed decarbonization plans.",
   },
   {
     icon: ShieldCheck,

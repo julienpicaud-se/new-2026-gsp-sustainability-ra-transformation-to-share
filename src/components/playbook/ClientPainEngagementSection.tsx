@@ -10,7 +10,7 @@ const signals = [
   {
     icon: Leaf,
     quote: "We have to hit our carbon targets and need credible efficiency moves",
-    response: "Calibrated ECM recommendations tied to verified savings logic, ready to feed Scope 2 and CSRD-aligned reporting.",
+    response: "Calibrated decarbonization recommendations tied to verified savings logic, ready to feed Scope 2 and CSRD-aligned reporting.",
   },
   {
     icon: ShieldCheck,

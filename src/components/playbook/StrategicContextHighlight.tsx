@@ -6,7 +6,7 @@ const kpis = [
     icon: Clock,
     value: "Weeks to Days",
     label: "ECM Scoping Cycle",
-    detail: "Compress manual ECM scoping from weeks of expert time to days of guided drafting",
+    detail: "Compress manual decarbonization scoping from weeks of expert time to days of guided drafting",
   },
   {
     icon: BookOpen,
@@ -24,7 +24,7 @@ const kpis = [
     icon: Activity,
     value: "Always-On",
     label: "IDM-Driven Discovery",
-    detail: "Interval data continuously surfaces staging, compressed air, and control ECMs without waiting for a full audit",
+    detail: "Interval data continuously surfaces Scope 3 hotspots, supplier engagement gaps, and biodiversity exposures without waiting for a full audit",
   },
   {
     icon: Layers,
@@ -54,7 +54,7 @@ export const StrategicContextHighlight = () => {
             Our biggest efficiency lever is unlocking the knowledge and data we already own
           </h2>
           <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-            Decades of ECM audit IP sit locked inside slide decks, and interval data sits
+            Decades of sustainability methodology IP sit locked inside slide decks, and interval data sits
             stranded in IDM 1.0 disconnected from the rest of the workflow. RA+ users wait
             for full audit cycles to see what efficiency moves are possible. The leverage
             is in turning that knowledge into a living, in-product engine and re-platforming
@@ -95,7 +95,7 @@ export const StrategicContextHighlight = () => {
             </span>
           </div>
           <p className="text-sm sm:text-base lg:text-lg text-foreground leading-relaxed max-w-3xl mx-auto">
-            Turn decades of ECM audit IP and interval data into a living, in-product
+            Turn decades of sustainability methodology IP and interval data into a living, in-product
             efficiency engine inside RA+, with RA+ as the agent-ready spine, so every
             customer sees credible, calibrated efficiency opportunities without waiting for
             a full audit cycle.
