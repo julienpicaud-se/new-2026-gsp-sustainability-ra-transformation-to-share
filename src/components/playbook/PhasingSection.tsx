@@ -5,42 +5,42 @@ type Status = "urgent" | "strategic" | "exploration";
 
 const phases = [
   {
-    id: "idm",
+    id: "data-foundation",
     phase: "Phase 1",
-    title: "IDM Evolution",
+    title: "Sustainability Data Foundation",
     tagline: "Urgent, no-regret",
     icon: Database,
     status: "urgent" as Status,
     statusLabel: "In flight",
     timing: "MVP target Q4 2025 / Q1 2026",
     summary:
-      "Not a lift-and-shift. Re-platform IDM into RA+ to drive market differentiation through agentic capabilities, richer context, and SaaS-ready delivery.",
+      "Stand up the unified sustainability data spine inside RA+ to consolidate emissions, supplier, and disclosure data into one governed, agent-ready context layer.",
     bullets: [
       "Closes a competitive gap that becomes urgent if left unaddressed",
-      "Anchored by SE Corporate as RA Classic client and design partner",
+      "Anchored by SE Corporate as design partner and reference customer",
       "Aligned to SE Corporate RA+ go-live in early Q1 2027",
-      "Embeds into the broader efficiency workflow, not a standalone module",
+      "Embeds into the broader sustainability workflow, not a standalone module",
     ],
     dependencies: "Foundation for Phase 2 and 3. Sets the data, agent, and context patterns reused downstream.",
   },
   {
-    id: "ecm",
+    id: "decarb-library",
     phase: "Phase 2",
     title: "Decarbonization Library",
-    tagline: "Cross-COE feeder",
+    tagline: "Cross-GSP feeder",
     icon: Library,
     status: "strategic" as Status,
     statusLabel: "Adjacent strategic",
-    timing: "Sequenced with Pricing & Savings Accelerator",
+    timing: "Sequenced with GSP methodology ingestion",
     summary:
-      "Decarbonization Library is a feeder for many capabilities across RA+. It connects construction services, consultancy, and the energy efficiency product into one knowledge backbone.",
+      "Decarbonization Library is a feeder for many capabilities across RA+. It connects advisory, NTBS offsetting, and disclosure into one knowledge backbone.",
     bullets: [
-      "Connects efficiency, consultancy, and construction services",
-      "Strong overlap in mindset with the Pricing & Savings Accelerator data hub",
-      "Powers Sera reasoning with codified measures, assumptions, and outcomes",
-      "Reuses data patterns established by IDM in Phase 1",
+      "Connects advisory, NTBS, and disclosure workflows",
+      "Codifies GSP methodology, factors, and abatement evidence",
+      "Powers Sera reasoning with structured measures, assumptions, and outcomes",
+      "Reuses data patterns established by the sustainability spine in Phase 1",
     ],
-    dependencies: "Builds on the IDM data foundation. Co-evolves with the Pricing & Savings Accelerator workstream.",
+    dependencies: "Builds on the Phase 1 data foundation. Co-evolves with the GSP methodology ingestion workstream.",
   },
   {
     id: "akitabox",
@@ -59,7 +59,7 @@ const phases = [
       "Surface area within RA+ vs. standalone module to be scoped",
       "Differentiation vs. adjacent S&S products (BDP, Foresight) must be clear",
     ],
-    dependencies: "Sequencing depends on RA+ and Decarbonization Library groundwork plus a clearer commercial case.",
+    dependencies: "Sequencing depends on Phase 1 and Decarbonization Library groundwork plus a clearer commercial case.",
   },
 ];
 
@@ -93,7 +93,7 @@ export const PhasingSection = () => {
             Phasing: Three No-Regret Moves
           </h2>
           <p className="text-sm sm:text-base lg:text-lg text-muted-foreground max-w-3xl mx-auto">
-            A clear order of operations for the Energy Efficiency build inside RA+. IDM first, then Decarbonization Library, then AkitaBox.
+            A clear order of operations for the RA+ Sustainability build. Data Foundation first, then Decarbonization Library, then AkitaBox.
           </p>
         </div>
 

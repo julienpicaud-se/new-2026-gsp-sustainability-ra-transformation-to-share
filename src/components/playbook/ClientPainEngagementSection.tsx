@@ -4,28 +4,28 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const signals = [
   {
     icon: TrendingDown,
-    quote: "Our energy bills keep climbing and we cannot tell which sites are worst",
-    response: "Portfolio-wide decarbonization screening grounded in RA+ interval data, surfacing the highest-impact sites and measures first.",
+    quote: "Our footprint keeps growing and we cannot tell which sites or suppliers are worst",
+    response: "Portfolio-wide decarbonization screening grounded in RA+ client emissions data, surfacing the highest-impact sites, suppliers, and measures first.",
   },
   {
     icon: Leaf,
-    quote: "We have to hit our carbon targets and need credible efficiency moves",
-    response: "Calibrated decarbonization recommendations tied to verified savings logic, ready to feed Scope 2 and CSRD-aligned reporting.",
+    quote: "We have to hit our SBTi targets and need credible decarbonization moves",
+    response: "Calibrated decarbonization recommendations tied to assurance-ready methodology, feeding CSRD, ISSB, and CDP disclosures from one source.",
   },
   {
     icon: ShieldCheck,
-    quote: "We do not trust the numbers in our last audit report",
-    response: "Transparent assumptions, reusable audit IP, and M&V feedback loops grounded in IDM-grade interval data that make every recommendation traceable.",
+    quote: "We do not trust the numbers in our last sustainability report",
+    response: "Transparent assumptions, governed emission factors, and audit trails grounded in GSP methodology that make every figure traceable for assurance.",
   },
   {
     icon: Activity,
-    quote: "Our interval data sits in IDM and never reaches the people making decisions",
-    response: "RA+ re-platformed inside RA+ so telemetry, asset context, and audit IP flow into the same workflow Energy Managers and Sera already use.",
+    quote: "Our Scope 3 data sits in spreadsheets and never reaches the people making decisions",
+    response: "RA+ unifies emissions, supplier, and operational data into the same workflow Sustainability Leads and Sera already use.",
   },
   {
     icon: Database,
     quote: "We want to run our own analyses, not wait for a consultant every time",
-    response: "Give Me, Help Me, Do It For Me profiles on one IDM-powered platform, so clients can self-serve, co-pilot, or stay fully serviced as they mature.",
+    response: "Self-serve, expert-supported, and fully-managed profiles on one sustainability-powered platform, so clients can self-serve, co-pilot, or stay fully serviced as they mature.",
   },
 ];
 
@@ -45,7 +45,7 @@ export const ClientPainEngagementSection = () => {
             How Customer Pain Translates Into Engagement
           </h2>
           <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-            Three recurring signals from customers, three integrated responses from the Efficiency CoE and RA+.
+            Five recurring signals from customers, five integrated responses from GSP and RA+.
           </p>
         </div>
 

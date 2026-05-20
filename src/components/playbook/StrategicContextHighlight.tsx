@@ -11,26 +11,26 @@ const kpis = [
   {
     icon: BookOpen,
     value: "90%+",
-    label: "Audit IP Reused",
-    detail: "Legacy GHG inventory and TCFD deliverables reactivated as structured, searchable evidence",
+    label: "GSP IP Reused",
+    detail: "Legacy GHG inventory, TCFD, and SBTi deliverables reactivated as structured, searchable evidence",
   },
   {
     icon: Database,
     value: "RA+",
-    label: "Interval Data Spine",
-    detail: "Re-platformed inside RA+ as the agent-ready context layer that blends telemetry with field and consultancy work product",
+    label: "Sustainability Data Spine",
+    detail: "A unified, agent-ready sustainability foundation that blends client emissions, supplier, and disclosure data with GSP methodology",
   },
   {
     icon: Activity,
     value: "Always-On",
-    label: "IDM-Driven Discovery",
-    detail: "Interval data continuously surfaces Scope 3 hotspots, supplier engagement gaps, and biodiversity exposures without waiting for a full audit",
+    label: "Continuous Discovery",
+    detail: "Sustainability signals continuously surface Scope 3 hotspots, supplier engagement gaps, and biodiversity exposures without waiting for a full disclosure cycle",
   },
   {
     icon: Layers,
     value: "1 Spine",
-    label: "Unified Building Data",
-    detail: "Shared across discovery, scoping, proposals, and in-product guidance",
+    label: "Unified Sustainability Data",
+    detail: "Shared across discovery, advisory, disclosure, and in-product guidance",
   },
 ];
 
@@ -51,14 +51,14 @@ export const StrategicContextHighlight = () => {
             Strategic Context
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-4">
-            Our biggest efficiency lever is unlocking the knowledge and data we already own
+            Our biggest sustainability lever is unlocking the knowledge and data we already own
           </h2>
           <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-            Decades of sustainability methodology IP sit locked inside slide decks, and interval data sits
-            stranded in IDM 1.0 disconnected from the rest of the workflow. RA+ users wait
-            for full audit cycles to see what efficiency moves are possible. The leverage
-            is in turning that knowledge into a living, in-product engine and re-platforming
-            IDM into RA+ as its agent-ready data spine.
+            Decades of GSP methodology IP sit locked inside slide decks, and client emissions
+            and supplier data sit fragmented across vendor tools and spreadsheets. RA+ users wait
+            for full disclosure cycles to see what decarbonization moves are possible. The leverage
+            is in turning that knowledge into a living, in-product engine and unifying client
+            sustainability data inside RA+ as its agent-ready spine.
           </p>
         </div>
 
@@ -95,10 +95,10 @@ export const StrategicContextHighlight = () => {
             </span>
           </div>
           <p className="text-sm sm:text-base lg:text-lg text-foreground leading-relaxed max-w-3xl mx-auto">
-            Turn decades of sustainability methodology IP and interval data into a living, in-product
-            efficiency engine inside RA+, with RA+ as the agent-ready spine, so every
-            customer sees credible, calibrated efficiency opportunities without waiting for
-            a full audit cycle.
+            Turn decades of GSP methodology IP and client sustainability data into a living, in-product
+            decarbonization engine inside RA+, with the sustainability data spine as the agent-ready
+            foundation, so every customer sees credible, calibrated sustainability opportunities
+            without waiting for a full disclosure cycle.
           </p>
         </div>
       </div>

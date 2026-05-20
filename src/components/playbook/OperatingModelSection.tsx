@@ -4,39 +4,39 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const pillars = [
   {
     icon: Users,
-    title: "Expert Auditors",
-    tagline: "JUDGMENT, ENGINEERING, CLIENT RELATIONSHIPS",
+    title: "Sustainability Experts",
+    tagline: "JUDGMENT, METHODOLOGY, CLIENT RELATIONSHIPS",
     description:
-      "Senior energy engineers, sustainability specialists, and sustainability advisors who own the recommendation and the customer conversation, working from RA+ interval data and asset context inside RA+.",
+      "Senior sustainability consultants, climate scientists, and assurance specialists who own the recommendation and the customer conversation, working from RA+ client emissions and methodology context.",
   },
   {
     icon: Bot,
     title: "Agentic AI Assistants",
-    tagline: "CO-PILOTS THAT COMPRESS AUDIT HOURS INTO MINUTES",
+    tagline: "CO-PILOTS THAT COMPRESS ADVISORY HOURS INTO MINUTES",
     description:
-      "Purpose-built agents (Sera and peers) that reason over the RA+ spine plus legacy audits, draft ROM estimates, stack measures, and explain assumptions so experts focus on calibration and trade-offs.",
+      "Purpose-built agents (Sera and peers) that reason over the RA+ sustainability spine plus legacy GSP IP, draft inventories, stack abatement measures, and explain assumptions so experts focus on calibration and trade-offs.",
   },
   {
     icon: Zap,
     title: "Automation Engine",
-    tagline: "PARAMETRIC EFFICIENCY AT SCALE",
+    tagline: "PARAMETRIC SUSTAINABILITY AT SCALE",
     description:
-      "Templated GHG calculations, sensitivity sweeps, CPQ handoffs, and M&V scaffolding generated automatically from RA+ interval telemetry, asset, and tariff data — with always-on detection between formal audit cycles.",
+      "Templated GHG calculations, supplier outreach, disclosure drafting, and assurance scaffolding generated automatically from RA+ emissions, supplier, and operational data, with always-on detection between formal disclosure cycles.",
   },
   {
     icon: Database,
-    title: "RA+ Data Spine",
-    tagline: "AGENT-READY TELEMETRY + WORK PRODUCT, NATIVE TO RA+",
+    title: "RA+ Sustainability Spine",
+    tagline: "AGENT-READY CLIENT DATA + GSP IP, NATIVE TO RA+",
     description:
-      "IDM re-platformed as a native RA+ capability: resolves building identity, ingests interval meter and asset data, blends in field/consultancy work product, and exposes one enriched context layer to experts and agents — no module hop.",
+      "A unified sustainability foundation inside RA+ that resolves client identity, ingests emissions, supplier, and operational data, blends in GSP methodology and advisory IP, and exposes one enriched context layer to experts and agents, no module hop.",
   },
 ];
 
 const principles = [
-  "Software absorbs the repeatable work; auditors own the judgment calls",
-  "Every service line shares the same RA+ spine — interval data, asset context, and audit IP in one place, no swivel-chair handoffs",
-  "Agents are accountable to humans; humans are accountable to clients; IDM-grade data is accountable to both",
-  "Automation targets 90%+ of recurring inventory scoping touches over the horizon, powered by always-on RA+ discovery",
+  "Software absorbs the repeatable work; sustainability experts own the judgment calls",
+  "Every service line shares the same RA+ spine, client emissions, supplier context, and GSP IP in one place, no swivel-chair handoffs",
+  "Agents are accountable to humans; humans are accountable to clients; sustainability data is accountable to both",
+  "Automation targets 90%+ of recurring inventory and disclosure touches over the horizon, powered by always-on RA+ discovery",
 ];
 
 export const OperatingModelSection = () => {

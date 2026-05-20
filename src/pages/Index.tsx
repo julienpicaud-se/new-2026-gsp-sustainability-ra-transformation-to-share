@@ -27,7 +27,7 @@ import { AppendixSection } from "@/components/playbook/AppendixSection";
 import { ExecutiveTakeaway } from "@/components/playbook/ExecutiveTakeaway";
 import { GlossarySection } from "@/components/playbook/GlossarySection";
 import { PhasingSection } from "@/components/playbook/PhasingSection";
-import { IDMVisionSection } from "@/components/playbook/IDMVisionSection";
+
 import { OperatingModelSection } from "@/components/playbook/OperatingModelSection";
 import { DataRequirementsSection } from "@/components/playbook/DataRequirementsSection";
 import { StartStopMatrix } from "@/components/playbook/StartStopMatrix";
@@ -80,7 +80,6 @@ const Index = () => {
       <ExpertServicesSection />
       {/* Delivery */}
       <PhasingSection />
-      <IDMVisionSection />
       {/* Guardrails */}
       <SuccessMetricsSection />
       <StartStopMatrix />
