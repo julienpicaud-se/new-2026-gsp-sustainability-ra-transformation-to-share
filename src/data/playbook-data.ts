@@ -1270,9 +1270,9 @@ export const ecmIngestionEngine = {
     why: "A measure might range from 5% to 40% abatement depending on context. Monte Carlo embraces that uncertainty rather than hiding it, giving GSP teams a defensible starting point in seconds.",
   },
   enablers: [
-    "Vendor software APIs feed inventory data, footprints, and supplier records straight into the sustainability knowledge base.",
-    "The knowledge base refresh becomes live as more consultants adopt the workflow during engagements.",
-    "Expert-in-the-loop validation step keeps the library clean as it scales across regions.",
+    "RA+ ingest and transform pipelines feed inventory data, footprints, and supplier records straight into the sustainability knowledge base via the shared sustainability graph.",
+    "SERA and product agents accelerate extraction, EF matching, and gap-filling, with end-to-end lineage on every output.",
+    "Expert-in-the-loop validation plus the RA+ AI quality system (evaluation harness, feedback loops) keep the library clean as it scales across regions.",
   ],
   guardrails: [
     "Never replace the consultant. Recommendations are a starting point, not the deliverable.",
