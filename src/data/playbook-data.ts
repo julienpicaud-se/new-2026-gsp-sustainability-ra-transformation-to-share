@@ -858,15 +858,15 @@ export const optionalClientContext = [
 ];
 
 export const existingTools = [
-  { name: "GSP Methodologies", description: "Global Sustainability Practice methodologies for GHG accounting, SBTi, climate risk, and disclosure", limitation: "Documented in SharePoints and Word, not yet native to RA+ workflows" },
-  { name: "Vendor Software Stack", description: "Tennaxia, Watershed, Persefoni and other third-party sustainability platforms supported by GSP", limitation: "Disconnected from RA+ recommendations and advisory upsell paths" },
-  { name: "Existing Carbon and ESG Tools", description: "Carbon footprint platforms, CDP and CSRD reporting modules across the SE estate", limitation: "Reporting-focused, no actionable sustainability advisory layer" },
-  { name: "DIH Digital Assets", description: "Digital Innovation Hub assets for physical climate risk, transition risk, biodiversity, and financial quantification", limitation: "Powerful but client-by-client deployed, not yet productized in RA+" },
+  { name: "GSP Methodologies", description: "Global Sustainability Practice methodologies for GHG accounting, SBTi, climate risk, and disclosure", limitation: "Documented in SharePoints and Word, not yet wired into the RA+ sustainability graph, EF library, or SERA workflows" },
+  { name: "Vendor Software Stack", description: "Tennaxia, Watershed, Persefoni and other third-party sustainability platforms supported by GSP", limitation: "Disconnected from the RA+ governed data spine, lineage, and advisory upsell paths" },
+  { name: "Existing Carbon and ESG Tools", description: "Carbon footprint platforms, CDP and CSRD reporting modules across the SE estate", limitation: "Reporting-focused, no shared sustainability graph or agentic action layer" },
+  { name: "GSP Digital Assets", description: "Digital assets for physical climate risk, transition risk, biodiversity, and financial quantification", limitation: "Powerful but client-by-client deployed, not yet productized on the RA+ platform foundation" },
 ];
 
 export const idmCapabilities = {
   tagline:
-    "The RA+ sustainability spine gives the platform a trusted client data system of record to connect emissions, operational, financial, supply chain, and disclosure signals with expert GSP knowledge.",
+    "GSP rides the RA+ sustainability spine: a shared sustainability graph, governed ingest and transform pipelines, an EF library with end-to-end lineage, and SERA-led agentic workflows that connect emissions, operational, financial, supply chain, and disclosure signals with expert GSP knowledge.",
   positioning: {
     title: "Sustainability Data Backbone",
     subtitle: "Trusted client data before insight, proof after action.",
@@ -1043,7 +1043,7 @@ export const intelligenceFlywheel = {
     { name: "Output", description: "Living disclosures, guided findings, advisory deliverables, and executive narratives", icon: "FileText" },
     { name: "Improve", description: "Continuous optimization, assurance feedback, and next-best recommendations", icon: "Zap" },
   ],
-  keyInsight: "The future platform advantage is not another ESG dashboard. It is an intelligence layer that connects trusted client data, expert GSP knowledge, and NTBS offsetting pathways so RA+ can move users from sustainability ambition to measurable improvement.",
+  keyInsight: "The future platform advantage is not another ESG dashboard. It is the RA+ intelligence layer (sustainability graph, governed lineage, EF library, SERA agents) connecting trusted client data, expert GSP knowledge, and NTBS offsetting pathways so users move from sustainability ambition to measurable improvement.",
   differentiators: [
     { label: "Data availability", status: "Baseline" },
     { label: "Expert context (400+ experts)", status: "Essential" },
@@ -1270,9 +1270,9 @@ export const ecmIngestionEngine = {
     why: "A measure might range from 5% to 40% abatement depending on context. Monte Carlo embraces that uncertainty rather than hiding it, giving GSP teams a defensible starting point in seconds.",
   },
   enablers: [
-    "Vendor software APIs feed inventory data, footprints, and supplier records straight into the sustainability knowledge base.",
-    "The knowledge base refresh becomes live as more consultants adopt the workflow during engagements.",
-    "Expert-in-the-loop validation step keeps the library clean as it scales across regions.",
+    "RA+ ingest and transform pipelines feed inventory data, footprints, and supplier records straight into the sustainability knowledge base via the shared sustainability graph.",
+    "SERA and product agents accelerate extraction, EF matching, and gap-filling, with end-to-end lineage on every output.",
+    "Expert-in-the-loop validation plus the RA+ AI quality system (evaluation harness, feedback loops) keep the library clean as it scales across regions.",
   ],
   guardrails: [
     "Never replace the consultant. Recommendations are a starting point, not the deliverable.",
@@ -1740,4 +1740,57 @@ export const seraKPIs = {
     { label: "Disclosure draft acceleration", description: "Sera-prepared CDP, CSRD, and TCFD drafts shorten the assurance cycle" },
     { label: "Action plan attainment", description: "Decarbonization action plans created in Sera reach committed completion rates" },
   ],
+};
+
+export const raPlusPlatformFoundation = {
+  eyebrow: "RA+ Platform Foundation",
+  title: "How GSP Plugs Into the RA+ Platform",
+  intro:
+    "Sustainability Transformation does not build a parallel stack. It plugs GSP IP into the same Unified, Proactive, and Adaptive RA+ foundation the rest of the suite runs on, so every engagement compounds platform intelligence.",
+  pillars: [
+    {
+      id: "unified",
+      title: "Unified",
+      tagline: "One platform, one governed data spine",
+      icon: "Layers",
+      components: [
+        "Shared sustainability graph and semantic models connecting emissions, operational, supply chain, and disclosure data",
+        "Enterprise organization and entity model with delegated admin",
+        "Ingest and transform services that standardize client data into governed models",
+        "Connectors to RA classic, Zeigo, ZCP, ERPs, and vendor ESG platforms",
+      ],
+      gspBenefit:
+        "GSP consultants and clients work off the same trusted client data. The spreadsheet stitching that slows engagements today goes away.",
+    },
+    {
+      id: "proactive",
+      title: "Proactive",
+      tagline: "Decision-ready, defensible insights",
+      icon: "LineChart",
+      components: [
+        "EF library with automated emission factor matching and governance",
+        "End-to-end lineage so every metric is traceable to source",
+        "Inventory, target, scenario, and initiative modeling with financial views",
+        "Analytics, benchmarking, and anomaly detection with explanations",
+      ],
+      gspBenefit:
+        "Advisory outputs are audit-defensible by construction. Recommendations are anchored in governed data, not one-off spreadsheets.",
+    },
+    {
+      id: "adaptive",
+      title: "Adaptive",
+      tagline: "AI-native, configurable, agentic",
+      icon: "Sparkles",
+      components: [
+        "SERA and product agents for onboarding, EF mapping, gap-filling, anomaly investigation, and disclosure drafting",
+        "Agentic platform foundation with human-in-the-loop control",
+        "Configurable reference data and EF services for new frameworks and methodologies",
+        "AI quality system: evaluation harness, feedback loops, and traceability of AI outputs",
+      ],
+      gspBenefit:
+        "GSP methodologies become living, agent-assisted workflows. The platform absorbs new regulations and frameworks through configuration, not custom builds.",
+    },
+  ],
+  soWhat:
+    "Every GSP capability lands on the same RA+ pillars. That is what turns advisory hours into recurring platform value instead of another tool to maintain.",
 };
