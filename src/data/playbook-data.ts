@@ -776,7 +776,7 @@ export const quarterlyRoadmap = [
       "Confirm the decarbonization measure and emissions data model, taxonomy, metadata, and governance needs",
       "Define minimum RA+ service boundaries for sustainability guidance and emissions signals",
       "Prioritize the top 200 decarbonization measures for the initial library launch",
-      "Start CLICK and SME review loops across regions to refine priorities",
+      "Start SME review loops across regions to refine priorities",
       "Ship targeted intelligence enhancements in existing vendor software workflows in parallel (June 2026) so existing customers feel forward motion",
     ],
     teamImpact: [
