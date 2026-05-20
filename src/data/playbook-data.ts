@@ -1061,7 +1061,7 @@ export const marketConstraints = [
 ];
 
 export const executiveNarrative = {
-  whatsHappening: "Sustainability Transformation is broader than a content library. It is the operating strategy for bringing GSP expertise, NTBS offsetting, CLICK research, DIH digital assets, and client context into a scalable RA+ capability.",
+  whatsHappening: "Sustainability Transformation is broader than a content library. It is the operating strategy for bringing GSP expertise, NTBS offsetting, DIH digital assets, and client context into a scalable RA+ capability.",
   trueProblem: "Today, client emissions and operational data, GSP advisory expertise, NTBS offsetting pathways, and disclosure workflows are not yet operating as one system. That limits RA+ from moving beyond reporting into guided sustainability improvement.",
   northStarTitle: "A governed GSP capability embedded in RA+",
   northStar: "The north star is an authoritative sustainability foundation inside RA+ that connects client data as the trusted system of record, expert GSP knowledge, and guided workflows. It should power goal-based Strategy recommendations, site- and asset-level Portfolio View discovery, structured disclosure deliverables, and a clear path from early insight to expert engagement.",
