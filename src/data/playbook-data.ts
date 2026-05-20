@@ -1294,7 +1294,7 @@ export const efficiencyStrategicContext = {
     implications: [
       {
         label: "GSP capability scale",
-        detail: "Turn proven advisory, NTBS offsetting, CLICK research, and DIH digital assets into RA+ services where they create platform leverage.",
+        detail: "Turn proven advisory, NTBS offsetting, and DIH digital assets into RA+ services where they create platform leverage.",
       },
       {
         label: "Phased evolution",
