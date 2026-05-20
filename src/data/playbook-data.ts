@@ -1417,12 +1417,6 @@ export const platformShift = {
         layer: "Accelerator",
         name: "Nature & Technology Based Solutions (NTBS)",
         detail: "25 experts financing and developing high-quality nature and tech-based projects. 300 projects analyzed per year, 20+ site audits annually under EcoScore. Forestry, blue carbon, and improved cookstoves.",
-      },
-      {
-        layer: "Feedback Loop",
-        name: "CLICK Research & DIH Digital",
-        detail: "Climate & Innovation Knowledge Center plus Digital Innovation Hub. Anticipates the next frontier of sustainability and turns science, policy, and tech trends into scalable methodologies and digital assets.",
-      },
     ],
     soWhat:
       "RA+ digitizes all three on a single sustainability spine. The data platform replaces manual inventory workflows. Sera automates analysis. Assurance becomes a platform capability. Reach expands from the GSP-served client base to the broader RA+ installed base, supporting self-serve, expert-supported, and fully-managed engagement profiles on the same data foundation.",
