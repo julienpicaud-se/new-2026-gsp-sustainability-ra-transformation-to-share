@@ -1741,3 +1741,56 @@ export const seraKPIs = {
     { label: "Action plan attainment", description: "Decarbonization action plans created in Sera reach committed completion rates" },
   ],
 };
+
+export const raPlusPlatformFoundation = {
+  eyebrow: "RA+ Platform Foundation",
+  title: "How GSP Plugs Into the RA+ Platform",
+  intro:
+    "Sustainability Transformation does not build a parallel stack. It plugs GSP IP into the same Unified, Proactive, and Adaptive RA+ foundation the rest of the suite runs on, so every engagement compounds platform intelligence.",
+  pillars: [
+    {
+      id: "unified",
+      title: "Unified",
+      tagline: "One platform, one governed data spine",
+      icon: "Layers",
+      components: [
+        "Shared sustainability graph and semantic models connecting emissions, operational, supply chain, and disclosure data",
+        "Enterprise organization and entity model with delegated admin",
+        "Ingest and transform services that standardize client data into governed models",
+        "Connectors to RA classic, Zeigo, ZCP, ERPs, and vendor ESG platforms",
+      ],
+      gspBenefit:
+        "GSP consultants and clients work off the same trusted client data. The spreadsheet stitching that slows engagements today goes away.",
+    },
+    {
+      id: "proactive",
+      title: "Proactive",
+      tagline: "Decision-ready, defensible insights",
+      icon: "LineChart",
+      components: [
+        "EF library with automated emission factor matching and governance",
+        "End-to-end lineage so every metric is traceable to source",
+        "Inventory, target, scenario, and initiative modeling with financial views",
+        "Analytics, benchmarking, and anomaly detection with explanations",
+      ],
+      gspBenefit:
+        "Advisory outputs are audit-defensible by construction. Recommendations are anchored in governed data, not one-off spreadsheets.",
+    },
+    {
+      id: "adaptive",
+      title: "Adaptive",
+      tagline: "AI-native, configurable, agentic",
+      icon: "Sparkles",
+      components: [
+        "SERA and product agents for onboarding, EF mapping, gap-filling, anomaly investigation, and disclosure drafting",
+        "Agentic platform foundation with human-in-the-loop control",
+        "Configurable reference data and EF services for new frameworks and methodologies",
+        "AI quality system: evaluation harness, feedback loops, and traceability of AI outputs",
+      ],
+      gspBenefit:
+        "GSP methodologies become living, agent-assisted workflows. The platform absorbs new regulations and frameworks through configuration, not custom builds.",
+    },
+  ],
+  soWhat:
+    "Every GSP capability lands on the same RA+ pillars. That is what turns advisory hours into recurring platform value instead of another tool to maintain.",
+};
