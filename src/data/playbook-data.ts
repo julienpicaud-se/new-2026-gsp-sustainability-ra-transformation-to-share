@@ -887,7 +887,7 @@ export const idmCapabilities = {
       },
     ],
     principle:
-      "The RA+ opportunity is not a reporting migration or visual lift-over. It is turning proven GSP capabilities (advisory, NTBS, CLICK, DIH) into shared platform intelligence that guides decisions, prioritization, and continuous improvement.",
+      "The RA+ opportunity is not a reporting migration or visual lift-over. It is turning proven GSP capabilities into shared platform intelligence that guides decisions, prioritization, and continuous improvement.",
   },
   bmsBypass: {
     title: "Vendor Software Bypass: Bypass the Heavy Implementation",
