@@ -16,7 +16,7 @@ const kpis = [
   },
   {
     icon: Database,
-    value: "IDM 2.0",
+    value: "RA+",
     label: "Interval Data Spine",
     detail: "Re-platformed inside RA+ as the agent-ready context layer that blends telemetry with field and consultancy work product",
   },
@@ -96,7 +96,7 @@ export const StrategicContextHighlight = () => {
           </div>
           <p className="text-sm sm:text-base lg:text-lg text-foreground leading-relaxed max-w-3xl mx-auto">
             Turn decades of ECM audit IP and interval data into a living, in-product
-            efficiency engine inside RA+, with IDM 2.0 as the agent-ready spine, so every
+            efficiency engine inside RA+, with RA+ as the agent-ready spine, so every
             customer sees credible, calibrated efficiency opportunities without waiting for
             a full audit cycle.
           </p>

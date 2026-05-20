@@ -51,17 +51,17 @@ const keyObjectives = [
   },
   {
     id: "O4",
-    tag: "Platform (IDM 2.0)",
+    tag: "Platform (RA+)",
     tagIcon: Database,
-    title: "Anchor efficiency on the RA+ / IDM 2.0 data spine",
+    title: "Anchor efficiency on the RA+ / RA+ data spine",
     description:
-      "One resolved view of site, asset, meter, tariff, and interval data shared across discovery, scoping, proposals, and in-product guidance. IDM 2.0 runs natively inside RA+ and exposes an agent-ready context layer to Sera and downstream agents.",
+      "One resolved view of site, asset, meter, tariff, and interval data shared across discovery, scoping, proposals, and in-product guidance. RA+ runs natively inside RA+ and exposes an agent-ready context layer to Sera and downstream agents.",
     keyResults: [
       "Retire the IDM 1.0 module hop and run interval data natively inside RA+",
       "Reuse building context across audits, quotes, and follow-ups without re-keying",
       "Expose an enriched, agent-ready context layer (telemetry + asset + ECM + audit IP) to Sera",
       "Cover Give Me, Help Me, and Do It For Me engagement profiles on the same IDM-powered platform",
-      "Align IDM 2.0 MVP with SE Corporate as design partner ahead of RA+ go-live",
+      "Align RA+ MVP with SE Corporate as design partner ahead of RA+ go-live",
     ],
   },
 ];
