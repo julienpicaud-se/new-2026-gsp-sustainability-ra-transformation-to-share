@@ -28,7 +28,7 @@ const sections = [
   { id: "expert-services", title: "Expert Services" },
   // Delivery
   { id: "phasing", title: "Phasing" },
-  { id: "idm-vision", title: "RA+ Vision" },
+  
   { id: "success-metrics", title: "Success Metrics" },
   { id: "start-stop", title: "Start / Stop" },
   { id: "takeaway", title: "Executive Takeaway" },
