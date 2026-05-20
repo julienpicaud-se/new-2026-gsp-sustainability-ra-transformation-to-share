@@ -915,9 +915,11 @@ export const idmCapabilities = {
       "Where no vendor platform exists, utility, ERP, and survey feeds still provide a baseline sustainability experience. Vendor software implementation becomes an upsell, not a prerequisite.",
   },
   stats: [
-    { value: "426.5M", label: "tCO2 managed", detail: "Across the GSP client base" },
+    { value: "426.54M", label: "tCO2 managed", detail: "Across the GSP client base" },
     { value: "400+", label: "Climate experts", detail: "Across regions and global functions" },
     { value: "7,500+", label: "Projects delivered", detail: "Climate and environmental engagements" },
+    { value: "2,000+", label: "Carbon footprints", detail: "Calculated across all sectors and geographies" },
+    { value: "400+", label: "Offsetting projects", detail: "Supported in 55+ countries with 200+ local partners" },
     { value: "#1", label: "Globally ranked", detail: "Sustainability Magazine consulting services" },
   ],
   categories: [
@@ -1406,7 +1408,7 @@ export const platformShift = {
     "Every pain point in current GSP delivery stems from sustainability living as documents and disconnected vendor tools. RA+ eliminates that architecture by turning client sustainability data into the spine the whole advisory workflow runs on.",
   bureauAnchor: {
     title: "What the GSP Delivers Today",
-    subtitle: "400+ climate experts, 7,500+ projects delivered, 426.5M tCO2 managed, #1 globally ranked",
+    subtitle: "400+ climate experts, 7,500+ projects delivered, 426.54M tCO2 managed, 2,000+ carbon footprints, 400+ offsetting projects in 55+ countries, #1 globally ranked",
     lines: [
       {
         layer: "Foundation",

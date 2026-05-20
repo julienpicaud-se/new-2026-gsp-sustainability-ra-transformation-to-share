@@ -60,7 +60,7 @@ const sections: Section[] = [
     icon: Activity,
     tone: "muted",
     body:
-      "The Global Sustainability Practice already delivers trusted advisory across regions (400+ climate experts, 7,500+ projects, 426.5M tCO2 managed, ranked #1 globally by Sustainability Magazine). The opportunity is to convert that operating strength into a repeatable platform capability inside RA+, with Sera as the unified interface and client sustainability data as the trusted foundation, so customers are reached earlier, action is guided faster, and continuous improvement becomes the default.",
+      "The Global Sustainability Practice already delivers trusted advisory across regions (400+ climate experts, 7,500+ projects, 426.54M tCO2 managed, 2,000+ carbon footprints calculated, 400+ offsetting projects in 55+ countries, ranked #1 globally by Sustainability Magazine). The opportunity is to convert that operating strength into a repeatable platform capability inside RA+, with Sera as the unified interface and client sustainability data as the trusted foundation, so customers are reached earlier, action is guided faster, and continuous improvement becomes the default.",
   },
   {
     num: "02",
