@@ -141,7 +141,7 @@ export const AppendixSection = () => {
             Appendix
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground">
-            Efficiency Transformation Details
+            Sustainability Transformation Details
           </h2>
           <p className="text-sm sm:text-base text-muted-foreground max-w-2xl mx-auto mt-4">
             Deep dive into the operating model, capability evolution, quarterly plans, and supporting metrics.
@@ -262,7 +262,7 @@ export const AppendixSection = () => {
                   Competitive Landscape
                 </span>
                 <h3 className="text-lg sm:text-xl font-bold text-foreground">
-                  Efficiency Technology Landscape
+                  Sustainability Technology Landscape
                 </h3>
               </div>
             </AccordionTrigger>
@@ -285,7 +285,7 @@ export const AppendixSection = () => {
                   Data Foundation
                 </span>
                 <h3 className="text-lg sm:text-xl font-bold text-foreground">
-                  Data Required for Efficiency Capabilities
+                  Data Required for Sustainability Capabilities
                 </h3>
               </div>
             </AccordionTrigger>
@@ -308,7 +308,7 @@ export const AppendixSection = () => {
                   Knowledge Engine
                 </span>
                 <h3 className="text-lg sm:text-xl font-bold text-foreground">
-                  Efficiency Knowledge Engine
+                  Sustainability Knowledge Engine
                 </h3>
               </div>
             </AccordionTrigger>
@@ -331,10 +331,10 @@ export const AppendixSection = () => {
               <div className="text-left">
                 <span className="text-primary text-xs font-semibold uppercase tracking-wider mb-1 flex items-center gap-1.5">
                   <Building2 className="w-3.5 h-3.5" />
-                  RA Classic IDM Client
+                  Reference Customer
                 </span>
                 <h3 className="text-lg sm:text-xl font-bold text-foreground">
-                  SE Corporate Proof of Concept
+                  SE Corporate: GSP Reference Customer
                 </h3>
               </div>
             </AccordionTrigger>
@@ -354,10 +354,10 @@ export const AppendixSection = () => {
               <div className="text-left">
                 <span className="text-destructive text-xs font-semibold uppercase tracking-wider mb-1 flex items-center gap-1.5">
                   <AlertOctagon className="w-3.5 h-3.5" />
-                  RA Classic Pain Inventory
+                  Sustainability Pain Inventory
                 </span>
                 <h3 className="text-lg sm:text-xl font-bold text-foreground">
-                  What the Efficiency Transformation Eliminates
+                  What the Sustainability Transformation Eliminates
                 </h3>
               </div>
             </AccordionTrigger>
@@ -514,7 +514,7 @@ export const AppendixSection = () => {
             </AccordionTrigger>
             <AccordionContent className="px-6 pb-6">
               <p className="text-sm text-muted-foreground max-w-3xl mb-6">
-                How each capability evolves across delivery phases, from foundational database work to the full EE product.
+                How each capability evolves across delivery phases, from foundational data work to the full RA+ Sustainability product.
               </p>
 
               {/* Desktop table */}
@@ -706,7 +706,7 @@ export const AppendixSection = () => {
             </AccordionTrigger>
             <AccordionContent className="px-6 pb-6">
               <p className="text-sm text-muted-foreground max-w-2xl mb-6">
-                Key metrics that measure our progress toward the Efficiency Transformation vision.
+                Key metrics that measure our progress toward the Sustainability Transformation vision.
               </p>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {supportingScorecard.map((item, index) => (
