@@ -41,7 +41,7 @@ export const DataRequirementsSection = () => {
             Data Foundation
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 text-foreground">
-            Data Required for Efficiency Capabilities
+            Data Required for Sustainability Capabilities
           </h2>
           <p className="text-sm sm:text-base lg:text-lg text-muted-foreground max-w-3xl mx-auto">
             Core data objects needed to power efficiency recommendations, enable structured deliverables, 

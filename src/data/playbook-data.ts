@@ -1230,7 +1230,7 @@ export const ecmIngestionEngine = {
     "Over a decade of GSP IP sits in scattered SharePoints, consultant desktops, and disclosure decks across Schneider. The knowledge engine turns that latent expertise into a structured, queryable sustainability foundation that powers smart recommendations.",
   prototype: {
     title: "Deliverable Extraction Prototype",
-    subtitle: "Built with the DIH and CLICK teams.",
+    subtitle: "Built with the DIH team.",
     flow: [
       {
         step: "01",
