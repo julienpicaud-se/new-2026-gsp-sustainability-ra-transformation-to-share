@@ -12,6 +12,7 @@ import { PainInventorySection } from "@/components/playbook/PainInventorySection
 import { KeyChallengesSection } from "@/components/playbook/KeyChallengesSection";
 import { StrategicPillars } from "@/components/playbook/StrategicPillars";
 import { ExistingToolsSection } from "@/components/playbook/ExistingToolsSection";
+import { RAPlusPlatformFoundationSection } from "@/components/playbook/RAPlusPlatformFoundationSection";
 
 import { ECMIngestionEngineSection } from "@/components/playbook/ECMIngestionEngineSection";
 import { StrategicContextSection } from "@/components/playbook/StrategicContextSection";
@@ -74,7 +75,9 @@ const Index = () => {
       <KeyObjectivesSection />
       {/* How – ECM Foundation cluster */}
       <ExistingToolsSection />
+      <RAPlusPlatformFoundationSection />
       <ECMCapabilityMapping />
+      
       
       <OperatingModelSection />
       <ExpertServicesSection />
