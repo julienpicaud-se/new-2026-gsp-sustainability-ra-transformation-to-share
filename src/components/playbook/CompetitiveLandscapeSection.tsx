@@ -3,46 +3,46 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const players = [
   {
-    name: "ENGIE Impact",
+    name: "ERM",
     scope: "GLOBAL",
-    note: "Full-service sustainability and efficiency advisory with strong portfolio analytics, but interval data lives in their own stack rather than a customer-owned spine.",
+    note: "Largest pure-play sustainability consultancy with deep climate and transition advisory, but no proprietary platform that turns engagement IP into a continuous client data layer.",
   },
   {
-    name: "Ameresco",
+    name: "Accenture / Deloitte Sustainability",
     scope: "GLOBAL",
-    note: "Deep ESCO heritage with performance-contracted decarbonization delivery. Interval data is used to underwrite contracts, not exposed as an agent-ready layer customers can self-serve.",
+    note: "Strong transformation reach and regulatory advisory, yet decarbonization methodology lives in decks and partner tools rather than a productized platform.",
   },
   {
-    name: "Johnson Controls (OpenBlue)",
+    name: "Watershed",
     scope: "GLOBAL",
-    note: "OEM-backed building efficiency platform with strong telemetry, but decarbonization intelligence and methodology IP remain in services, not codified in the product.",
+    note: "Modern carbon accounting and disclosure software with strong Scope 3, but limited assurance-grade methodology IP and no advisory bench at GSP scale.",
   },
   {
-    name: "Siemens (Building X)",
+    name: "Persefoni",
     scope: "GLOBAL",
-    note: "Connected building platform with strong analytics on Siemens controls. Limited reach into non-Siemens IDM and third-party consultancy IP.",
+    note: "Climate management platform built for finance and disclosure workflows. Thin on operational decarbonization guidance and supplier engagement depth.",
   },
   {
-    name: "Cushman & Wakefield / JLL",
+    name: "Sweep / Salesforce Net Zero Cloud",
     scope: "GLOBAL",
-    note: "FM-led efficiency programs anchored in occupancy and lease data, but no native interval data spine and no agent layer over building telemetry.",
+    note: "Suite-aligned carbon and ESG modules. Good reporting workflow coverage, but limited methodology depth and no integrated advisory practice.",
   },
   {
-    name: "Regional Energy Consultancies",
-    scope: "REGIONAL",
-    note: "Specialist sustainability auditors with deep local code and incentive knowledge, but no platform, no IDM, and no continuous data layer behind their deliverables.",
+    name: "EcoVadis / CDP",
+    scope: "GLOBAL",
+    note: "Trusted supplier rating and disclosure networks. They sit alongside our offer rather than competing with embedded sustainability advisory inside RA+.",
   },
 ];
 
 const whyWeWin = [
-  "CoE expertise plus RA+ platform, not a slideware-only consultancy or a data-only tool",
-  "RA+ re-platformed inside RA+ as the agent-ready interval data spine, not a siloed legacy tool",
-  "Telemetry blended with field and consultancy work product, an on-premise context layer pure software players cannot reach",
-  "Decades of audit IP reactivated as structured, reusable decarbonization intelligence inside the product",
-  "Sera as a unified guided interface reasoning over IDM-grade data across Energy Managers, Data Ops, Sustainability, and Executives",
-  "Three engagement profiles (Give Me, Help Me, Do It For Me) on a single IDM-powered platform, opening segments competitors cannot serve",
-  "Sequenced for the Energy Manager first, with clear service boundaries between automated and expert work",
-  "Continuous efficiency guidance between formal engagements, lifting RA+ stickiness and pull for advanced audits",
+  "GSP advisory plus RA+ platform, not a slideware-only consultancy or a reporting-only software product",
+  "#1-ranked sustainability practice (400+ experts, 7,500+ projects, 426.5M tCO2 managed) feeding the platform with real engagement IP",
+  "Client emissions and operational data blended with GSP methodology as a trusted context layer pure software players cannot reach",
+  "Decades of advisory IP reactivated as structured, reusable decarbonization intelligence inside the product",
+  "Sera as a unified guided interface reasoning over RA+ sustainability data across CSOs, Sustainability Leads, Data Ops, and Procurement",
+  "Three engagement profiles (self-serve, expert-supported, fully-managed) on a single sustainability-powered platform, opening segments competitors cannot serve",
+  "Assurance-ready methodologies (GHG Protocol, SBTi, CSRD, ISSB) governed centrally instead of rebuilt per engagement",
+  "NTBS offsetting and DIH digital assets pulled into the same workflow, closing the loop from disclosure to action",
 ];
 
 
@@ -64,7 +64,7 @@ export const CompetitiveLandscapeSection = () => {
             Serious Players, Differentiated Position
           </h2>
           <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-            Credible competitors exist across advisory, ESCO, and OEM platform plays. Our differentiator is governed CoE expertise paired with RA+ as a living efficiency engine.
+            Credible competitors exist across sustainability advisory, carbon accounting software, and suite-aligned ESG plays. Our differentiator is the world's #1-ranked GSP practice paired with RA+ as a living sustainability data and recommendation engine.
           </p>
         </div>
 
@@ -93,7 +93,7 @@ export const CompetitiveLandscapeSection = () => {
         <div className="rounded-xl border border-primary/30 bg-gradient-to-br from-primary/10 to-primary/5 p-6 sm:p-8">
           <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-3">Why We Win</h3>
           <p className="italic text-sm sm:text-base text-muted-foreground mb-6 leading-relaxed">
-            Not just a consultancy. Not just a platform. A governed CoE capability inside RA+ that compounds value with every audit, every meter, and every customer.
+            Not just a consultancy. Not just a reporting tool. A governed GSP capability inside RA+ that compounds value with every engagement, every disclosure cycle, and every client.
           </p>
           <div className="grid md:grid-cols-2 gap-x-6 gap-y-3">
             {whyWeWin.map((point) => (

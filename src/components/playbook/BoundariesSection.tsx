@@ -15,18 +15,18 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const outOfScopeItems = [
   {
     icon: FileCheck,
-    title: "Contractual Guarantees",
-    description: "Performance guarantees and contractual commitments require separate validation",
+    title: "Assurance Sign-Off",
+    description: "Limited assurance under ISAE 3000 / ISSA 5000 stays with accredited third parties, not the platform",
   },
   {
     icon: Wrench,
-    title: "Detailed Engineering",
-    description: "Detailed engineering design without expert validation stays outside scope",
+    title: "Regulatory Interpretation",
+    description: "Binding legal interpretation of CSRD, ISSB, EU Taxonomy, or local disclosure law remains with the customer's counsel",
   },
   {
     icon: Boxes,
     title: "Asset Planning",
-    description: "Baseline modeling, M&V workflows, and capital planning are covered in a separate Asset Planning discovery, not in this playbook",
+    description: "Baseline modeling, capital planning, and decarbonization project execution are covered in a separate Asset Planning discovery, not in this playbook",
   },
 ];
 
@@ -35,36 +35,36 @@ const guardrailCategories = [
     icon: Eye,
     title: "Transparency & Scope",
     points: [
-      "Label advice as guidance, not a commercial commitment",
-      "Show savings as ranges with confidence levels and data freshness",
-      "Display key assumptions and any data gaps",
+      "Label sustainability guidance as advisory, not a commercial or regulatory commitment",
+      "Show abatement and emissions as ranges with confidence levels and data freshness",
+      "Display key methodology choices, factors, and any data gaps",
     ],
   },
   {
     icon: Database,
     title: "Data Quality & Applicability",
     points: [
-      "Enforce minimum data checks before showing estimates",
-      "Display applicability rules, blockers, and prerequisites",
-      "Filter recommendations by geography, segment, and asset tags",
+      "Enforce minimum data checks across Scope 1, 2, and 3 before showing estimates",
+      "Display applicability rules, framework scope, and prerequisites",
+      "Filter recommendations by sector, geography, and supply chain context",
     ],
   },
   {
     icon: ShieldCheck,
-    title: "Risk & Compliance",
+    title: "Risk & Assurance",
     points: [
-      "No auto-suggest for measures requiring licensed engineering sign-off",
-      "Maintain audit trails of advice shown and inputs used",
-      "Link to standards and incentives without legal interpretations",
+      "No auto-publish for figures heading into audited disclosures without expert review",
+      "Maintain audit trails of methodology, factors, and inputs used",
+      "Link to SBTi, GHG Protocol, CSRD, and ISSB standards without legal interpretation",
     ],
   },
   {
     icon: Users,
     title: "User Experience & Escalation",
     points: [
-      "Offer a path to request expert help from any advice card",
-      "Provide rationale snippets and similar-site evidence",
-      "Allow users to reject or snooze recommendations",
+      "Offer a path to request GSP expert help from any recommendation",
+      "Provide rationale snippets and similar-client decarbonization evidence",
+      "Allow users to reject, snooze, or annotate recommendations",
     ],
   },
 ];
