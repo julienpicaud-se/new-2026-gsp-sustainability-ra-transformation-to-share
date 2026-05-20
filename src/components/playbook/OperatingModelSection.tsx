@@ -7,7 +7,7 @@ const pillars = [
     title: "Expert Auditors",
     tagline: "JUDGMENT, ENGINEERING, CLIENT RELATIONSHIPS",
     description:
-      "Senior energy engineers, ECM specialists, and sustainability advisors who own the recommendation and the customer conversation, working from RA+ interval data and asset context inside RA+.",
+      "Senior energy engineers, sustainability specialists, and sustainability advisors who own the recommendation and the customer conversation, working from RA+ interval data and asset context inside RA+.",
   },
   {
     icon: Bot,
@@ -21,7 +21,7 @@ const pillars = [
     title: "Automation Engine",
     tagline: "PARAMETRIC EFFICIENCY AT SCALE",
     description:
-      "Templated ECM calculations, sensitivity sweeps, CPQ handoffs, and M&V scaffolding generated automatically from RA+ interval telemetry, asset, and tariff data — with always-on detection between formal audit cycles.",
+      "Templated GHG calculations, sensitivity sweeps, CPQ handoffs, and M&V scaffolding generated automatically from RA+ interval telemetry, asset, and tariff data — with always-on detection between formal audit cycles.",
   },
   {
     icon: Database,
@@ -36,7 +36,7 @@ const principles = [
   "Software absorbs the repeatable work; auditors own the judgment calls",
   "Every service line shares the same RA+ spine — interval data, asset context, and audit IP in one place, no swivel-chair handoffs",
   "Agents are accountable to humans; humans are accountable to clients; IDM-grade data is accountable to both",
-  "Automation targets 90%+ of recurring ECM scoping touches over the horizon, powered by always-on RA+ discovery",
+  "Automation targets 90%+ of recurring inventory scoping touches over the horizon, powered by always-on RA+ discovery",
 ];
 
 export const OperatingModelSection = () => {

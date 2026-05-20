@@ -29,7 +29,7 @@ export const DeliveryRoadmapSection = () => {
             2026 Delivery Roadmap
           </h2>
           <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-            The visible delivery path for ECM and IDM foundations: assess what IDM should bring into RA+, launch the initial ECM library in late Q3, then ship the first Energy Efficiency MVP in Q4.
+            The visible delivery path for RA+ Sustainability foundations: assess what IDM should bring into RA+, launch the initial Decarbonization Library in late Q3, then ship the first Energy Efficiency MVP in Q4.
           </p>
         </div>
 
