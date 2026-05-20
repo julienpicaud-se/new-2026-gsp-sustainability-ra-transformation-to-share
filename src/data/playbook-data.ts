@@ -866,7 +866,7 @@ export const existingTools = [
 
 export const idmCapabilities = {
   tagline:
-    "The RA+ sustainability spine gives the platform a trusted client data system of record to connect emissions, operational, financial, supply chain, and disclosure signals with expert GSP knowledge.",
+    "GSP rides the RA+ sustainability spine: a shared sustainability graph, governed ingest and transform pipelines, an EF library with end-to-end lineage, and SERA-led agentic workflows that connect emissions, operational, financial, supply chain, and disclosure signals with expert GSP knowledge.",
   positioning: {
     title: "Sustainability Data Backbone",
     subtitle: "Trusted client data before insight, proof after action.",
