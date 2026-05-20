@@ -55,7 +55,7 @@ export const strategicPillars = [
       "Continuous, contextual decarbonization and risk recommendations inside the platform",
       "Value delivered between formal advisory cycles, on top of live client sustainability data",
       "A shift from one-off CDP or CSRD value to ongoing transition planning value",
-      "Stronger platform stickiness through embedded GSP methodologies and CLICK research",
+      "Stronger platform stickiness through embedded GSP methodologies",
       "Self-serve, expert-supported, and fully-managed engagement profiles on one platform",
       "Goal-to-action recommendations integrated in Strategy module",
     ],
