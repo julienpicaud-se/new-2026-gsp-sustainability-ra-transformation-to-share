@@ -14,16 +14,16 @@ import {
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const iconMap: Record<string, React.ElementType> = {
-  "Efficiency Taxonomy": Layers,
+  "Sustainability Taxonomy": Layers,
   "Default Assumptions": Sliders,
   "Site Descriptors": Building2,
   "Constraint Inputs": Target,
   "Goal Mappings": TrendingUp,
   "Pattern Data": BarChart3,
-  "M&V Outcomes": CheckCircle2,
+  "Assurance Outcomes": CheckCircle2,
   "Regulatory Links": Scale,
-  "Building Data": Building2,
-  "Energy Data": TrendingUp,
+  "Operational Data": TrendingUp,
+  "Supply Chain Data": Building2,
 };
 
 export const DataRequirementsSection = () => {
@@ -44,8 +44,8 @@ export const DataRequirementsSection = () => {
             Data Required for Sustainability Capabilities
           </h2>
           <p className="text-sm sm:text-base lg:text-lg text-muted-foreground max-w-3xl mx-auto">
-            Core data objects needed to power efficiency recommendations, enable structured deliverables, 
-            and surface credible efficiency advice across sales, delivery, and customer journeys.
+            Core data objects needed to power decarbonization recommendations, generate disclosure-ready deliverables,
+            and surface credible sustainability guidance across advisory, delivery, and customer journeys.
           </p>
         </div>
 
@@ -85,7 +85,7 @@ export const DataRequirementsSection = () => {
           <div className="mb-12">
             <h3 className="text-lg font-semibold text-foreground mb-6 flex items-center gap-2">
               <span className="w-5 h-5 rounded-full border-2 border-amber-400 flex items-center justify-center text-xs text-amber-400">+</span>
-              Optional Site Context (High-Value)
+              Optional Client Context (High-Value)
             </h3>
             <div className="grid sm:grid-cols-2 gap-4 max-w-md">
               {optionalClientContext.map((item, index) => {
@@ -121,27 +121,27 @@ export const DataRequirementsSection = () => {
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                  <span className="text-sm text-foreground">Surface site-relevant efficiency recommendations</span>
+                  <span className="text-sm text-foreground">Surface client-relevant decarbonization recommendations</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                  <span className="text-sm text-foreground">Generate data-light ROM ranges with confidence</span>
+                  <span className="text-sm text-foreground">Generate abatement ranges with confidence bands</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                  <span className="text-sm text-foreground">Apply stacking logic for opportunity interactions</span>
+                  <span className="text-sm text-foreground">Apply Scope 1, 2, 3 stacking and supplier roll-up logic</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                  <span className="text-sm text-foreground">Pre-fill assumptions for audit quotes</span>
+                  <span className="text-sm text-foreground">Pre-fill assumptions for advisory and disclosure quotes</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                  <span className="text-sm text-foreground">Enable continuous M&V feedback loop</span>
+                  <span className="text-sm text-foreground">Power CSRD, ISSB, CDP, TCFD, and TNFD outputs from one source</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                  <span className="text-sm text-foreground">Power in-product efficiency advisory</span>
+                  <span className="text-sm text-foreground">Enable in-product sustainability advisory across the client lifecycle</span>
                 </div>
               </div>
             </CardContent>
