@@ -56,11 +56,11 @@ const sections: Section[] = [
     id: "whats-happening",
     label: "What's Happening",
     title:
-      "Proven CoE expertise, ready to scale through the RA+ platform",
+      "World-class GSP expertise, ready to scale through the RA+ platform",
     icon: Activity,
     tone: "muted",
     body:
-      "The Efficiency CoE already delivers trusted advisory, implementation, IDM, and Global Energy Bureau capabilities across public and private sectors (38 people, 428 clients, 195K connected meters, $75M in performance guarantees). The opportunity is to convert that operating strength into a repeatable platform capability inside RA+, with Sera as the unified interface and IDM as the trusted data foundation, so customers are reached earlier, action is guided faster, and continuous improvement becomes the default.",
+      "The Global Sustainability Practice already delivers trusted advisory, NTBS offsetting, CLICK research, and DIH digital assets across regions (400+ climate experts, 7,500+ projects, 426.5M tCO2 managed, ranked #1 globally by Sustainability Magazine). The opportunity is to convert that operating strength into a repeatable platform capability inside RA+, with Sera as the unified interface and client sustainability data as the trusted foundation, so customers are reached earlier, action is guided faster, and continuous improvement becomes the default.",
   },
   {
     num: "02",
@@ -70,17 +70,17 @@ const sections: Section[] = [
     icon: AlertTriangle,
     tone: "destructive",
     body:
-      "Customers want clear guidance on what to do next, and our teams have the expertise to answer. The constraint is that interval data, audit knowledge, implementation pathways, and customer context are not yet governed as one reusable product foundation across Strategy, Building View, audit workflows, and customer-facing recommendations.",
+      "Customers want clear guidance on their net-zero path, and the GSP has the expertise to answer. The constraint is that emissions data, methodologies, offsetting pathways, and client context are not yet governed as one reusable product foundation across Strategy, Portfolio View, advisory workflows, and customer-facing recommendations.",
   },
   {
     num: "03",
     id: "north-star",
     label: "Our North Star",
-    title: "A governed Efficiency CoE capability embedded in RA+",
+    title: "A governed GSP capability embedded in RA+",
     icon: Compass,
     tone: "primary",
     body:
-      "Energy Efficiency is the focus of this discovery: a governed product inside RA+ that combines IDM as the system of record, expert CoE knowledge, and guided workflows for Energy Managers, Data Ops, Sustainability, and Executives. Asset Planning is a separate adjacent product. Sera is the single interface across both, sequenced so the Energy Manager experience leads.",
+      "RA+ Sustainability is the focus of this discovery: a governed product inside RA+ that combines client sustainability data as the system of record, expert GSP knowledge, and guided workflows for Sustainability Leads, Data Ops, CSOs, and Executives. Asset Planning is a separate adjacent product. Sera is the single interface across both, sequenced so the Sustainability Lead experience leads.",
   },
   {
     num: "04",
@@ -90,7 +90,7 @@ const sections: Section[] = [
     icon: Wrench,
     tone: "muted",
     body:
-      "The practical sequence is to finalize the unified efficiency taxonomy, publish a provisional guidance base with SME review, define clean service boundaries, and connect trusted IDM signals to Strategy first. From there, RA+ can introduce Building View, rule-based opportunity surfacing, customer self-service exploration, and platform-native audit outputs.",
+      "The practical sequence is to finalize the unified sustainability taxonomy, publish a provisional decarbonization knowledge base with CLICK and SME review, define clean service boundaries, and connect trusted client signals to Strategy first. From there, RA+ can introduce Portfolio View, rule-based opportunity surfacing, customer self-service exploration, and platform-native disclosure outputs.",
   },
   {
     num: "05",
@@ -100,10 +100,10 @@ const sections: Section[] = [
     icon: TrendingUp,
     tone: "secondary",
     body:
-      "This transformation lowers cost to serve by reducing rework and manual slide building, creates better qualified demand for advanced audits, and strengthens RA+ stickiness through continuous efficiency guidance that customers can act on between formal engagements.",
+      "This transformation lowers cost to serve by reducing rework on disclosures, creates better qualified demand for SBTi, climate risk and transition advisory, and strengthens RA+ stickiness through continuous sustainability guidance that customers can act on between disclosure cycles.",
     kpis: [
-      { value: "Faster", label: "Audit throughput" },
-      { value: "Higher", label: "Advanced audit pull" },
+      { value: "Faster", label: "Inventory throughput" },
+      { value: "Higher", label: "Advisory pull" },
       { value: "Stickier", label: "RA+ value proposition" },
     ],
   },
@@ -111,11 +111,11 @@ const sections: Section[] = [
     num: "06",
     id: "strategic-upside",
     label: "Strategic Upside",
-    title: "Efficiency becomes a continuous RA+ operating model",
+    title: "Sustainability becomes a continuous RA+ operating model",
     icon: Rocket,
     tone: "muted",
     body:
-      "The end state is a credible, governed efficiency layer in RA+ that links strategy, design, execution, and continuous improvement. Customers receive contextual recommendations, teams reuse a consistent knowledge base, and expert services are pulled in at the right moments for deeper analysis without turning early guidance into a contractual commitment.",
+      "The end state is a credible, governed sustainability layer in RA+ that links strategy, design, execution, and continuous improvement. Customers receive contextual decarbonization and risk recommendations, GSP teams reuse a consistent knowledge base, and expert services are pulled in at the right moments for deeper engagement without turning early guidance into an assurance commitment.",
   },
 ];
 
@@ -123,12 +123,12 @@ const risks: { risk: string; mitigation: string }[] = [
   {
     risk: "Customer context is too thin for useful recommendations",
     mitigation:
-      "Start with data-light guidance, show data gaps transparently, and progressively enrich with site, audit, AkitaBox, BMS, and customer inputs.",
+      "Start with data-light guidance, show data gaps transparently, and progressively enrich with site, supplier, vendor software, and customer inputs.",
   },
   {
-    risk: "Efficiency guidance becomes inconsistent across teams",
+    risk: "Sustainability guidance becomes inconsistent across regions",
     mitigation:
-      "Govern taxonomy, required fields, calculation assumptions, and SME review so the library becomes the single source of truth.",
+      "Govern taxonomy, required fields, emission factors, and CLICK review so the library becomes the single source of truth.",
   },
 ];
 

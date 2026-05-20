@@ -12,28 +12,28 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const scenarios = [
   {
     icon: Zap,
-    title: "Show ECM opportunities in minutes",
-    description: "Walk into a first meeting and show site-relevant ECMs in RA+ within minutes, ranked against the IDM 2.0 interval data and asset context already on file",
+    title: "Show decarbonization opportunities in minutes",
+    description: "Walk into a first meeting and show client-relevant decarbonization measures in RA+ within minutes, ranked against the emissions and operational context already on file",
   },
   {
     icon: FileText,
     title: "Replace PowerPoint with platform",
-    description: "Replace static audit decks with structured, interactive ECM deliverables in the platform, backed by live IDM 2.0 telemetry instead of frozen exports",
+    description: "Replace static CDP, CSRD, and TCFD decks with structured, interactive disclosure deliverables in the platform, backed by live client data instead of frozen exports",
   },
   {
     icon: Database,
     title: "Centralize context on the RA+ spine",
-    description: "Capture client context once on the RA+ spine (interval data, assets, ECM history, audit IP) and reuse it across audits, quotes, follow-ups, and Sera conversations",
+    description: "Capture client context once on the RA+ sustainability spine (emissions, supplier, risk, engagement IP) and reuse it across inventories, disclosures, advisory quotes, and Sera conversations",
   },
   {
     icon: MousePointer,
-    title: "One-click audit requests",
-    description: "Let customers discover early ECM insights on their own, surfaced by always-on IDM detection, then request deeper expert audits with one click",
+    title: "One-click advisory requests",
+    description: "Let customers discover early sustainability insights on their own, surfaced by always-on detection, then request deeper GSP engagements (SBTi, climate risk, offsetting) with one click",
   },
   {
     icon: TrendingUp,
-    title: "Always-on ECM discovery",
-    description: "Turn every delivered audit into IDM-grade data that fuels continuous ECM detection between formal cycles and sharpens the next recommendation",
+    title: "Always-on sustainability discovery",
+    description: "Turn every delivered engagement into platform-grade data that fuels continuous decarbonization and risk detection between disclosure cycles and sharpens the next recommendation",
   },
 ];
 
@@ -57,7 +57,7 @@ export const WhatIfSection = () => {
               What if you could, <span className="text-primary">tomorrow</span>...
             </h2>
             <p className="text-sm sm:text-base lg:text-lg text-muted-foreground max-w-3xl mx-auto">
-              With IDM 2.0 as the interval-data and context spine inside RA+, Efficiency Transformation reshapes how efficiency teams work and how customers experience value
+              With client sustainability data as the spine inside RA+, Sustainability Transformation reshapes how the GSP works and how customers experience value
             </p>
           </div>
 
@@ -92,11 +92,11 @@ export const WhatIfSection = () => {
             <CardContent className="p-8 text-center">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
                 <Sparkles className="w-4 h-4 text-primary" />
-                <span className="text-sm font-medium text-primary">That is Efficiency Transformation</span>
+                <span className="text-sm font-medium text-primary">That is Sustainability Transformation</span>
               </div>
               <p className="text-lg text-foreground leading-relaxed max-w-2xl mx-auto">
-                IDM 2.0 turns interval data and Schneider's field IP into an agent-ready context layer,
-                taking us from internal productivity to scalable revenue and always-on, in-product efficiency advisory.
+                RA+ turns client sustainability data and the GSP's decade of methodology IP into an agent-ready context layer,
+                taking us from one-off advisory to scalable revenue and always-on, in-product sustainability guidance.
               </p>
             </CardContent>
           </Card>

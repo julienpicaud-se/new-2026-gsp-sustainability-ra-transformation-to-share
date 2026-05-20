@@ -1,45 +1,45 @@
-// Efficiency Transformation - Energy Efficiency Playbook Data
+// Sustainability Transformation - Global Sustainability Practice + RA+ Playbook Data
 
 export const strategicPillars = [
   {
     id: "productivity",
-    title: "Productivity Gains",
-    tagline: "For the efficiency team",
-    promise: "We turn efficiency expertise into repeatable operating models, guided workflows, and structured deliverables that improve team effectiveness across the customer journey, all running on the IDM 2.0 data spine.",
-    description: "Lower cost to serve and higher delivery capacity. The strategy standardizes assessment methods, customer context, calculations, and deliverables on top of a shared IDM 2.0 spine so teams move faster with more consistent outputs.",
+    title: "Advisory Productivity",
+    tagline: "For the Global Sustainability Practice",
+    promise: "We turn world-class GSP expertise into repeatable operating models, structured methodologies, and governed deliverables that scale advisory across regions, all running on the RA+ sustainability data spine.",
+    description: "Lower cost to serve and higher delivery capacity for GHG accounting, decarbonization, climate risk, and reporting engagements. The strategy standardizes assumptions, calculation methods, client context, and deliverables on a shared RA+ foundation so 400+ climate experts move faster with more consistent outputs.",
     whatLivesHere: [
-      "Faster assessments through standardized methods, assumptions, and defaults",
-      "Consistent calculations, assumptions, and outputs across engagements",
-      "Structured, visual audit deliverables generated in the platform from IDM-grade data",
-      "Less rework, less manual slide building, higher throughput per auditor",
-      "Centralized client context across sites, audits, and recommendations on a single IDM spine",
+      "Faster carbon footprint and inventory work through standardized methods, factors, and defaults",
+      "Consistent Scope 1, 2, and 3 calculations across engagements and regions",
+      "Structured, audit-grade deliverables generated in the platform from governed data",
+      "Less rework on CDP, CSRD, and TCFD submissions, higher throughput per consultant",
+      "Centralized client sustainability context across sites, footprints, and disclosures on a single spine",
     ],
     successMetrics: [
-      "Audits completed faster with higher consistency",
-      "Reduced time to quote for efficiency engagements",
-      "Lower cost to serve per audit",
-      "Higher throughput per auditor",
+      "Inventories completed faster with higher consistency",
+      "Reduced time to quote for advisory engagements",
+      "Lower cost to serve per disclosure cycle",
+      "Higher throughput per consultant across regions",
     ],
     icon: "Layers",
     color: "from-primary to-secondary",
   },
   {
     id: "upsell-engine",
-    title: "Upsell Engine",
-    tagline: "For advanced audit projects",
-    promise: "We intentionally expose selected expert content (e.g. ECMs) and early advisory inside RA+, powered by IDM 2.0 interval data, to create demand for deeper, paid audit engagements.",
-    description: "Higher conversion to advanced efficiency engagements and better qualified pipeline for the efficiency team. By exposing credible early guidance grounded in IDM-grade telemetry, customers see the value of deeper analysis, creating pull for expert services.",
+    title: "Advisory Upsell Engine",
+    tagline: "For deeper sustainability engagements",
+    promise: "We intentionally expose selected expert content (SBTi pathways, climate risk previews, biodiversity baselines) inside RA+, powered by client sustainability data, to create demand for deeper, paid GSP engagements.",
+    description: "Higher conversion to multi-year sustainability programs and better qualified pipeline for the GSP. By exposing credible early guidance grounded in real client data, customers see the value of expert deep-dives, creating pull for SBTi target-setting, transition planning, offsetting strategy, and assurance services.",
     whatLivesHere: [
-      "Always-on identification of high-potential efficiency opportunities from IDM 2.0 interval data",
-      "Clear visibility into what deeper analysis would unlock",
-      "In-product calls to action to request advanced audits or detailed studies",
-      "Pre-filled context and assumptions from the IDM spine when an audit is quoted or launched",
-      "Seamless path from early IDM-driven insight to expert engagement",
+      "Always-on identification of high-impact decarbonization opportunities from client emissions and operational data",
+      "Clear visibility into what deeper sustainability analysis would unlock",
+      "In-product calls to action to request SBTi support, climate risk assessments, or assurance",
+      "Pre-filled context and assumptions from the spine when an advisory engagement is quoted",
+      "Seamless path from early insight to expert GSP engagement",
     ],
     successMetrics: [
-      "Increased upsell rate from early advisory to advanced audits",
-      "Better audit win rates",
-      "Shorter sales cycles for audits",
+      "Increased upsell rate from in-product insight to advisory engagement",
+      "Better win rates on multi-year sustainability programs",
+      "Shorter sales cycles for SBTi, CSRD, and TCFD work",
       "Higher qualified pipeline from in-product prompts",
     ],
     icon: "LineChart",
@@ -48,19 +48,19 @@ export const strategicPillars = [
   {
     id: "recurring-revenue",
     title: "Recurring RA+ Revenue",
-    tagline: "Through in-product efficiency advice",
-    promise: "We productize early-stage efficiency insights as part of the RA+ experience, with IDM 2.0 as the continuous data layer that turns telemetry into ongoing value beyond one-off audits.",
-    description: "Recurring revenue justified by continuous efficiency guidance, not just reporting. With IDM 2.0 as the native spine, RA+ shifts from one-off audit value to ongoing advisory value, creating stronger platform stickiness and differentiation.",
+    tagline: "Through in-product sustainability advice",
+    promise: "We productize early-stage sustainability insights as part of the RA+ experience, turning client data and GSP methodologies into ongoing value beyond one-off consulting engagements.",
+    description: "Recurring revenue justified by continuous sustainability guidance, not just periodic reporting. With the RA+ sustainability spine and Sera as the AI interface, the platform shifts from one-off disclosure value to ongoing advisory value, creating stronger stickiness and differentiation versus ESG software peers.",
     whatLivesHere: [
-      "Continuous, contextual efficiency recommendations inside the platform",
-      "Value delivered even without a full on-site audit, on top of live IDM 2.0 data",
-      "A shift from one-off audit value to ongoing advisory value",
-      "Stronger platform stickiness and differentiation through IDM as the agent-ready spine",
-      "Give Me, Help Me, and Do It For Me engagement profiles on a single IDM-powered platform",
+      "Continuous, contextual decarbonization and risk recommendations inside the platform",
+      "Value delivered between formal advisory cycles, on top of live client sustainability data",
+      "A shift from one-off CDP or CSRD value to ongoing transition planning value",
+      "Stronger platform stickiness through embedded GSP methodologies and CLICK research",
+      "Self-serve, expert-supported, and fully-managed engagement profiles on one platform",
       "Goal-to-action recommendations integrated in Strategy module",
     ],
     successMetrics: [
-      "Measurable adoption of in-product efficiency recommendations",
+      "Measurable adoption of in-product sustainability recommendations",
       "Tangible contribution to RA+ recurring revenue",
       "Platform stickiness improvement",
       "Customer self-service engagement rates",
@@ -74,13 +74,13 @@ export const strategicPillars = [
 export const objectives = [
   {
     id: "O1",
-    title: "Establish the Efficiency Strategy foundation",
+    title: "Establish the Sustainability Strategy foundation",
     linkedPillar: "productivity",
-    customerOutcome: "A governed strategy foundation that improves continuously and supports efficiency guidance across RA+.",
-    businessValue: "Single source of truth for opportunity logic, assumptions, guidance, and workflows across modules.",
+    customerOutcome: "A governed strategy foundation that improves continuously and supports sustainability guidance across RA+.",
+    businessValue: "Single source of truth for GHG factors, methodologies, assumptions, and workflows across modules and regions.",
     keyResults: [
-      { id: "KR1", title: "Efficiency taxonomy and governance model finalized", metric: "100%", roiMetric: "Standardization score" },
-      { id: "KR2", title: "Provisional opportunity knowledge base published", metric: "Seed list + SME review", roiMetric: "Library completeness" },
+      { id: "KR1", title: "Sustainability taxonomy and governance model finalized", metric: "100%", roiMetric: "Standardization score" },
+      { id: "KR2", title: "Provisional decarbonization knowledge base published", metric: "Seed list + SME review", roiMetric: "Library completeness" },
       { id: "KR3", title: "Clean service boundaries defined", metric: "All modules", roiMetric: "Integration readiness" },
     ],
   },
@@ -88,23 +88,23 @@ export const objectives = [
     id: "O2",
     title: "Deliver customer value through Strategy integration",
     linkedPillar: "recurring-revenue",
-    customerOutcome: "Customers can quickly answer 'What should I do?' through goal-based efficiency guidance directly in RA+.",
-    businessValue: "First customer-facing milestone that proves value early and creates demand for deeper analysis.",
+    customerOutcome: "Customers can quickly answer 'What should I do next on my net-zero path?' through goal-based sustainability guidance directly in RA+.",
+    businessValue: "First customer-facing milestone that proves value early and creates demand for deeper GSP analysis.",
     keyResults: [
-      { id: "KR4", title: "Efficiency guidance → Strategy integration live", metric: "Q1 2026", roiMetric: "Customer adoption" },
-      { id: "KR5", title: "Goal-based efficiency recommendations working", metric: "Enabled", roiMetric: "Recommendation accuracy" },
-      { id: "KR6", title: "Actions and planning workflows connected", metric: "Complete", roiMetric: "Workflow efficiency" },
+      { id: "KR4", title: "Sustainability guidance integrated in Strategy module", metric: "Q1 2026", roiMetric: "Customer adoption" },
+      { id: "KR5", title: "Goal-based decarbonization recommendations working", metric: "Enabled", roiMetric: "Recommendation accuracy" },
+      { id: "KR6", title: "Actions and transition planning workflows connected", metric: "Complete", roiMetric: "Workflow efficiency" },
     ],
   },
   {
     id: "O3",
-    title: "Introduce bottom-up Building View for opportunity discovery",
+    title: "Introduce bottom-up Portfolio View for opportunity discovery",
     linkedPillar: "upsell-engine",
-    customerOutcome: "Customers can drill into specific buildings to see site-level efficiency relevance, constraints, and opportunities.",
-    businessValue: "Creates the first bottom-up experience and bridges toward a broader Efficiency product.",
+    customerOutcome: "Customers can drill into specific sites or Maisons to see asset-level emissions, risks, and opportunities.",
+    businessValue: "Creates the first bottom-up sustainability experience and bridges toward the broader RA+ Sustainability product.",
     keyResults: [
-      { id: "KR7", title: "Building View MVP launched", metric: "2026", roiMetric: "Site coverage" },
-      { id: "KR8", title: "Site-level efficiency relevance surfacing", metric: "Enabled", roiMetric: "Discovery rate" },
+      { id: "KR7", title: "Portfolio View MVP launched", metric: "2026", roiMetric: "Site coverage" },
+      { id: "KR8", title: "Site-level emissions and risk relevance surfacing", metric: "Enabled", roiMetric: "Discovery rate" },
       { id: "KR9", title: "Pattern logic for opportunity identification", metric: "Operational", roiMetric: "Hit rate" },
     ],
   },
@@ -112,28 +112,28 @@ export const objectives = [
 
 export const roadmapBets = {
   now: [
-    { title: "Finalize unified efficiency taxonomy", pillar: "productivity", outcome: "Standardized systems, subsystems, and measure types", objective: "O1", kr: "KR1" },
-    { title: "Publish provisional opportunity knowledge base", pillar: "productivity", outcome: "Seed list with SME review complete", objective: "O1", kr: "KR2" },
+    { title: "Finalize unified sustainability taxonomy", pillar: "productivity", outcome: "Standardized emission categories, factors, and methodologies", objective: "O1", kr: "KR1" },
+    { title: "Publish provisional decarbonization knowledge base", pillar: "productivity", outcome: "Seed list with CLICK review complete", objective: "O1", kr: "KR2" },
     { title: "Define clean service boundaries", pillar: "recurring-revenue", outcome: "Clear interfaces for Strategy and future modules", objective: "O1", kr: "KR3" },
-    { title: "Connect efficiency guidance to Strategy", pillar: "recurring-revenue", outcome: "Goal-based efficiency guidance live", objective: "O2", kr: "KR4" },
-    { title: "Define guardrails for customer-facing advice", pillar: "upsell-engine", outcome: "Trust and credibility protected", objective: "O2", kr: "KR5" },
-    { title: "Establish data quality standards", pillar: "productivity", outcome: "Required fields and DQA processes", objective: "O1", kr: "KR1" },
+    { title: "Connect sustainability guidance to Strategy", pillar: "recurring-revenue", outcome: "Goal-based decarbonization guidance live", objective: "O2", kr: "KR4" },
+    { title: "Define guardrails for customer-facing advice", pillar: "upsell-engine", outcome: "Trust and credibility protected across disclosures", objective: "O2", kr: "KR5" },
+    { title: "Establish data quality standards", pillar: "productivity", outcome: "Required fields and DQA processes for Scope 1, 2, 3", objective: "O1", kr: "KR1" },
   ],
   next: [
-    { title: "Launch Building View MVP", pillar: "upsell-engine", outcome: "Site-level opportunity discovery available", objective: "O3", kr: "KR7" },
-    { title: "Implement opportunity relevance logic", pillar: "upsell-engine", outcome: "Pattern-based opportunity surfacing", objective: "O3", kr: "KR8" },
-    { title: "Enable customer self-service exploration", pillar: "recurring-revenue", outcome: "DIY inputs and scenario comparison", objective: "O3", kr: "KR9" },
-    { title: "Build structured audit deliverables", pillar: "productivity", outcome: "Platform-native reports replace slides", objective: "O1", kr: "KR2" },
-    { title: "Integrate AkitaBox and BMS data", pillar: "productivity", outcome: "Enhanced site context", objective: "O3", kr: "KR7" },
-    { title: "Deploy rule-based opportunity surfacing", pillar: "recurring-revenue", outcome: "Automated recommendations", objective: "O2", kr: "KR5" },
+    { title: "Launch Portfolio View MVP", pillar: "upsell-engine", outcome: "Site-level opportunity discovery available", objective: "O3", kr: "KR7" },
+    { title: "Implement opportunity relevance logic", pillar: "upsell-engine", outcome: "Pattern-based decarbonization surfacing", objective: "O3", kr: "KR8" },
+    { title: "Enable customer self-service exploration", pillar: "recurring-revenue", outcome: "DIY scenario comparison and target setting", objective: "O3", kr: "KR9" },
+    { title: "Build structured disclosure deliverables", pillar: "productivity", outcome: "Platform-native CDP and CSRD outputs", objective: "O1", kr: "KR2" },
+    { title: "Integrate climate risk and biodiversity data", pillar: "productivity", outcome: "Enhanced TCFD and TNFD context", objective: "O3", kr: "KR7" },
+    { title: "Deploy rule-based opportunity surfacing", pillar: "recurring-revenue", outcome: "Automated decarbonization recommendations", objective: "O2", kr: "KR5" },
   ],
   later: [
-    { title: "Full auditor workflow integration", pillar: "productivity", outcome: "End-to-end digital audit process", objective: "O1", kr: "KR2" },
-    { title: "M&V feedback loop implementation", pillar: "productivity", outcome: "Continuous improvement from outcomes", objective: "O1", kr: "KR1" },
-    { title: "AI-powered efficiency recommendations", pillar: "recurring-revenue", outcome: "Similarity clustering and ML models", objective: "O2", kr: "KR5" },
-    { title: "Dedicated Energy Efficiency product", pillar: "recurring-revenue", outcome: "Full Efficiency capability in RA+", objective: "O3", kr: "KR9" },
-    { title: "Analytics integration", pillar: "upsell-engine", outcome: "Advanced insights and reporting", objective: "O3", kr: "KR8" },
-    { title: "Weather and external data integration", pillar: "productivity", outcome: "Enhanced prediction accuracy", objective: "O2", kr: "KR6" },
+    { title: "Full consultant workflow integration", pillar: "productivity", outcome: "End-to-end digital advisory process", objective: "O1", kr: "KR2" },
+    { title: "Performance feedback loop implementation", pillar: "productivity", outcome: "Continuous improvement from disclosure outcomes", objective: "O1", kr: "KR1" },
+    { title: "AI-powered transition planning recommendations", pillar: "recurring-revenue", outcome: "Sera-driven scenario modeling and pathways", objective: "O2", kr: "KR5" },
+    { title: "Dedicated RA+ Sustainability product", pillar: "recurring-revenue", outcome: "Full GSP capability in RA+", objective: "O3", kr: "KR9" },
+    { title: "Offsetting marketplace integration", pillar: "upsell-engine", outcome: "NTBS carbon credits and project finance surfaced in-product", objective: "O3", kr: "KR8" },
+    { title: "External regulatory and science feeds", pillar: "productivity", outcome: "Live CLICK research powering recommendations", objective: "O2", kr: "KR6" },
   ],
 };
 
@@ -141,19 +141,19 @@ export const domainInitiatives = [
   {
     domain: "Sales Discovery",
     initiatives: [
-      "Opportunity spotting from minimal site facts",
-      "Data-light ROM ranges with confidence labels",
+      "Opportunity spotting from minimal client sustainability facts",
+      "Data-light emissions ranges with confidence labels",
       "Quick applicability checks by segment and geography",
-      "Evidence snippets and case patterns for credibility",
-      "Early business case generation",
+      "Evidence snippets and case patterns from GSP track record",
+      "Early business case generation for SBTi and CSRD work",
       "Pipeline qualification acceleration",
     ],
   },
   {
     domain: "Pre-sales Scoping",
     initiatives: [
-      "Parameterized efficiency templates with defaults",
-      "Stacking logic for interactions and saturation",
+      "Parameterized sustainability templates with defaults",
+      "Engagement stacking logic across GHG, risk, and reporting",
       "Sensitivity analysis and scenario comparison",
       "Export to CPQ with aligned assumptions",
       "Consistent scoping across sales and delivery",
@@ -163,10 +163,10 @@ export const domainInitiatives = [
   {
     domain: "Proposal Alignment",
     initiatives: [
-      "ROM to quote traceability",
+      "Estimate to quote traceability",
       "Confidence bands and risk notes per recommendation",
-      "Incentive and regulatory linkbacks",
-      "Non-binding language blocks",
+      "Regulatory and assurance linkbacks (CSRD, ISSB, CDP)",
+      "Non-binding language blocks for early guidance",
       "Assumption registry for transparency",
       "Reduced commercial risk and redlines",
     ],
@@ -175,10 +175,10 @@ export const domainInitiatives = [
     domain: "Delivery Handoff",
     initiatives: [
       "Handoff package with opportunity set and rationales",
-      "Commissioning and M&V placeholders",
+      "Inventory and disclosure placeholders pre-populated",
       "Task list templates and dependencies",
-      "Data needs documentation",
-      "Smooth transition to field execution",
+      "Data needs documentation by Scope and category",
+      "Smooth transition to consulting execution",
       "Reduced change order rates",
     ],
   },
@@ -186,207 +186,207 @@ export const domainInitiatives = [
     domain: "Customer Experience",
     initiatives: [
       "In-product recommendations with impact labels",
-      "Next-best efficiency suggestions as data evolves",
-      "Scenario comparison and prioritization",
+      "Next-best sustainability suggestions as data evolves",
+      "Scenario comparison for target setting and pathway choice",
       "Transparent assumptions and DIY inputs",
       "Request help links from any advice card",
-      "Self-service insights with upsell paths",
+      "Self-service insights with upsell paths to GSP",
     ],
   },
   {
     domain: "Guardrails & Trust",
     initiatives: [
-      "Advice labeled as guidance, not commitment",
-      "Savings shown as ranges with confidence levels",
+      "Advice labeled as guidance, not assurance",
+      "Emissions and savings shown as ranges with confidence levels",
       "Data freshness and gap indicators",
       "Expert escalation paths clearly visible",
-      "Audit trails of advice shown",
+      "Audit trails of advice shown for compliance",
     ],
   },
 ];
 
 export const roiLevers = [
   {
-    lever: "Team Productivity",
-    description: "Faster audits, consistent calculations, and structured deliverables reduce effort per engagement",
-    metrics: ["Audit completion time", "Throughput per auditor", "Rework reduction"],
+    lever: "Consultant Productivity",
+    description: "Faster inventories, consistent factors, and structured deliverables reduce effort per engagement",
+    metrics: ["Inventory completion time", "Throughput per consultant", "Rework reduction"],
     icon: "TrendingDown",
   },
   {
-    lever: "Upsell Conversion",
-    description: "Early advisory creates demand for advanced audits and detailed engineering studies",
-    metrics: ["Advisory-to-audit conversion", "Pipeline from in-product", "Win rate improvement"],
+    lever: "Advisory Upsell",
+    description: "Early guidance creates demand for SBTi, climate risk, transition planning, and assurance work",
+    metrics: ["Insight-to-engagement conversion", "Pipeline from in-product", "Win rate improvement"],
     icon: "TrendingUp",
   },
   {
     lever: "Platform Revenue",
-    description: "Continuous efficiency guidance justifies recurring RA+ subscription value",
+    description: "Continuous sustainability guidance justifies recurring RA+ subscription value",
     metrics: ["Feature adoption rate", "Recurring revenue contribution", "Customer retention"],
     icon: "DollarSign",
   },
   {
     lever: "Customer Self-Service",
-    description: "Customers discover insights on their own, then request deeper audits when ready",
+    description: "Customers discover insights on their own, then request deeper GSP support when ready",
     metrics: ["Self-service actions", "Time to first engagement", "Customer satisfaction"],
     icon: "Users",
   },
 ];
 
 export const aiScorecard = [
-  { metric: "Strategy Foundation Coverage", target: "100%", description: "Core opportunity patterns documented with full metadata" },
-  { metric: "Strategy Integration", target: "Live", description: "Goal → action recommendations working" },
-  { metric: "Building View", target: "2026", description: "Site-level opportunity discovery available" },
-  { metric: "Audit Consistency", target: ">90%", description: "Standardized calculations across audits" },
+  { metric: "Strategy Foundation Coverage", target: "100%", description: "Core decarbonization patterns documented with full metadata" },
+  { metric: "Strategy Integration", target: "Live", description: "Goal to action recommendations working" },
+  { metric: "Portfolio View", target: "2026", description: "Site-level emissions and risk discovery available" },
+  { metric: "Inventory Consistency", target: ">90%", description: "Standardized Scope 1, 2, 3 calculations across engagements" },
 ];
 
 export const startStopMatrix = {
   audits: {
-    theme: "Audit Workflows",
-    stop: "Manual workflows and PowerPoint deliverables that don't scale",
-    start: "Structured, digital audit workflows with platform-native deliverables",
+    theme: "Advisory Workflows",
+    stop: "Manual workflows and PowerPoint deliverables that do not scale across 7,500+ projects",
+    start: "Structured, digital advisory workflows with platform-native deliverables",
   },
   context: {
     theme: "Client Context",
-    stop: "Fragmented across tools and documents, recreated for each engagement",
-    start: "Centralized once and reused across audits, quotes, and follow-ups",
+    stop: "Fragmented across tools, Excel templates, and Word documents, recreated for each engagement",
+    start: "Centralized once and reused across inventory, disclosure, risk, and transition planning",
   },
   expertise: {
     theme: "Expert Advisory",
-    stop: "Delivered late in the cycle and does not scale beyond individual consultants",
-    start: "Exposed early in-product to create pull for advanced audit projects",
+    stop: "Delivered late in the cycle and does not scale beyond individual consultants and regions",
+    start: "Exposed early in-product to create pull for deeper GSP engagement",
   },
   value: {
     theme: "Recurring Value",
-    stop: "One-off audit value with no ongoing customer touchpoint",
-    start: "Continuous efficiency guidance that supports RA+ recurring revenue",
+    stop: "One-off disclosure value with no ongoing customer touchpoint",
+    start: "Continuous sustainability guidance that supports RA+ recurring revenue",
   },
   discovery: {
     theme: "Opportunity Discovery",
-    stop: "Customers wait for full audit to learn what's possible",
-    start: "Early, credible efficiency advice visible directly in RA+",
+    stop: "Customers wait for full carbon footprint or CDP cycle to learn what is possible",
+    start: "Early, credible sustainability advice visible directly in RA+",
   },
   deliverables: {
-    theme: "Audit Deliverables",
-    stop: "Slide-driven processes requiring manual assembly",
+    theme: "Reporting Deliverables",
+    stop: "Slide- and document-driven CSRD, CDP, and TCFD processes requiring manual assembly",
     start: "Structured, visual, interactive deliverables generated in platform",
   },
   recommendations: {
-    theme: "Efficiency Recommendations",
-    stop: "Static guidance that requires expert interpretation",
-    start: "Actionable capabilities with transparent assumptions and confidence levels",
+    theme: "Decarbonization Recommendations",
+    stop: "Static guidance buried in 200-page reports that requires expert interpretation",
+    start: "Actionable measures with transparent assumptions and confidence levels",
   },
   feedback: {
     theme: "Continuous Improvement",
-    stop: "Delivered audits are isolated, not feeding back into system",
-    start: "Every audit improves future recommendations through M&V feedback",
+    stop: "Delivered disclosures are isolated, not feeding back into methodology",
+    start: "Every engagement improves future recommendations through outcome feedback",
   },
 };
 
 export const northStarMetrics = [
-  { metric: "Audit Speed", target: "2x faster", description: "Audits completed with higher consistency" },
-  { metric: "Upsell Rate", target: "Increase", description: "From early advisory to advanced audits" },
-  { metric: "Platform Adoption", target: "Measurable", description: "In-product efficiency recommendations used" },
+  { metric: "Inventory Speed", target: "2x faster", description: "Scope 1, 2, 3 inventories completed with higher consistency" },
+  { metric: "Upsell Rate", target: "Increase", description: "From early in-product insight to SBTi, climate risk, and transition advisory" },
+  { metric: "Platform Adoption", target: "Measurable", description: "In-product sustainability recommendations used by Maisons and sites" },
 ];
 
 export const valuePillars = [
-  { 
-    title: "Productivity", 
-    icon: "Zap", 
-    description: "Faster assessments, consistent outputs, and structured deliverables for efficiency teams" 
+  {
+    title: "Productivity",
+    icon: "Zap",
+    description: "Faster inventories, consistent factors, and structured deliverables for the GSP",
   },
-  { 
-    title: "Upsell", 
-    icon: "TrendingUp", 
-    description: "Early advisory creates demand for advanced audits and engineering services" 
+  {
+    title: "Upsell",
+    icon: "TrendingUp",
+    description: "Early guidance creates demand for SBTi, climate risk, and transition advisory",
   },
-  { 
-    title: "Revenue", 
-    icon: "DollarSign", 
-    description: "Continuous efficiency guidance supports recurring RA+ platform value" 
+  {
+    title: "Revenue",
+    icon: "DollarSign",
+    description: "Continuous sustainability guidance supports recurring RA+ platform value",
   },
-  { 
-    title: "Scale", 
-    icon: "Rocket", 
-    description: "Transform expert knowledge into scalable product capability" 
+  {
+    title: "Scale",
+    icon: "Rocket",
+    description: "Transform world-class GSP expertise into scalable product capability",
   },
 ];
 
 export const strategicContext = {
-  summary: "Today, efficiency audits rely heavily on manual workflows and PowerPoint deliverables. Client context is fragmented across tools and documents, expertise is delivered late in the cycle and does not scale, and early advice is not productized to generate recurring value.",
-  northStarTitle: "A governed Efficiency CoE capability embedded in RA+",
-  northStar: "The north star is an authoritative efficiency foundation inside RA+ that connects IDM as the trusted interval-data system of record, expert CoE knowledge, and guided workflows. It should power goal-based Strategy recommendations, site-level Building View discovery, structured deliverables, and a clear path from early insight to expert engagement.",
+  summary: "Today, sustainability advisory relies heavily on manual workflows, Excel templates, and PowerPoint deliverables. Client context is fragmented across tools and documents, GSP expertise is delivered engagement by engagement and does not scale, and early advice is not productized to generate recurring value inside RA+.",
+  northStarTitle: "A governed GSP capability embedded in RA+",
+  northStar: "The north star is an authoritative sustainability foundation inside RA+ that connects client emissions and operational data, expert GSP knowledge from advisory, NTBS, CLICK and DIH, and guided workflows. It should power goal-based Strategy recommendations, site-level Portfolio View discovery, structured disclosure deliverables, and a clear path from early insight to expert engagement.",
 };
 
 export const supportingScorecard = [
-  { metric: "Efficiency Taxonomy", definition: "Unified opportunity types, systems, assumptions, and governance standardized" },
-  { metric: "Knowledge Base Completeness", definition: "% of core guidance patterns with metadata and assumptions" },
-  { metric: "Service Boundaries", definition: "Clean interfaces defined for Strategy and Building View" },
-  { metric: "Strategy Integration", definition: "Goal → action recommendations live in platform" },
-  { metric: "Building View Coverage", definition: "% of site types with opportunity relevance logic" },
-  { metric: "Guardrail Compliance", definition: "% of customer-facing advice meeting trust standards" },
+  { metric: "Sustainability Taxonomy", definition: "Unified emission categories, factors, methodologies, and governance standardized" },
+  { metric: "Knowledge Base Completeness", definition: "% of core decarbonization patterns with metadata and assumptions" },
+  { metric: "Service Boundaries", definition: "Clean interfaces defined for Strategy and Portfolio View" },
+  { metric: "Strategy Integration", definition: "Goal to action recommendations live in platform" },
+  { metric: "Portfolio View Coverage", definition: "% of site and asset types with opportunity relevance logic" },
+  { metric: "Guardrail Compliance", definition: "% of customer-facing advice meeting trust and assurance standards" },
 ];
 
 export const roiScorecard = [
-  { metric: "Audit Speed", definition: "Time to complete efficiency assessment", target: "2x faster" },
-  { metric: "Upsell Conversion", definition: "Early advisory converting to advanced audits", target: "+30%" },
-  { metric: "Quote Time", definition: "Reduction in time to quote for engagements", target: "50% faster" },
+  { metric: "Inventory Speed", definition: "Time to complete Scope 1, 2, 3 footprint", target: "2x faster" },
+  { metric: "Upsell Conversion", definition: "Early guidance converting to deeper GSP engagement", target: "+30%" },
+  { metric: "Quote Time", definition: "Reduction in time to quote for advisory engagements", target: "50% faster" },
   { metric: "Platform Revenue", definition: "Contribution to RA+ recurring revenue", target: "Measurable" },
 ];
 
 export const executiveTakeaway = {
-  summary: "Efficiency Transformation turns expert services, customer context, digital workflows, and advisory guidance into a scalable RA+ capability that improves productivity, creates demand for deeper services, and supports recurring platform value.",
-  conclusion: "By connecting top-down strategy, bottom-up building insight, expert workflows, and customer-facing guidance, we create a broader Efficiency strategy that helps customers move from ambition to action inside RA+.",
+  summary: "Sustainability Transformation turns world-class GSP expertise, client context, digital workflows, and advisory guidance into a scalable RA+ capability that improves consultant productivity, creates demand for deeper services, and supports recurring platform value.",
+  conclusion: "By connecting top-down sustainability strategy, bottom-up site and asset insight, expert workflows, and customer-facing guidance, we create a broader Sustainability strategy that helps clients move from ambition to action inside RA+.",
 };
 
 export const appendixPillars = [
   {
-    pillar: "Productivity Gains",
+    pillar: "Advisory Productivity",
     focus: [
-      "Develop reusable guidance to improve team effectiveness",
-      "Standardize opportunity logic and defaults for faster assessments",
-      "Generate structured, visual audit deliverables in platform",
-      "Centralize client context across sites and engagements",
+      "Develop reusable methodologies to improve consultant effectiveness",
+      "Standardize emission factors and defaults for faster inventories",
+      "Generate structured CSRD, CDP, and TCFD deliverables in platform",
+      "Centralize client sustainability context across sites and engagements",
     ],
     outcomes: [
-      "Lower cost to serve per audit",
-      "Higher audit capacity without headcount growth",
-      "Reduced rework and manual slide building",
-      "Consistent calculations across all audits",
+      "Lower cost to serve per engagement",
+      "Higher delivery capacity without headcount growth",
+      "Reduced rework on disclosure cycles",
+      "Consistent calculations across all consultants and regions",
     ],
     themes: [
-      "Standardized opportunity logic and defaults",
+      "Standardized methodologies and defaults",
       "Platform-native deliverable generation",
       "Centralized client context management",
-      "Audit workflow digitization",
+      "Advisory workflow digitization",
     ],
     valueProof: [
-      "Audit completion time reduction",
-      "Auditor throughput improvement",
+      "Inventory completion time reduction",
+      "Consultant throughput improvement",
       "Rework rate decrease",
     ],
   },
   {
-    pillar: "Upsell Engine",
+    pillar: "Advisory Upsell Engine",
     focus: [
-      "Expose selected expert content and early advisory",
-      "Create demand for deeper analysis and studies",
+      "Expose selected GSP content and early advisory in RA+",
+      "Create demand for SBTi, transition planning, and assurance",
       "Enable seamless path from insight to engagement",
-      "Pre-fill context when audits are quoted",
+      "Pre-fill context when advisory work is quoted",
     ],
     outcomes: [
-      "Higher conversion to advanced audits",
-      "Better qualified audit pipeline",
+      "Higher conversion to multi-year sustainability programs",
+      "Better qualified GSP pipeline",
       "Shorter sales cycles for engagements",
       "Improved win rates on proposals",
     ],
     themes: [
-      "Early high-potential opportunity identification",
-      "In-product calls to action for audits",
+      "Early high-impact opportunity identification",
+      "In-product calls to action for GSP services",
       "Pre-filled assumptions for quotes",
       "Visibility into deeper analysis value",
     ],
     valueProof: [
-      "Advisory-to-audit conversion rate",
+      "Insight-to-engagement conversion rate",
       "Pipeline from in-product prompts",
       "Quote-to-close time reduction",
     ],
@@ -394,21 +394,21 @@ export const appendixPillars = [
   {
     pillar: "Recurring RA+ Revenue",
     focus: [
-      "Productize early-stage efficiency insights",
-      "Deliver value without full on-site audit",
+      "Productize early-stage sustainability insights",
+      "Deliver value between formal disclosure cycles",
       "Create ongoing advisory value vs one-off",
-      "Strengthen platform differentiation",
+      "Strengthen platform differentiation versus ESG software",
     ],
     outcomes: [
-      "Recurring revenue from efficiency guidance",
+      "Recurring revenue from in-product sustainability guidance",
       "Stronger platform stickiness",
-      "Customer value between audits",
+      "Customer value between disclosure cycles",
       "Differentiated RA+ value proposition",
     ],
     themes: [
-      "Continuous efficiency recommendations",
+      "Continuous decarbonization recommendations",
       "Goal-to-action Strategy integration",
-      "Building View for discovery",
+      "Portfolio View for discovery",
       "Self-service scenario comparison",
     ],
     valueProof: [
@@ -423,58 +423,58 @@ export const roadmapSummary = {
   investmentPriorities: [
     {
       number: 1,
-      text: "Establish the Efficiency Strategy foundation with governed taxonomy and clean service boundaries",
+      text: "Establish the Sustainability Strategy foundation with governed taxonomy and clean service boundaries",
     },
     {
       number: 2,
-      text: "Deliver customer value through Strategy integration with goal-based efficiency guidance",
+      text: "Deliver customer value through Strategy integration with goal-based decarbonization guidance",
     },
     {
       number: 3,
-      text: "Introduce Building View for bottom-up opportunity discovery at site level",
+      text: "Introduce Portfolio View for bottom-up opportunity discovery at site and asset level",
     },
   ],
   pillars: [
     {
       id: "productivity",
-      name: "Pillar 1: Productivity Gains",
-      tagline: "For the efficiency team",
+      name: "Pillar 1: Advisory Productivity",
+      tagline: "For the Global Sustainability Practice",
       icon: "Layers",
       focus: [
-        "Develop reusable guidance to improve team effectiveness",
-        "Standardize calculations and assumptions across audits",
+        "Develop reusable methodologies to improve consultant effectiveness",
+        "Standardize factors and assumptions across engagements",
         "Generate structured deliverables in the platform",
       ],
       outcomes: [
-        "Lower cost to serve per audit",
-        "Higher throughput per auditor",
-        "Consistent outputs across all engagements",
+        "Lower cost to serve per engagement",
+        "Higher throughput per consultant",
+        "Consistent outputs across all regions",
       ],
       themes: [
-        "Standardized opportunity logic",
+        "Standardized methodologies",
         "Platform-native deliverables",
         "Centralized client context",
-        "Digital audit workflows",
+        "Digital advisory workflows",
       ],
       valueProof: [
-        "Audit completion time reduction",
-        "Auditor throughput improvement",
+        "Inventory completion time reduction",
+        "Consultant throughput improvement",
         "Rework rate decrease",
       ],
     },
     {
       id: "upsell-engine",
-      name: "Pillar 2: Upsell Engine",
-      tagline: "For advanced audit projects",
+      name: "Pillar 2: Advisory Upsell Engine",
+      tagline: "For deeper sustainability engagements",
       icon: "TrendingUp",
       focus: [
-        "Expose early efficiency insights to create demand",
+        "Expose early sustainability insights to create demand",
         "Enable seamless path from insight to engagement",
         "Pre-fill context for faster quote generation",
       ],
       outcomes: [
-        "Higher conversion to advanced audits",
-        "Better qualified audit pipeline",
+        "Higher conversion to multi-year programs",
+        "Better qualified GSP pipeline",
         "Shorter sales cycles",
       ],
       themes: [
@@ -484,7 +484,7 @@ export const roadmapSummary = {
         "Visibility into deeper value",
       ],
       valueProof: [
-        "Advisory-to-audit conversion",
+        "Insight-to-engagement conversion",
         "Pipeline from in-product prompts",
         "Win rate improvement",
       ],
@@ -492,22 +492,22 @@ export const roadmapSummary = {
     {
       id: "recurring-revenue",
       name: "Pillar 3: Recurring Revenue",
-      tagline: "Through in-product efficiency advice",
+      tagline: "Through in-product sustainability advice",
       icon: "Sparkles",
       focus: [
-        "Productize early-stage efficiency insights",
-        "Deliver value without full on-site audit",
+        "Productize early-stage sustainability insights",
+        "Deliver value between formal disclosure cycles",
         "Create ongoing advisory value",
       ],
       outcomes: [
-        "Recurring revenue from efficiency guidance",
+        "Recurring revenue from sustainability guidance",
         "Stronger platform stickiness",
         "Differentiated RA+ value proposition",
       ],
       themes: [
         "Continuous recommendations",
         "Strategy integration",
-        "Building View discovery",
+        "Portfolio View discovery",
         "Self-service exploration",
       ],
       valueProof: [
@@ -522,28 +522,28 @@ export const roadmapSummary = {
 export const keyChallenges = [
   {
     id: "manual-workflows",
-    title: "Manual Audit Workflows",
+    title: "Manual Advisory Workflows",
     issues: [
-      "Efficiency audits rely heavily on manual workflows and PowerPoint deliverables",
-      "Inconsistent calculations and assumptions across different auditors",
-      "High time and effort per audit limits scalability",
+      "Inventory and disclosure work relies on Excel templates and PowerPoint deliverables",
+      "Inconsistent emission factors and assumptions across consultants and regions",
+      "High time and effort per engagement limits scalability across 400+ experts",
     ],
   },
   {
     id: "fragmented-context",
     title: "Fragmented Client Context",
     issues: [
-      "Client context is fragmented across tools and documents",
+      "Client sustainability data is fragmented across tools, SharePoints, and vendor platforms",
       "Context must be recreated for each new engagement",
-      "No centralized view across sites, audits, and recommendations",
+      "No centralized view across sites, Maisons, footprints, and disclosures",
     ],
   },
   {
     id: "late-expertise",
     title: "Late Expertise Delivery",
     issues: [
-      "Expertise is delivered late in the cycle and does not scale",
-      "Customers must wait for full audit to understand opportunities",
+      "GSP expertise is delivered late in the cycle and does not scale",
+      "Customers must wait for full CDP, CSRD, or footprint cycle to see opportunities",
       "No early credibility-building touchpoints in the sales process",
     ],
   },
@@ -551,9 +551,9 @@ export const keyChallenges = [
     id: "no-recurring-value",
     title: "No Recurring Value",
     issues: [
-      "Early advice is not productized and cannot generate recurring value",
-      "One-off audit model limits ongoing customer relationship",
-      "Platform value tied to episodic engagements, not continuous guidance",
+      "Early sustainability advice is not productized and cannot generate recurring value",
+      "One-off advisory model limits ongoing customer relationship",
+      "Platform value tied to episodic disclosures, not continuous guidance",
     ],
   },
 ];
@@ -565,12 +565,12 @@ export const whyNowColumns = [
     title: "Pressure",
     color: "amber",
     items: [
-      "Customers expect earlier and clearer efficiency guidance",
-      "Enterprise AI mandates push customers to adopt AI-driven energy decisions in 2026",
-      "ISO 50001 certification cycles are creating concrete buying pressure",
-      "AI bypass risk: customers like Tetra Pak are evaluating in-house AI on their own data",
-      "Competitor movement accelerating digital efficiency advisory",
-      "Internal scaling limits (manual audits, fragmented tools)",
+      "Customers expect earlier and clearer sustainability guidance, not annual reports",
+      "CSRD, ISSB, TCFD, and TNFD timelines are creating concrete buying pressure across regions",
+      "SBTi-aligned net-zero targets push customers to make capital decisions in 2026",
+      "AI bypass risk: customers like LVMH and Syngenta are evaluating in-house AI on their sustainability data",
+      "Competitor movement accelerating digital sustainability advisory (Deepki, Measurabl, Sweep, Watershed)",
+      "Internal scaling limits (manual inventories, fragmented tools across 400+ consultants)",
     ],
   },
   {
@@ -578,9 +578,9 @@ export const whyNowColumns = [
     title: "Confusion",
     color: "orange",
     items: [
-      "Customers cannot access credible guidance without a full audit",
-      "No central system of record for efficiency knowledge and assumptions",
-      "Efficiency workflows are disconnected from the product",
+      "Customers cannot access credible guidance without a full CDP or CSRD cycle",
+      "No central system of record for sustainability methodologies, factors, and assumptions",
+      "Advisory workflows are disconnected from the RA+ product",
     ],
   },
   {
@@ -588,10 +588,10 @@ export const whyNowColumns = [
     title: "Structure",
     color: "emerald",
     items: [
-      "Provisional opportunity knowledge base now, enriched via past-audit pipeline",
-      "Create the connection from shared guidance to Strategy, Building View, and the Energy Efficiency product",
-      "Single governed efficiency knowledge base with taxonomy, required fields, and versions",
-      "Lock shared language & assumptions (inputs, \"From→To\", typical ranges) to remove variance",
+      "Provisional decarbonization knowledge base now, enriched via past-engagement pipeline",
+      "Create the connection from shared guidance to Strategy, Portfolio View, and the RA+ Sustainability product",
+      "Single governed sustainability knowledge base with taxonomy, required fields, and versions",
+      "Lock shared methodologies, factors, and assumptions to remove variance across regions",
     ],
   },
   {
@@ -599,10 +599,10 @@ export const whyNowColumns = [
     title: "Value",
     color: "blue",
     items: [
-      "Top-down: goal-based efficiency guidance inside Strategy so customers get value before a full audit",
-      "Bottom-up: building-level opportunity relevance so customers explore by place, not just targets",
-      "Explainability & guardrails so early advice is credible and upsells to deeper expert advisory work when needed",
-      "Dedicated Energy Efficiency product with end-to-end workflows for customers and engineers",
+      "Top-down: goal-based decarbonization guidance inside Strategy so customers get value before a full engagement",
+      "Bottom-up: site- and asset-level opportunity relevance so customers explore by place, not just targets",
+      "Explainability and guardrails so early advice is credible and upsells to deeper GSP advisory when needed",
+      "Dedicated RA+ Sustainability product with end-to-end workflows for clients and consultants",
     ],
   },
   {
@@ -611,10 +611,10 @@ export const whyNowColumns = [
     color: "violet",
     items: [
       "Customers receive faster, more consistent guidance through one governed source",
-      "The same efficiency intelligence can be reused across Strategy, Building View, regions, and sectors",
-      "Integration with RA+, IDM, AkitaBox etc.",
-      "Internal expertise is leveraged at scale rather than repeated manually",
-      "This foundation supports the future Energy Efficiency product",
+      "The same sustainability intelligence can be reused across Strategy, Portfolio View, regions, and sectors",
+      "Integration with RA+, NTBS offsetting, vendor software platforms, and external data feeds",
+      "GSP expertise is leveraged at scale rather than repeated manually across 7,500+ projects",
+      "This foundation supports the future RA+ Sustainability product",
     ],
   },
   {
@@ -622,55 +622,55 @@ export const whyNowColumns = [
     title: "Impact",
     color: "green",
     items: [
-      "Better customer decisions and higher adoption",
-      "Customers achieve measurable emissions, energy & cost reductions",
-      "Schneider E. gains stronger credibility and trust",
+      "Better customer decisions and higher adoption of decarbonization measures",
+      "Customers achieve measurable Scope 1, 2, 3 emissions reductions",
+      "Schneider Electric gains stronger credibility as #1 sustainability consulting practice",
       "Stickier RA+ recurring revenue",
-      "Efficiency team gets audit upsell from early insight, becomes more productive due to digitisation",
+      "GSP teams get advisory upsell from early insight, become more productive through digitization",
     ],
   },
 ];
 
-// Capability Matrix (Image 3)
+// Capability Matrix
 export const capabilityMatrix = {
   phases: [
     "Draft Knowledge Base",
-    "Data-Mining Project",
+    "Engagement-Mining Project",
     "NOW (Strategy Integration)",
-    "NEXT (Building View)",
-    "LATER (EE Product)",
+    "NEXT (Portfolio View)",
+    "LATER (RA+ Sustainability Product)",
   ],
   capabilities: [
     {
       id: 1,
-      opportunity: "Shared efficiency language, taxonomy, and governance",
+      opportunity: "Shared sustainability language, taxonomy, and governance",
       statuses: [
-        { status: "done", note: "Defined first taxonomy, systems, subsystems, types" },
-        { status: "done", note: "Validates & enriches taxonomy with real examples" },
-        { status: "done", note: "Needed immediately" },
-        { status: "done", note: "Required for Building View" },
+        { status: "done", note: "Defined first taxonomy: scopes, categories, factors, methodologies" },
+        { status: "done", note: "Validates and enriches taxonomy with real engagement examples" },
+        { status: "done", note: "Needed immediately for Strategy" },
+        { status: "done", note: "Required for Portfolio View" },
         { status: "done", note: "Core always" },
       ],
     },
     {
       id: 2,
-      opportunity: "Standardized data model (validation & DQA)",
+      opportunity: "Standardized data model (validation and DQA)",
       statuses: [
-        { status: "done", note: "Draft schema and required fields defined" },
-        { status: "done", note: "Data-mining exposes inconsistencies to fix" },
+        { status: "done", note: "Draft schema and required fields defined for Scope 1, 2, 3" },
+        { status: "done", note: "Engagement mining exposes inconsistencies to fix" },
         { status: "done", note: "Enforced for Strategy consumption" },
         { status: "done", note: "Required for consistent filtering" },
-        { status: "done", note: "Required for all workflows" },
+        { status: "done", note: "Required for all workflows and assurance" },
       ],
     },
     {
       id: 3,
       opportunity: "Central Knowledge Base (Library UI)",
       statuses: [
-        { status: "done", note: "Draft opportunity set created" },
+        { status: "done", note: "Draft decarbonization measure set created" },
         { status: "done", note: "Adds more examples for knowledge base population" },
         { status: "done", note: "Knowledge base MVP used by Strategy" },
-        { status: "done", note: "Knowledge base used by Building View" },
+        { status: "done", note: "Knowledge base used by Portfolio View" },
         { status: "done", note: "Extended with deeper metadata" },
       ],
     },
@@ -681,24 +681,24 @@ export const capabilityMatrix = {
         { status: "done", note: "Metadata definitions created" },
         { status: "done", note: "Extracted metadata increases machine-readability" },
         { status: "done", note: "Needed to expose guidance to Strategy" },
-        { status: "done", note: "Critical for Building View logic" },
-        { status: "done", note: "Mandatory for EE workflows & agents" },
+        { status: "done", note: "Critical for Portfolio View logic" },
+        { status: "done", note: "Mandatory for full product workflows and Sera agents" },
       ],
     },
     {
       id: 5,
-      opportunity: "Library ↔ Strategy service boundary",
+      opportunity: "Library to Strategy service boundary",
       statuses: [
         { status: "partial", note: "Early thinking only" },
-        { status: "partial", note: "Data-mining not directly relevant" },
+        { status: "partial", note: "Engagement mining not directly relevant" },
         { status: "done", note: "Main delivery in NOW" },
-        { status: "partial", note: "Reused by Building View" },
+        { status: "partial", note: "Reused by Portfolio View" },
         { status: "partial", note: "Reused later" },
       ],
     },
     {
       id: 6,
-      opportunity: "Convert goals into actions",
+      opportunity: "Convert goals into actions (net-zero pathways)",
       statuses: [
         { status: "partial", note: "Foundation only" },
         { status: "partial", note: "Knowledge base enrichment improves relevance" },
@@ -709,40 +709,40 @@ export const capabilityMatrix = {
     },
     {
       id: 7,
-      opportunity: "Assumption defaults & prefill",
+      opportunity: "Assumption defaults and prefill (emission factors)",
       statuses: [
         { status: "done", note: "Identified needed fields" },
         { status: "done", note: "Mined patterns help create default logic" },
         { status: "partial", note: "Light use possible" },
-        { status: "done", note: "Key relevance feature in Building View" },
-        { status: "done", note: "Full automation in EE product" },
+        { status: "done", note: "Key relevance feature in Portfolio View" },
+        { status: "done", note: "Full automation in product" },
       ],
     },
     {
       id: 8,
-      opportunity: "Analysis scaffolding (per-opportunity guidance)",
+      opportunity: "Analysis scaffolding (per-measure guidance)",
       statuses: [
         { status: "partial", note: "Only conceptual" },
         { status: "partial", note: "Raw data helps understand common variables" },
         { status: "not-done", note: "" },
         { status: "not-done", note: "" },
-        { status: "done", note: "Implemented in EE product" },
+        { status: "done", note: "Implemented in product" },
       ],
     },
     {
       id: 9,
-      opportunity: "Structured site capture (AkitaBox)",
+      opportunity: "Structured asset and site capture",
       statuses: [
         { status: "not-done", note: "Not addressed" },
         { status: "not-done", note: "Not addressed" },
         { status: "not-done", note: "" },
         { status: "not-done", note: "" },
-        { status: "done", note: "Implemented in EE product" },
+        { status: "done", note: "Implemented in product" },
       ],
     },
     {
       id: 10,
-      opportunity: "Presentation builder",
+      opportunity: "Disclosure deliverable builder (CDP, CSRD, TCFD)",
       statuses: [
         { status: "not-done", note: "" },
         { status: "not-done", note: "" },
@@ -753,7 +753,7 @@ export const capabilityMatrix = {
     },
     {
       id: 11,
-      opportunity: "M&V feedback loop",
+      opportunity: "Performance and assurance feedback loop",
       statuses: [
         { status: "not-done", note: "" },
         { status: "partial", note: "Partial: historical patterns help with priors" },
@@ -765,59 +765,59 @@ export const capabilityMatrix = {
   ],
 };
 
-// Quarterly Roadmap (Image 4)
+// Quarterly Roadmap
 export const quarterlyRoadmap = [
   {
     quarter: "Q2 2026",
     theme: "Assessment and Scope Definition",
     color: "amber",
     deliverables: [
-      "Run the first assessment of what IDM should bring into RA+",
-      "Confirm the ECM and IDM data model, taxonomy, metadata, and governance needs",
-      "Define minimum RA+ service boundaries for ECM guidance and IDM signals",
-      "Prioritize the top 200 ECMs for the initial library launch",
-      "Start SME review loops across efficiency to refine ECM and IDM priorities",
-      "Ship targeted intelligence enhancements in RA Classic in parallel (June 2026) so existing customers feel forward motion",
+      "Run the first assessment of what GSP methodologies should bring into RA+",
+      "Confirm the decarbonization measure and emissions data model, taxonomy, metadata, and governance needs",
+      "Define minimum RA+ service boundaries for sustainability guidance and emissions signals",
+      "Prioritize the top 200 decarbonization measures for the initial library launch",
+      "Start CLICK and SME review loops across regions to refine priorities",
+      "Ship targeted intelligence enhancements in existing vendor software workflows in parallel (June 2026) so existing customers feel forward motion",
     ],
     teamImpact: [
-      "Teams align on what must be built before RA+ exposes ECM and IDM capability",
-      "Experts help define expectations early during workshops",
-      "IDM requirements are captured before delivery work hardens around the wrong assumptions",
-      "RA Classic users see continued investment while RA+ foundations are built in parallel",
+      "Teams align on what must be built before RA+ exposes sustainability capability",
+      "Experts from advisory, NTBS, CLICK, and DIH help define expectations early during workshops",
+      "Methodology requirements are captured before delivery work hardens around the wrong assumptions",
+      "Existing customers see continued investment while RA+ foundations are built in parallel",
     ],
   },
   {
     quarter: "Q3 2026",
-    theme: "Initial ECM Library Launch",
+    theme: "Initial Decarbonization Library Launch",
     color: "emerald",
     deliverables: [
-      "Launch the initial ECM library late Q3 with the top 200 ECMs",
+      "Launch the initial decarbonization library late Q3 with the top 200 measures",
       "Publish taxonomy, naming rules, granularity, and metadata standards for v1",
-      "Connect ECM guidance to the Strategy product as the first RA+ consumption path",
-      "Document IDM inputs needed for opportunity relevance and future performance signals",
-      "Prepare the MVP scope for Q4, including ECM guidance and IDM signal priorities",
+      "Connect sustainability guidance to the Strategy product as the first RA+ consumption path",
+      "Document emissions and operational data inputs needed for opportunity relevance",
+      "Prepare the MVP scope for Q4, including measure guidance and emissions signal priorities",
     ],
     teamImpact: [
-      "Experts start leveraging standard database connected with IDM and get access to common measure language",
-      "The Strategy product starts consuming a governed ECM foundation",
-      "The team has a concrete IDM backlog tied to the RA+ MVP instead of a generic migration plan",
+      "Consultants start leveraging a standard database connected with client data and get access to common measure language",
+      "The Strategy product starts consuming a governed sustainability foundation",
+      "The team has a concrete data backlog tied to the RA+ MVP instead of a generic migration plan",
     ],
   },
   {
     quarter: "Q4 2026",
-    theme: "RA+ MVP Launch",
+    theme: "RA+ Sustainability MVP Launch",
     color: "blue",
     deliverables: [
-      "Launch the initial RA+ MVP for Energy Efficiency",
-      "Expose the top 200 ECMs through governed guidance and Strategy workflows",
-      "Bring initial IDM signals into RA+ for interval-data context.",
-      "Enable early expert audit request paths from guided ECM discovery",
+      "Launch the initial RA+ MVP for Sustainability",
+      "Expose the top 200 decarbonization measures through governed guidance and Strategy workflows",
+      "Bring initial emissions and risk signals into RA+ for client context",
+      "Enable early expert engagement request paths from guided discovery (SBTi, climate risk, offsetting)",
       "Capture feedback from pilot users to refine data fields, assumptions, and workflow handoffs",
     ],
     teamImpact: [
-      "Customers and internal teams see the first usable RA+ Energy Efficiency experience",
-      "Auditors receive better prepared demand from early guided discovery",
-      "IDM starts contributing to action guidance on a central platform",
+      "Customers and GSP teams see the first usable RA+ Sustainability experience",
+      "Consultants receive better prepared demand from early guided discovery",
+      "Emissions data starts contributing to action guidance on a central platform",
     ],
   },
   {
@@ -826,133 +826,133 @@ export const quarterlyRoadmap = [
     color: "violet",
     deliverables: [
       "Go live with SE Corporate as the lead reference customer in March 2027",
-      "Improve ECM metadata quality and expand beyond the top 200 based on usage and expert review",
-      "Deepen IDM integration for data-quality visibility, interval patterns, and performance context",
+      "Improve measure metadata quality and expand beyond the top 200 based on usage and CLICK review",
+      "Deepen emissions integration for data-quality visibility, trend context, and assurance support",
       "Refine assumption defaults, applicability rules, and expert escalation triggers",
-      "Add structured handoff outputs for expert advisory and audit preparation",
-      "Prepare the next release path toward Building View and dedicated Energy Efficiency workflows",
+      "Add structured handoff outputs for GSP advisory and engagement preparation",
+      "Prepare the next release path toward Portfolio View and dedicated Sustainability workflows",
     ],
     teamImpact: [
-      "SE Corporate provides a living proof point for the RA+ Energy Efficiency experience",
+      "SE Corporate provides a living proof point for the RA+ Sustainability experience",
       "The MVP becomes more reliable and useful for real advisory workflows",
-      "Efficiency teams become more productive through reusable ECM and IDM context",
+      "GSP teams become more productive through reusable methodology and client context",
       "The roadmap shifts from foundation building to workflow depth and scaled adoption",
     ],
   },
 ];
 
 export const dataNeeded = [
-  { name: "Efficiency Taxonomy", description: "Systems, subsystems, and measure types" },
-  { name: "Default Assumptions", description: "Standard values for calculations" },
-  { name: "Site Descriptors", description: "Building type, geography, segment" },
-  { name: "Constraint Inputs", description: "Budget, timeline, risk tolerance" },
-  { name: "Goal Mappings", description: "Emissions targets to efficiency recommendations" },
-  { name: "Pattern Data", description: "Similar site outcomes and evidence" },
-  { name: "M&V Outcomes", description: "Measurement and verification results that compare actual post-project performance against an agreed baseline" },
-  { name: "Regulatory Links", description: "Incentives and compliance requirements" },
+  { name: "Sustainability Taxonomy", description: "Scopes, categories, emission factors, and methodologies" },
+  { name: "Default Assumptions", description: "Standard values for Scope 1, 2, 3 calculations" },
+  { name: "Site Descriptors", description: "Facility type, geography, sector, regulatory exposure" },
+  { name: "Constraint Inputs", description: "Budget, timeline, capital cycle, risk tolerance" },
+  { name: "Goal Mappings", description: "Net-zero targets, SBTi pathways, sector benchmarks" },
+  { name: "Pattern Data", description: "Similar client outcomes and case evidence from 7,500+ projects" },
+  { name: "Assurance Outcomes", description: "ISO 14064 verification, ISSA 5000 readiness, third-party assurance results" },
+  { name: "Regulatory Links", description: "CSRD, ISSB, CDP, TCFD, TNFD, EU Taxonomy requirements" },
 ];
 
 export const optionalClientContext = [
-  { name: "Building Data", description: "BMS and AkitaBox integrations" },
-  { name: "Energy Data", description: "Interval consumption and costs" },
+  { name: "Operational Data", description: "Energy, water, waste, and process data feeds" },
+  { name: "Supply Chain Data", description: "Supplier emissions, spend-based and activity-based Scope 3 inputs" },
 ];
 
 export const existingTools = [
-  { name: "IDM", description: "Interval Data Management: trusted energy data from cloud platforms, BMS, meters, and external sources into a single system of record", limitation: "Core data services are not yet fully native to RA+ opportunity discovery" },
-  { name: "ACT", description: "Action tracking and project management for efficiency measures", limitation: "Disconnected from efficiency recommendations" },
-  { name: "RA Classic", description: "Resource Advisor: portfolio reporting, benchmarking, target setting", limitation: "Reporting-focused, no actionable efficiency layer" },
-  { name: "Variance Check Agent", description: "Automated variance detection between metered and billed consumption", limitation: "Reactive analysis, not predictive" },
+  { name: "GSP Methodologies", description: "Global Sustainability Practice methodologies for GHG accounting, SBTi, climate risk, and disclosure", limitation: "Documented in SharePoints and Word, not yet native to RA+ workflows" },
+  { name: "Vendor Software Stack", description: "Tennaxia, Watershed, Persefoni and other third-party sustainability platforms supported by GSP", limitation: "Disconnected from RA+ recommendations and advisory upsell paths" },
+  { name: "Existing Carbon and ESG Tools", description: "Carbon footprint platforms, CDP and CSRD reporting modules across the SE estate", limitation: "Reporting-focused, no actionable sustainability advisory layer" },
+  { name: "DIH Digital Assets", description: "Digital Innovation Hub assets for physical climate risk, transition risk, biodiversity, and financial quantification", limitation: "Powerful but client-by-client deployed, not yet productized in RA+" },
 ];
 
 export const idmCapabilities = {
   tagline:
-    "IDM gives RA+ the trusted interval-data system of record to connect cloud, BMS, meter, cost, carbon, and operational signals with expert efficiency knowledge.",
+    "The RA+ sustainability spine gives the platform a trusted client data system of record to connect emissions, operational, financial, supply chain, and disclosure signals with expert GSP knowledge.",
   positioning: {
-    title: "Data Backbone",
-    subtitle: "Trusted interval data before insight, proof after action.",
+    title: "Sustainability Data Backbone",
+    subtitle: "Trusted client data before insight, proof after action.",
     modes: [
       {
         label: "Step Zero",
         role: "Signal where action is needed",
         description:
-          "Interval data reveals performance gaps before a full audit is launched.",
-        outcome: "A credible trigger for expert review and targeted action.",
+          "Connected emissions, operational, and supply chain data reveals decarbonization and risk gaps before a full advisory engagement is launched.",
+        outcome: "A credible trigger for expert review and targeted GSP action.",
       },
       {
         label: "Step Last",
         role: "Prove what changed",
         description:
-          "After actions are taken, IDM tracks performance against baselines and keeps customers connected to outcomes.",
+          "After actions are taken, the spine tracks performance against SBTi targets and net-zero baselines and keeps customers connected to outcomes.",
         outcome: "Continuous proof and a path into the next improvement cycle.",
       },
     ],
     principle:
-      "The RA+ opportunity is not a reporting migration or visual lift-over. It is turning proven Global Energy Bureau and IDM capabilities into shared platform intelligence that guides decisions, prioritization, and continuous improvement.",
+      "The RA+ opportunity is not a reporting migration or visual lift-over. It is turning proven GSP capabilities (advisory, NTBS, CLICK, DIH) into shared platform intelligence that guides decisions, prioritization, and continuous improvement.",
   },
   bmsBypass: {
-    title: "BMS Integration: Bypass the Submeter Install",
+    title: "Vendor Software Bypass: Bypass the Heavy Implementation",
     subtitle:
-      "The biggest IDM adoption blocker is the cost and lead time of installing submeters. Many customers refuse upfront. BMS connectivity removes that barrier.",
+      "The biggest adoption blocker for many customers is the cost and lead time of standing up a new ESG platform. RA+ connectivity removes that barrier by meeting customers where their data already lives.",
     benefits: [
       {
-        label: "No hardware install",
-        detail: "Pull existing meter data directly from the building management system.",
+        label: "No platform rip and replace",
+        detail: "Pull existing emissions and operational data directly from the customer's existing vendor stack.",
       },
       {
         label: "Faster time to insight",
-        detail: "Days, not months. No procurement cycle, no electrician on site.",
+        detail: "Weeks, not quarters. No procurement cycle, no rebuild of the data model.",
       },
       {
         label: "Wider addressable base",
-        detail: "Unlocks customers who have BMS but no Schneider submetering footprint.",
+        detail: "Unlocks customers who have a vendor ESG tool but no Schneider sustainability footprint.",
       },
       {
         label: "Cross-business synergy",
-        detail: "Direct hook into Schneider Digital Energy BMS estate; reuses existing data flows.",
+        detail: "Direct hook into Schneider energy and operational data; reuses existing data flows.",
       },
     ],
     fallback:
-      "Where BMS is absent, utility meter feeds (UK half-hourly, EU 5/15-min) still provide a baseline IDM experience. Submeter install becomes an upsell, not a prerequisite.",
+      "Where no vendor platform exists, utility, ERP, and survey feeds still provide a baseline sustainability experience. Vendor software implementation becomes an upsell, not a prerequisite.",
   },
   stats: [
-    { value: "428", label: "Clients", detail: "Global Energy Bureau support base" },
-    { value: "38", label: "Experts", detail: "Across 11 country locations" },
-    { value: "$75M", label: "Active Guarantees", detail: "Measured through performance services" },
-    { value: "24/7", label: "Performance", detail: "Always-on energy and carbon view" },
+    { value: "426.5M", label: "tCO2 managed", detail: "Across the GSP client base" },
+    { value: "400+", label: "Climate experts", detail: "Across regions and global functions" },
+    { value: "7,500+", label: "Projects delivered", detail: "Climate and environmental engagements" },
+    { value: "#1", label: "Globally ranked", detail: "Sustainability Magazine consulting services" },
   ],
   categories: [
     {
       name: "Data Ingestion",
       capabilities: [
-        "Utility, cloud platform, BMS, meter, PME, EBO, and external-source intake",
+        "Emissions, utility, ERP, supplier, and vendor software intake",
         "Multiple stream stitching, reprocessing, and normalization",
-        "Cumulative to interval conversion",
+        "Activity-based and spend-based Scope 3 conversion",
         "Data validation routines and bulk editing",
         "Patch-on-the-fly data quality",
         "Connectivity monitoring tools",
       ],
     },
     {
-      name: "Analysis & Intelligence",
+      name: "Analysis and Intelligence",
       capabilities: [
-        "Modeling and baseline engine (bulk creation in seconds)",
-        "Energy forecasting and scenario models",
-        "Comprehensive weather integration",
-        "Marginal emissions rates and emissions library",
-        "Tag and hierarchy-based aggregation",
-        "Alerting, notification, and smart anomaly detection",
+        "GHG inventory modeling and baseline engine",
+        "SBTi pathway and scenario modeling",
+        "Comprehensive emission factor library and updates",
+        "Marginal abatement cost curves and decarbonization libraries",
+        "Tag and hierarchy-based aggregation across Maisons and sites",
+        "Alerting, notification, and smart anomaly detection on emissions drift",
       ],
     },
     {
-      name: "M&V and Outcomes",
+      name: "Assurance and Outcomes",
       capabilities: [
-        "M&V workflows that measure, verify, and explain whether efficiency actions delivered expected performance outcomes",
-        "IPMVP-compliant baseline creation using recognized measurement and verification methods for credible savings claims",
-        "Actual vs. baseline and cumulative savings tracking across cost, energy, and emissions outcomes",
-        "EnPI models that normalize performance indicators for weather, occupancy, production, or operating conditions to support ISO 50001",
+        "Workflows that measure, verify, and explain whether decarbonization actions delivered expected outcomes",
+        "ISO 14064-aligned inventory and assurance support, progressing toward ISSA 5000 and ISO 17029",
+        "Actual vs. baseline tracking across emissions, cost, and operational outcomes",
+        "Performance indicators normalized for activity, occupancy, or production to support ISO 50001",
         "Multiple baselines per data stream",
-        "Performance deviation detection",
-        "Investment protection and verification",
+        "Performance deviation detection and reforecasting",
+        "Investment protection and verification linked to disclosure",
       ],
     },
   ],
@@ -960,139 +960,139 @@ export const idmCapabilities = {
 
 export const competitiveLandscape = [
   {
+    name: "Watershed",
+    scope: "Global",
+    description: "Carbon accounting and decarbonization platform with strong supply chain (Scope 3) focus",
+    threat: "Fast-moving, well-funded, strong UX and AI investment",
+  },
+  {
+    name: "Sweep",
+    scope: "Global",
+    description: "Sustainability data platform with Scope 3 and supplier engagement modules",
+    threat: "Aggressive enterprise sales motion and CSRD-aligned positioning",
+  },
+  {
+    name: "Persefoni",
+    scope: "Global",
+    description: "Climate management and accounting platform with strong assurance positioning",
+    threat: "Big four accounting partnerships and ISSB-readiness messaging",
+  },
+  {
     name: "Deepki",
     scope: "EU focused",
-    description: "ESG data intelligence, energy monitoring, and advisory for commercial real estate",
-    threat: "Segment-focused with AI workflow investments",
+    description: "ESG data intelligence and advisory for commercial real estate",
+    threat: "Segment-focused with strong AI workflow investments",
   },
   {
     name: "Measurabl",
     scope: "Global",
-    description: "ESG software for CRE with asset-level data and fault detection. Acquired Hatch (submetering).",
-    threat: "Deepening into action layer via acquisitions",
-  },
-  {
-    name: "METRON",
-    scope: "Global",
-    description: "SaaS energy intelligence for industrial decarbonization and energy optimization (EVA Factory + EMOS)",
-    threat: "Strong industrial AI and optimization capabilities",
-  },
-  {
-    name: "ENTO",
-    scope: "EU focused",
-    description: "Energy monitoring and automated recommendations with optimization focus",
-    threat: "Automated recommendation engine competing with advisory",
-  },
-  {
-    name: "Snowflake / Palantir",
-    scope: "Global",
-    description: "Data services and analytics platforms with increasing energy partnerships",
-    threat: "Commoditizing the data layer underneath energy platforms",
+    description: "ESG software for CRE with asset-level data and acquired submetering (Hatch)",
+    threat: "Deepening into the action layer via acquisitions",
   },
 ];
 
 export const marketTrends = [
-  "AI fueling expectations for intelligent, agentic energy management",
-  "Data access and integrity are now vital, not optional",
-  "Performance projects shifting toward right-sized M&V, with full verification reserved for Energy as a Service (EaaS), where savings help fund ongoing service fees, Infrastructure as a Service (IaaS), where efficiency outcomes support financed upgrades, and other higher-risk commitments",
-  "Segment-focused leaders investing in competitor platforms for AI workflows",
-  "Increasing desire for interval data for compliance and reporting (accountability)",
-  "Lack of cost-competitive metering packages limiting growth in US and AUS",
-  "Increasing need for cross-domain expertise: site systems, data analysts, control strategy",
+  "AI fueling expectations for intelligent, agentic sustainability management",
+  "Scope 3 and supply chain decarbonization are now the dominant client conversation",
+  "CSRD, ISSB, CDP, TCFD, and TNFD timelines pulling investment into compliance and assurance",
+  "SBTi-aligned net-zero targets driving capital allocation decisions in 2026 and beyond",
+  "Segment-focused leaders investing in AI-first ESG workflows (Watershed, Sweep, Persefoni)",
+  "Nature, biodiversity, and water risk emerging as the next reporting frontier",
+  "Increasing need for cross-disciplinary expertise: climate, nature, finance, regulation, data science",
 ];
 
 export const serviceModelComparison = [
   {
-    model: "EaaS",
-    fullName: "Energy as a Service",
-    description: "A service model where the customer pays for delivered energy outcomes rather than managing every upgrade as a standalone capital project.",
-    typicalOutcomes: ["Lower energy spend", "Operational performance improvement", "Ongoing optimization service"],
-    dataNeeds: ["Utility and interval meter data", "Tariffs and site operating schedules", "Baseline drivers such as weather and occupancy"],
-    verificationLevel: "Higher. Savings need to be credible enough to support recurring service fees and performance accountability.",
+    model: "Advisory + Platform",
+    fullName: "GSP Advisory wrapped around RA+",
+    description: "A service model where the customer subscribes to RA+ for continuous sustainability intelligence, with GSP advisory consumed for SBTi, climate risk, transition planning, and assurance as needed.",
+    typicalOutcomes: ["Continuous decarbonization progress", "Audit-ready disclosures", "Pulled-in expert engagement at the right moments"],
+    dataNeeds: ["Connected emissions and operational data", "Supplier and spend data for Scope 3", "Site, asset, and capital plan context"],
+    verificationLevel: "Higher. Assurance and compliance need to be credible for CSRD, ISSB, and CDP, supported by ISO 14064 and progressing toward ISSA 5000.",
   },
   {
-    model: "IaaS",
-    fullName: "Infrastructure as a Service",
-    description: "A financed infrastructure model where upgrades are delivered as a managed service and repaid through committed value or operational benefits.",
-    typicalOutcomes: ["Funded equipment modernization", "Risk-managed capital avoidance", "Longer-term asset performance"],
-    dataNeeds: ["Asset condition and project scope", "Capex and maintenance assumptions", "Post-install performance and uptime data"],
-    verificationLevel: "Highest for large commitments. Verification must connect upgrade performance to the financed value case over time.",
+    model: "NTBS + Offsetting",
+    fullName: "Nature and Technology Based Solutions",
+    description: "A complementary model where residual emissions are addressed through high-integrity carbon credits and project development, supported by Schneider's EcoScore methodology.",
+    typicalOutcomes: ["Credible net-zero residual handling", "Voluntary and compliance market access", "Bespoke project development (forestry, blue carbon, cookstoves)"],
+    dataNeeds: ["Decarbonization roadmap and residual emissions estimate", "Sector and geography preferences", "Quality and integrity thresholds"],
+    verificationLevel: "Highest for project development. 300 projects analyzed per year and 20+ site audits annually under EcoScore.",
   },
 ];
 
 export const intelligenceFlywheel = {
   title: "Strategy-to-Improvement Flywheel",
-  subtitle: "The operating model that connects consulting, implementation, IDM, and continuous performance improvement in RA+",
+  subtitle: "The operating model that connects advisory, NTBS offsetting, CLICK research, DIH digital assets, and continuous performance improvement in RA+",
   veeExplainer: {
-    title: "VEE: Validation, Estimation, and Editing",
+    title: "DQA: Data Quality Assurance",
     description:
-      "VEE is the trust layer that prepares meter and telemetry data before it informs analysis, recommendations, or performance claims.",
+      "DQA is the trust layer that prepares emissions and activity data before it informs analysis, recommendations, or assurance claims.",
     usedWhen: [
-      "A data feed has gaps, spikes, flatlines, duplicate intervals, or missing values",
-      "Estimated values are needed to create a complete operating history",
-      "A baseline, savings calculation, or anomaly signal depends on trusted interval data",
+      "A data feed has gaps, missing categories, double-counted streams, or inconsistent factors",
+      "Estimated values are needed to create a complete inventory",
+      "A baseline, target, or assurance claim depends on trusted activity and emissions data",
     ],
     outcome:
-      "The result is a cleaner, auditable data set that the efficiency workflow can trust before moving into benchmarking, opportunity discovery, M&V, or EnPI modeling.",
+      "The result is a cleaner, auditable data set that the sustainability workflow can trust before moving into benchmarking, opportunity discovery, transition planning, or disclosure.",
   },
   stages: [
-    { name: "Telemetry", description: "Integrations plus VEE to make interval data reliable before it informs decisions", icon: "Database" },
-    { name: "Strategy", description: "Portfolio priorities, KPI workshops, maturity assessment, and site prioritization", icon: "Brain" },
-    { name: "Design", description: "Audits, baselines, business case inputs, and solution shaping from trusted context", icon: "Settings" },
+    { name: "Data", description: "Integrations plus DQA to make emissions and activity data reliable before it informs decisions", icon: "Database" },
+    { name: "Strategy", description: "Portfolio priorities, materiality, maturity assessment, and site or Maison prioritization", icon: "Brain" },
+    { name: "Design", description: "Inventories, baselines, SBTi pathways, and transition plan inputs from trusted context", icon: "Settings" },
     { name: "Execution", description: "Workflow integration, project handoff, implementation support, and outcome tracking", icon: "Eye" },
-    { name: "Output", description: "Living reports, guided findings, audit deliverables, and executive narratives", icon: "FileText" },
-    { name: "Improve", description: "Continuous optimization, performance services, and next-best recommendations", icon: "Zap" },
+    { name: "Output", description: "Living disclosures, guided findings, advisory deliverables, and executive narratives", icon: "FileText" },
+    { name: "Improve", description: "Continuous optimization, assurance feedback, and next-best recommendations", icon: "Zap" },
   ],
-  keyInsight: "The future platform advantage is not another dashboard. It is an intelligence layer that connects trusted signals, expert efficiency knowledge, implementation pathways, and site context so RA+ can move users from strategy to measurable improvement.",
+  keyInsight: "The future platform advantage is not another ESG dashboard. It is an intelligence layer that connects trusted client data, expert GSP knowledge, NTBS offsetting pathways, and continuous research from CLICK so RA+ can move users from sustainability ambition to measurable improvement.",
   differentiators: [
     { label: "Data availability", status: "Baseline" },
-    { label: "Expert context", status: "Essential" },
-    { label: "Implementation path", status: "Advantage" },
-    { label: "Continuous outcomes", status: "Differentiator" },
+    { label: "Expert context (400+ experts)", status: "Essential" },
+    { label: "Implementation path (Advisory + NTBS)", status: "Advantage" },
+    { label: "Continuous outcomes and research (CLICK)", status: "Differentiator" },
   ],
 };
 
 export const marketConstraints = [
-  "Trust is essential: advice must be labeled as guidance, not commitment",
-  "Savings and costs must show ranges with confidence levels",
-  "Measures requiring licensed engineering need clear expert escalation paths",
+  "Trust is essential: in-product advice must be labeled as guidance, not assurance",
+  "Emissions and savings must show ranges with confidence levels",
+  "Measures requiring licensed assurance (ISO 14064, ISSA 5000) need clear expert escalation paths",
   "Audit trails required for all advice shown and inputs used",
-  "Safety notices mandatory where physical changes are involved",
+  "Methodology transparency mandatory where disclosure or regulatory exposure exists",
 ];
 
 export const executiveNarrative = {
-  whatsHappening: "Efficiency Transformation is broader than a content library. It is the operating strategy for bringing IDM data depth, expert knowledge, customer context, and action workflows into a scalable RA+ capability.",
-  trueProblem: "Today, interval data, audit expertise, customer context, and action workflows are not yet operating as one system. That limits RA+ from moving beyond reporting into guided performance improvement.",
-  northStarTitle: "A governed Efficiency CoE capability embedded in RA+",
-  northStar: "The north star is an authoritative efficiency foundation inside RA+ that connects IDM as the trusted interval-data system of record, expert CoE knowledge, and guided workflows. It should power goal-based Strategy recommendations, site-level Building View discovery, structured deliverables, and a clear path from early insight to expert engagement.",
-  pragmaticWay: "We will lift the highest-value IDM capabilities into RA+, establish the governed efficiency strategy foundation, deliver immediate value through Strategy integration, and build toward an agentic performance experience over time.",
+  whatsHappening: "Sustainability Transformation is broader than a content library. It is the operating strategy for bringing GSP expertise, NTBS offsetting, CLICK research, DIH digital assets, and client context into a scalable RA+ capability.",
+  trueProblem: "Today, client emissions and operational data, GSP advisory expertise, NTBS offsetting pathways, and disclosure workflows are not yet operating as one system. That limits RA+ from moving beyond reporting into guided sustainability improvement.",
+  northStarTitle: "A governed GSP capability embedded in RA+",
+  northStar: "The north star is an authoritative sustainability foundation inside RA+ that connects client data as the trusted system of record, expert GSP knowledge, and guided workflows. It should power goal-based Strategy recommendations, site- and asset-level Portfolio View discovery, structured disclosure deliverables, and a clear path from early insight to expert engagement.",
+  pragmaticWay: "We will lift the highest-value GSP methodologies into RA+, establish the governed sustainability strategy foundation, deliver immediate value through Strategy integration, and build toward an agentic sustainability experience over time.",
   economicImpact: [
-    "Audits completed faster with higher consistency",
-    "Increased upsell rate from early advisory to advanced audits",
-    "Reduced time to quote for efficiency engagements",
-    "Measurable adoption of in-product efficiency recommendations",
+    "Inventories and disclosures completed faster with higher consistency",
+    "Increased upsell rate from early in-product insight to SBTi, climate risk, and transition advisory",
+    "Reduced time to quote for advisory engagements",
+    "Measurable adoption of in-product sustainability recommendations",
     "Tangible contribution to RA+ recurring revenue",
   ],
-  strategicUpside: "The vision connects top-down strategy, bottom-up building insights, IDM services, expert workflows, and customer-facing experiences. It establishes a shared operating foundation and a clear path toward intelligence-driven performance management in RA+.",
+  strategicUpside: "The vision connects top-down sustainability strategy, bottom-up site and asset insights, NTBS offsetting, expert workflows, and customer-facing experiences. It establishes a shared operating foundation and a clear path toward intelligence-driven sustainability management in RA+.",
   risks: [
     { risk: "Trust and credibility", mitigation: "Implement guardrails for customer-facing advice: ranges, confidence levels, expert escalation paths" },
-    { risk: "Scope creep", mitigation: "Keep out of scope: contractual guarantees, detailed engineering without validation" },
-    { risk: "Adoption barriers", mitigation: "Deliver immediate value through Strategy integration before Building View" },
+    { risk: "Scope creep", mitigation: "Keep out of scope: assurance commitments, regulatory filings without validation" },
+    { risk: "Adoption barriers", mitigation: "Deliver immediate value through Strategy integration before Portfolio View" },
     { risk: "Data quality", mitigation: "Enforce minimum data checks; display applicability rules and blockers" },
   ],
   needsNow: [
-    "Finalize and govern unified efficiency taxonomy",
-    "Connect efficiency guidance to Strategy for goal-based efficiency guidance",
+    "Finalize and govern unified sustainability taxonomy",
+    "Connect sustainability guidance to Strategy for goal-based decarbonization guidance",
     "Define and implement guardrails for customer-facing advice",
-    "Plan Building View MVP for bottom-up discovery",
+    "Plan Portfolio View MVP for bottom-up discovery",
   ],
 };
 
 export const timeline = {
   q1: {
-    title: "Q1: Foundation & Strategy",
+    title: "Q1: Foundation and Strategy",
     items: [
-      "Efficiency taxonomy finalized",
+      "Sustainability taxonomy finalized",
       "Clean service boundaries",
       "Strategy integration live",
       "Guardrails defined",
@@ -1101,156 +1101,156 @@ export const timeline = {
     ],
   },
   q2: {
-    title: "Q2: Building View",
+    title: "Q2: Portfolio View",
     items: [
-      "Building View MVP",
+      "Portfolio View MVP",
       "Opportunity relevance logic",
       "Self-service exploration",
       "Structured deliverables",
     ],
   },
   h2: {
-    title: "H2: Scale & Intelligence",
+    title: "H2: Scale and Intelligence",
     items: [
-      "Full auditor workflows",
-      "M&V feedback loop",
+      "Full consultant workflows",
+      "Assurance feedback loop",
       "AI recommendations",
-      "Analytics integration",
-      "External data sources",
+      "NTBS offsetting integration",
+      "External regulatory and science feeds",
     ],
   },
 };
 
-// Regional Journey Comparison: Europe, US Public, US Private, IDM
+// Regional Journey Comparison
 export const regionalJourneys = {
   intro:
-    "There is no single efficiency journey. Each region and sector enters, delivers, and monetizes differently. The platform must support flexible entry and exit points rather than force one path.",
+    "There is no single sustainability journey. Each GSP region and segment enters, delivers, and monetizes differently. The platform must support flexible entry and exit points rather than force one path.",
   stages: [
     "Lead Intake",
     "Data Collection",
-    "On-Site Audit",
+    "Inventory & Materiality",
     "Analysis & Guidance",
     "Recommendations",
     "Implementation",
-    "Monitoring",
+    "Assurance & Monitoring",
   ],
   journeys: [
     {
       id: "europe",
-      name: "Europe",
-      tagline: "Knowledge-led on-site audits",
-      revenue: "Strong growth pipeline",
-      sellingPoint: "Expertise, know-how, polished deliverables",
+      name: "Northern & Central Europe",
+      tagline: "Knowledge-led inventory and decarbonization",
+      revenue: "Strong growth pipeline (Syngenta, others)",
+      sellingPoint: "Expertise on Scope 3, regenerative agriculture, and risk resilience",
       coverage: {
-        "Lead Intake": { level: "core", note: "80% are net-new, not in any Schneider system" },
-        "Data Collection": { level: "core", note: "Pre-analysis from utility data; submeters rare" },
-        "On-Site Audit": { level: "core", note: "Auditor visits, notes, photos, floor plans (Akita Box rolling out)" },
-        "Analysis & Guidance": { level: "core", note: "Manual today; Knowledge base and ingestion engine in build" },
-        "Recommendations": { level: "core", note: "PPT deliverable is THE selling point" },
-        "Implementation": { level: "none", note: "Out of scope; customer or 3rd party executes" },
-        "Monitoring": { level: "light", note: "Light IDM hookup if submeters are installed later" },
+        "Lead Intake": { level: "core", note: "Mix of net-new and legacy EcoAct accounts" },
+        "Data Collection": { level: "core", note: "Decentralized Scope 3 data; supplier engagement intensive" },
+        "Inventory & Materiality": { level: "core", note: "Scope 1, 2, 3 inventory plus hotspot analysis" },
+        "Analysis & Guidance": { level: "core", note: "Manual today; sustainability knowledge base in build" },
+        "Recommendations": { level: "core", note: "Polished deliverable plus capacity building" },
+        "Implementation": { level: "light", note: "Pilots (biochar, regen ag) supported, full execution often client-led" },
+        "Assurance & Monitoring": { level: "light", note: "Scenario analysis and climate risk updates on a cycle" },
       },
     },
     {
-      id: "us-public",
-      name: "US Public Sector",
-      tagline: "Performance contracts, ~$400M revenue",
-      revenue: "Largest single stream for SE Sustainability advisory",
-      sellingPoint: "End-to-end delivery with guaranteed savings",
+      id: "uki",
+      name: "UK & Ireland",
+      tagline: "Multi-year decarbonization and climate risk partnerships",
+      revenue: "Significant, Laing O'Rourke and similar accounts",
+      sellingPoint: "Governance, CDP, TCFD, TNFD, SBTi end-to-end",
       coverage: {
-        "Lead Intake": { level: "core", note: "RFPs, long sales cycles, commercial buildings" },
-        "Data Collection": { level: "core", note: "Often pulled from BMS or utility records" },
-        "On-Site Audit": { level: "core", note: "Fast-track assessments to scope the project" },
-        "Analysis & Guidance": { level: "core", note: "Detailed design phase follows the audit" },
-        "Recommendations": { level: "light", note: "Internal artifact, not the deliverable" },
-        "Implementation": { level: "core", note: "MAIN revenue driver; SE installs the measures" },
-        "Monitoring": { level: "core", note: "Contractual M&V; the natural RA+ meeting point" },
+        "Lead Intake": { level: "core", note: "Often starts with CDP, expands to multi-year" },
+        "Data Collection": { level: "core", note: "Governance and data sharing setup heavy" },
+        "Inventory & Materiality": { level: "core", note: "Sector-specific decarbonization pathways" },
+        "Analysis & Guidance": { level: "core", note: "Climate scenario analysis across regions" },
+        "Recommendations": { level: "core", note: "SBT validated targets and financial framing" },
+        "Implementation": { level: "light", note: "Board engagement and capability building" },
+        "Assurance & Monitoring": { level: "core", note: "Ongoing reporting, gap analyses, target tracking" },
       },
     },
     {
-      id: "us-private",
-      name: "US Private Sector",
-      tagline: "Commercial audits + implementation",
-      revenue: "Significant, paired with public sector",
-      sellingPoint: "Audit + design + build + verify",
+      id: "americas",
+      name: "Americas",
+      tagline: "Reporting, inventory, and multi-region regulatory",
+      revenue: "Hertz, financial services, large industrials",
+      sellingPoint: "Global muscle for regional regulations (Australia, California, etc.)",
       coverage: {
-        "Lead Intake": { level: "core", note: "Direct enterprise accounts" },
-        "Data Collection": { level: "core", note: "BMS pulls and utility data common" },
-        "On-Site Audit": { level: "core", note: "Field audits feed design phase" },
-        "Analysis & Guidance": { level: "core", note: "27 TB of historic audit data exists, scattered" },
-        "Recommendations": { level: "light", note: "Internal artifact, not the deliverable" },
-        "Implementation": { level: "core", note: "Core delivery model" },
-        "Monitoring": { level: "core", note: "Post-install tracking; RA+ candidate" },
+        "Lead Intake": { level: "core", note: "Long-standing accounts plus new regulatory triggers" },
+        "Data Collection": { level: "core", note: "GHG inventory management plans, IMP documentation" },
+        "Inventory & Materiality": { level: "core", note: "Multi-region inventories aligned to local rules" },
+        "Analysis & Guidance": { level: "core", note: "Risk screening and climate tool deployment" },
+        "Recommendations": { level: "light", note: "Embedded in disclosure deliverables" },
+        "Implementation": { level: "light", note: "Strategic resilience planning" },
+        "Assurance & Monitoring": { level: "core", note: "Third-party assured disclosures, ongoing reporting" },
       },
     },
     {
-      id: "idm",
-      name: "IDM (Data-Driven)",
-      tagline: "Step zero or step last",
-      revenue: "Pre-step or post-step to the audit business",
-      sellingPoint: "Granular interval data spots anomalies automatically",
+      id: "southern-europe",
+      name: "Southern Europe",
+      tagline: "Long-term strategic partnerships",
+      revenue: "LVMH and similar flagship accounts",
+      sellingPoint: "Full-spectrum: GHG, vendor software, climate risk, decarbonization, offsetting",
       coverage: {
-        "Lead Intake": { level: "optional", note: "Existing RA customers with submeters or BMS feeds" },
-        "Data Collection": { level: "core", note: "5/15/30-min interval data; 4,800+ meters today" },
-        "On-Site Audit": { level: "none", note: "No site visits; pure data analysis" },
-        "Analysis & Guidance": { level: "core", note: "Anomaly detection, benchmarks, alerts" },
-        "Recommendations": { level: "light", note: "Triggers next-step audit referral" },
-        "Implementation": { level: "none", note: "Hand-off to efficiency teams" },
-        "Monitoring": { level: "core", note: "Continuous post-implementation verification" },
+        "Lead Intake": { level: "core", note: "Multi-year strategic engagements" },
+        "Data Collection": { level: "core", note: "Tennaxia and other platform deployments" },
+        "Inventory & Materiality": { level: "core", note: "Carbon footprint platform, energy audits" },
+        "Analysis & Guidance": { level: "core", note: "Climate risk on 7,300+ sites, deep-dives" },
+        "Recommendations": { level: "core", note: "Decarbonization and transition plan" },
+        "Implementation": { level: "core", note: "Energy efficiency, EU Taxonomy, nature-based solutions" },
+        "Assurance & Monitoring": { level: "core", note: "Biodiversity, water, insetting and offsetting strategies" },
       },
     },
   ],
   convergence: {
     title: "Where journeys converge",
-    point: "Monitoring",
+    point: "Assurance & Monitoring",
     description:
-      "All four journeys can meet on the monitoring layer. RA+ becomes the shared backend for interval data, M&V, and continuous insight, regardless of how the customer first arrived.",
+      "All four regional journeys can meet on the assurance and monitoring layer. RA+ becomes the shared backend for client data, disclosure, and continuous improvement, regardless of how the customer first arrived.",
   },
   divergence: [
     {
       title: "Implementation",
-      detail: "US Public and US Private own implementation; Europe and IDM stop at recommendations or hand-off.",
+      detail: "Southern Europe and UK&I deepen into implementation (efficiency, nature-based solutions). Americas and N&C Europe often stop at recommendations or hand-off.",
     },
     {
       title: "Deliverable",
-      detail: "Europe sells the polished PPT recommendation. US sells the installed savings. IDM sells the alert.",
+      detail: "Europe sells the polished decarbonization deliverable. Americas sells assured disclosure. UK&I sells the validated SBT and pathway.",
     },
     {
-      title: "Site visit",
-      detail: "Europe and US require boots on the ground. IDM never does.",
+      title: "Sector mix",
+      detail: "Southern Europe leans luxury and industrials. UK&I leans construction and infrastructure. Americas leans financial services and global enterprise.",
     },
   ],
   designPrinciple:
-    "Build a flexible journey where customers enter and exit at any step. Shared backend, region-conditional UX. Do not force one umbrella.",
+    "Build a flexible journey where customers enter and exit at any step. Shared backend, region-conditional UX. Do not force one umbrella across LVMH, Syngenta, Hertz, and Laing O'Rourke.",
 };
 
-// Efficiency Knowledge Engine: PPT extraction prototype and probabilistic recommendations
+// Knowledge Engine: extracting GSP IP into a structured library
 export const ecmIngestionEngine = {
   intro:
-    "27 TB of historic audit data sits in scattered SharePoints, desktops, and PPT decks across Schneider. The knowledge engine turns that latent IP into a structured, queryable strategy foundation that powers smart recommendations.",
+    "Over a decade of GSP IP sits in scattered SharePoints, consultant desktops, and disclosure decks across Schneider. The knowledge engine turns that latent expertise into a structured, queryable sustainability foundation that powers smart recommendations.",
   prototype: {
-    title: "PPT Extraction Prototype",
-    subtitle: "Built with the Data Science team.",
+    title: "Deliverable Extraction Prototype",
+    subtitle: "Built with the DIH and CLICK teams.",
     flow: [
       {
         step: "01",
         name: "Drop",
-        description: "Auditor drops a past audit PPT (Inditex, Amazon, public-sector deck) into the platform.",
+        description: "Consultant drops a past engagement deliverable (LVMH decarbonization deck, Syngenta inventory, Laing O'Rourke pathway) into the platform.",
       },
       {
         step: "02",
         name: "Extract",
-        description: "The engine reads the deck and auto-extracts key fields per opportunity: name, savings, unit of measure, payback, baseline, and scope.",
+        description: "The engine reads the deliverable and auto-extracts key fields per decarbonization measure: name, abatement potential, cost, payback, scope, and sector.",
       },
       {
         step: "03",
         name: "Review",
-        description: "Original auditor confirms or edits the extracted data. Human-in-the-loop keeps quality high.",
+        description: "Original consultant confirms or edits the extracted data. Human-in-the-loop keeps quality high.",
       },
       {
         step: "04",
         name: "Ingest",
-        description: "Validated opportunities land in the central knowledge base, tagged by client, site type, sector, and geography.",
+        description: "Validated measures land in the central knowledge base, tagged by client, sector, geography, and scope.",
       },
     ],
     accuracy: "~80% accuracy on first pass during initial testing.",
@@ -1258,174 +1258,174 @@ export const ecmIngestionEngine = {
   monteCarlo: {
     title: "Monte Carlo Top-5 Recommendations (to be considered for RA+)",
     subtitle:
-      "Volume unlocks intelligence. Once we have tens of thousands of historic examples, we run probabilistic simulation to surface the right actions for the right client.",
+      "Volume unlocks intelligence. Once we have thousands of historic engagement examples, we run probabilistic simulation to surface the right actions for the right client.",
     inputs: [
-      "Client context: site type, sector, geography, climate zone",
-      "Historic opportunity performance distributions including savings, payback, and cost ranges",
-      "Available data quality signals from IDM, BMS, or utility feeds",
-      "Constraints: budget, downtime tolerance, regulatory scope",
+      "Client context: sector, geography, supply chain footprint, regulatory exposure",
+      "Historic decarbonization performance distributions including abatement, cost, and payback ranges",
+      "Available data quality signals from emissions, operational, and supply chain feeds",
+      "Constraints: budget, capital cycle, regulatory deadlines, target ambition",
     ],
     output:
-      "A ranked Top-5 opportunity shortlist per client, with probability-weighted savings, payback bands, and confidence intervals, not a pixel-perfect single number.",
-    why: "A measure might range from 20% to 140% payback depending on context. Monte Carlo embraces that uncertainty rather than hiding it, giving teams a defensible starting point in seconds.",
+      "A ranked Top-5 decarbonization shortlist per client, with probability-weighted abatement, cost bands, and confidence intervals, not a pixel-perfect single number.",
+    why: "A measure might range from 5% to 40% abatement depending on context. Monte Carlo embraces that uncertainty rather than hiding it, giving GSP teams a defensible starting point in seconds.",
   },
   enablers: [
-    "Akita Box API feeds field notes, photos, and floor plans straight into the efficiency knowledge base.",
-    "The knowledge base refresh becomes live as more auditors adopt Akita Box on tablets.",
-    "Expert-in-the-loop validation step keeps the library clean as it scales.",
+    "Vendor software APIs feed inventory data, footprints, and supplier records straight into the sustainability knowledge base.",
+    "The knowledge base refresh becomes live as more consultants adopt the workflow during engagements.",
+    "Expert-in-the-loop validation step keeps the library clean as it scales across regions.",
   ],
   guardrails: [
-    "Never replace the auditor. Recommendations are a starting point, not the deliverable.",
+    "Never replace the consultant. Recommendations are a starting point, not the deliverable.",
     "Probability bands, not false precision. Show ranges and confidence, not single decimals.",
-    "Customer-specific context always wins over portfolio averages.",
+    "Customer-specific context always wins over portfolio averages, especially for SBTi and assurance.",
   ],
 };
 
 // Strategic Context: deadlines, customer archetypes, regulatory tailwinds
 export const efficiencyStrategicContext = {
   intro:
-    "Three forces shape why this strategy matters now: the RA+ platform transition, proven Efficiency CoE delivery strength, and the need to convert trusted interval data into guided action.",
+    "Three forces shape why this strategy matters now: the RA+ platform transition, proven GSP delivery strength (ranked #1 globally), and the need to convert trusted client sustainability data into guided action.",
   raClassicSunset: {
     title: "RA+ Platform Transition",
     badge: "Strategic Window",
-    timeframe: "2027 - 2028",
+    timeframe: "2026 - 2028",
     summary:
-      "IDM and the broader efficiency capability should evolve into RA+ as shared platform intelligence, not just a migrated interface.",
+      "GSP capabilities and the broader sustainability advisory should evolve into RA+ as shared platform intelligence, not just a migrated set of reports.",
     implications: [
       {
-        label: "CoE capability scale",
-        detail: "Turn proven consulting, implementation, IDM, and Global Energy Bureau capabilities into RA+ services where they create platform leverage.",
+        label: "GSP capability scale",
+        detail: "Turn proven advisory, NTBS offsetting, CLICK research, and DIH digital assets into RA+ services where they create platform leverage.",
       },
       {
         label: "Phased evolution",
-        detail: "Start with continuity and efficiency guidance, then layer deeper automation and reasoning.",
+        detail: "Start with continuity and sustainability guidance, then layer deeper automation and Sera-driven reasoning.",
       },
       {
         label: "Customer continuity",
-        detail: "Protect existing customers while RA+ becomes the broader home for performance management and continuous improvement.",
+        detail: "Protect existing accounts (LVMH, Syngenta, Hertz, Laing O'Rourke) while RA+ becomes the broader home for sustainability management.",
       },
       {
         label: "Clear governance",
-        detail: "Align product, data, engineering, and domain experts around the same transition choices.",
+        detail: "Align product, data, engineering, and GSP domain experts around the same transition choices.",
       },
     ],
   },
   customerArchetypes: {
     title: "Two Customer Archetypes",
     subtitle:
-      "The efficiency team serves two very different buyers. The platform must respect both, not collapse them into one experience.",
+      "The GSP serves two very different buyers. The platform must respect both, not collapse them into one experience.",
     archetypes: [
       {
-        name: "Traditional Audit Customer",
-        tagline: "Cold case, fast turnaround, PPT deliverable",
-        share: "Traditional audit demand",
+        name: "Traditional Advisory Customer",
+        tagline: "One-off inventory or disclosure, polished deliverable",
+        share: "Traditional advisory demand",
         wants: [
-          "Quick on-site audit, no installs",
-          "Polished recommendation deck",
-          "Expert know-how, not a tool",
-          "In and out, no ongoing platform commitment",
+          "Quick footprint or CDP submission, no platform commitment",
+          "Polished decarbonization deck",
+          "Expert GSP know-how, not a tool",
+          "In and out, with optional renewal next cycle",
         ],
         risk: "If we force them onto a platform, we lose the deal. Self-serve adoption is unrealistic.",
-        fit: "Internal productivity tool only (to start). Auditors use the platform; the customer never sees it.",
+        fit: "Internal productivity tool only (to start). Consultants use the platform; the customer never sees it.",
       },
       {
         name: "Enterprise Strategic Account",
-        tagline: "Inditex, Amazon and similar global accounts",
+        tagline: "LVMH, Syngenta, Hertz and similar global accounts",
         share: "Highest growth, highest visibility",
         wants: [
-          "Integrated, always-on platform across sites",
-          "Live dashboards, granular data, audit trail",
-          "Self-serve exploration with expert support",
-          "A reference story they can cite internally",
+          "Integrated, always-on platform across Maisons and sites",
+          "Live dashboards, granular Scope 3 data, audit trail",
+          "Self-serve exploration with GSP expert support on tap",
+          "A reference story they can cite internally and externally",
         ],
-        risk: "A PPT-only deliverable underwhelms them. Without RA+, they will look at competitors, or build it themselves.",
-        fit: "Full RA+ deployment with services wrapped around the platform.",
+        risk: "A deck-only deliverable underwhelms them. Without RA+, they will look at Watershed, Sweep, Persefoni, or build it themselves.",
+        fit: "Full RA+ deployment with GSP advisory wrapped around the platform.",
       },
     ],
     tension:
-      "The strategy must serve both realities: some customers still need an expert-led audit deliverable, while strategic accounts increasingly expect an always-on performance platform.",
+      "The strategy must serve both realities: some customers still need an expert-led advisory deliverable, while strategic accounts increasingly expect an always-on sustainability platform.",
   },
   ghgTailwind: {
-    title: "Intelligent Performance Tailwind",
+    title: "Regulatory and Net-Zero Tailwind",
     badge: "Market Pull",
     summary:
-      "Customers increasingly expect energy, cost, carbon, and operational performance to be connected in one intelligent experience. High-quality interval data becomes the foundation for that shift.",
+      "Customers increasingly expect emissions, risk, nature, and financial performance to be connected in one intelligent experience. High-quality client sustainability data becomes the foundation for that shift.",
     impacts: [
       {
-        label: "Interval data becomes table stakes",
-        detail: "Annual or monthly utility totals will not satisfy executive expectations for timely performance decisions.",
+        label: "Continuous data becomes table stakes",
+        detail: "Annual inventories will not satisfy executive expectations for timely net-zero and CSRD-aligned decisions.",
       },
       {
-        label: "IDM role strengthens",
-        detail: "IDM becomes the trusted system of record behind reporting, action guidance, and performance services.",
+        label: "GSP role strengthens",
+        detail: "GSP becomes the trusted methodology owner behind reporting, action guidance, and assurance services.",
       },
       {
         label: "Consulting-to-action path",
         detail: "Strategy, design, execution, and continuous improvement can operate as one guided RA+ journey.",
       },
       {
-        label: "BMS and meter data unlock scale",
-        detail: "Existing operational data sources reduce friction and extend the addressable base before new hardware is required.",
+        label: "Supply chain and nature unlock scale",
+        detail: "Existing supplier and operational data sources reduce friction and extend the addressable base before new instrumentation is required.",
       },
     ],
     soWhat:
-      "Build IDM and the efficiency knowledge base connection so they natively serve energy, carbon, resilience, and operational performance. The same data spine powers the full improvement cycle.",
+      "Build the RA+ sustainability spine and the GSP knowledge base connection so they natively serve emissions, risk, nature, and finance. The same data spine powers the full improvement cycle.",
   },
 };
 
-// Platform Shift: RA Classic (module) vs RA+ (platform)
+// Platform Shift: legacy advisory vs RA+ Sustainability
 export const platformShift = {
   intro:
-    "RA Classic treats IDM as a separate module bolted to the side of the platform. RA+ re-platforms IDM 2.0 as a native, agent-ready data spine. This is the opportunity to build a SaaS solution for Efficiency services, not migrate a module.",
+    "Today GSP advisory lives outside the platform: methodologies in Word, factors in Excel, deliverables in PowerPoint. RA+ re-platforms sustainability as a native, agent-ready capability. This is the opportunity to build a SaaS solution for sustainability services, not migrate documents.",
   classic: {
-    title: "RA Classic: The Module",
-    tagline: "Isolated by design",
+    title: "Legacy GSP Delivery",
+    tagline: "Document-driven by design",
     points: [
-      "IDM 1.0 lives as a standalone module, separate from the rest of RA",
-      "Separate hierarchy (PAM vs RA), separate filters that do not work together",
-      "Separate reports with a 5-step bridge to standard RA",
-      "Corrected interval data does not persist back into the platform",
-      "200+ integration sources, but interval data stays siloed inside IDM",
-      "Field and consultancy work product never reaches the IDM layer",
+      "Methodologies and factors live in SharePoints, Word, and Excel across regions",
+      "Separate tools per service line (Tennaxia, Persefoni, in-house spreadsheets) that do not interoperate",
+      "Separate disclosures with manual bridges between CDP, CSRD, TCFD, TNFD",
+      "Corrected emissions data does not persist back into a unified platform",
+      "Hundreds of integration sources, but client sustainability data stays siloed by engagement",
+      "Field engagement work product never reaches the central knowledge layer",
     ],
   },
   raPlus: {
-    title: "RA+: The Platform",
+    title: "RA+ Sustainability",
     tagline: "Integrated by design",
     points: [
-      "IDM 2.0 re-platformed inside RA+ as the agent-ready context layer",
-      "One unified data model across all products, with interval data as a first-class citizen",
-      "Interval data live in dashboards, reports, and emissions natively, no module hop",
-      "Telemetry blended with asset, ECM, and audit context that Sera can reason over",
+      "Sustainability spine inside RA+ as the agent-ready context layer for emissions, risk, nature, and supply chain data",
+      "One unified data model across all products, with client sustainability data as a first-class citizen",
+      "Emissions and risk data live in dashboards, disclosures, and pathways natively, no tool hop",
+      "Client data blended with GSP methodology, NTBS offsetting, and CLICK research that Sera can reason over",
       "Sera as the primary interface from day one across all engagement profiles",
-      "Self-serve onboarding, no spreadsheets, no IDM export and re-import loop",
-      "ECM digitization via existing sustainability surfaces, fed by the IDM spine",
+      "Self-serve onboarding, no spreadsheets, no export and re-import loop",
+      "Disclosure digitization via existing sustainability surfaces, fed by the spine",
     ],
   },
   thesis:
-    "Every pain point from RA Classic stems from IDM living as a module. RA+ eliminates that architecture by turning IDM 2.0 into the spine the whole efficiency workflow runs on.",
+    "Every pain point in current GSP delivery stems from sustainability living as documents and disconnected vendor tools. RA+ eliminates that architecture by turning client sustainability data into the spine the whole advisory workflow runs on.",
   bureauAnchor: {
-    title: "What the Bureau Delivers Today",
-    subtitle: "38 people, 428 clients, $8 to 10M per year, 195K connected meters",
+    title: "What the GSP Delivers Today",
+    subtitle: "400+ climate experts, 7,500+ projects delivered, 426.5M tCO2 managed, #1 globally ranked",
     lines: [
       {
         layer: "Foundation",
-        name: "Resource Advisor IDM",
-        detail: "Data ingestion, quality management, dashboards, alerts. 195K connected meters across 200+ integration source types. Today a standalone module, re-platformed in Phase 1 as IDM 2.0 inside RA+.",
+        name: "Advisory Services",
+        detail: "GHG inventory, decarbonization, climate risk, nature and biodiversity, voluntary reporting, compliance, sustainable finance, vendor software advisory. The backbone of GSP revenue.",
       },
       {
         layer: "Accelerator",
-        name: "Energy Performance Services",
-        detail: "ECM identification, savings analysis, optimization recommendations. $75M in active energy guarantees ($1B+ total). Powered by the same IDM spine, surfaced through Sera.",
+        name: "Nature & Technology Based Solutions (NTBS)",
+        detail: "25 experts financing and developing high-quality nature and tech-based projects. 300 projects analyzed per year, 20+ site audits annually under EcoScore. Forestry, blue carbon, and improved cookstoves.",
       },
       {
         layer: "Feedback Loop",
-        name: "Measurement and Verification",
-        detail: "Audit-grade evidence that closes the loop between recommendation and outcome, with M&V results flowing back into the IDM-backed context layer.",
+        name: "CLICK Research & DIH Digital",
+        detail: "Climate & Innovation Knowledge Center plus Digital Innovation Hub. Anticipates the next frontier of sustainability and turns science, policy, and tech trends into scalable methodologies and digital assets.",
       },
     ],
     soWhat:
-      "RA+ digitizes all three on a single IDM 2.0 spine. The data platform replaces manual IDM workflows. Sera automates EPS analysis. M&V becomes a platform capability. Reach expands from 428 Bureau-served clients to the broader RA+ installed base, supporting Give Me, Help Me, and Do It For Me engagement profiles on the same data foundation.",
+      "RA+ digitizes all three on a single sustainability spine. The data platform replaces manual inventory workflows. Sera automates analysis. Assurance becomes a platform capability. Reach expands from the GSP-served client base to the broader RA+ installed base, supporting self-serve, expert-supported, and fully-managed engagement profiles on the same data foundation.",
   },
 };
 
@@ -1433,209 +1433,222 @@ export const platformShift = {
 // Personas (4 ranked roles) and design sequence
 export const personas = {
   intro:
-    "Four roles interact with Energy Efficiency. We design for all of them, but in a deliberate sequence: the Energy Manager's daily experience drives the primary UX.",
+    "Four roles interact with the RA+ Sustainability capability. We design for all of them, but in a deliberate sequence: the Sustainability Lead's daily experience drives the primary UX.",
   designPrinciple:
-    "Design the Energy Manager's experience first. It is the highest-frequency, highest-emotional-stakes interaction. Both modes (daily monitoring and analytical investigation) are Sera-driven. Data Ops Analyst configuration tools are layered behind through progressive disclosure. Sustainability Lead and Executive consume interval insights through existing RA+ reporting and dashboarding surfaces.",
+    "Design the Sustainability Lead experience first. It is the highest-frequency, highest-emotional-stakes interaction. Both modes (continuous monitoring and disclosure investigation) are Sera-driven. Data Operations Analyst configuration tools are layered behind through progressive disclosure. CSO and Executive consume sustainability insights through existing RA+ reporting and dashboarding surfaces.",
   roles: [
     {
-      name: "Energy / Facility Manager",
+      name: "Sustainability / ESG Lead",
       rank: "Primary",
-      context: "Daily operator, client-side, 1 to 10 sites",
+      context: "Daily operator, client-side, portfolio level",
       summary:
-        "The person closest to the buildings. Checks RA+ every morning. Operates in two modes: daily monitoring and analytical investigation. Both modes are Sera-driven.",
+        "The person closest to the sustainability program. Checks RA+ regularly. Operates in two modes: continuous monitoring and disclosure investigation. Both modes are Sera-driven.",
       outcomes: [
-        "Spot energy waste before it costs money",
-        "Prove that efficiency projects deliver savings",
-        "Trust that the numbers on screen are accurate",
-        "Share a savings report with leadership without help",
+        "Spot emissions drift and risk before it threatens targets",
+        "Prove that decarbonization measures deliver expected abatement",
+        "Trust that the numbers on screen are audit-ready",
+        "Share a CSRD or CDP-ready report with leadership without help",
         "Understand why something happened, not just that it happened",
-        "Find patterns worth acting on across the portfolio",
+        "Find patterns worth acting on across Maisons and sites",
       ],
     },
     {
       name: "Data Operations Analyst",
       rank: "Secondary",
-      context: "SE internal or client power-user, 10 to 100+ sites",
+      context: "SE internal or client power-user, supplier and site data",
       summary:
-        "Onboards new meters, fixes gaps, manages hierarchies. In RA Classic this role absorbs enormous administrative overhead. In RA+ this role should shrink dramatically.",
+        "Onboards new emission sources, fixes data gaps, manages hierarchies and supplier data. In legacy delivery this role absorbs enormous administrative overhead. In RA+ this role should shrink dramatically.",
       outcomes: [
-        "Onboard new meters in minutes, not days",
-        "Know where data gaps exist and fix them fast",
-        "Trust that interval data flows into reports without manual bridges",
-        "Manage 100 sites without touching spreadsheets",
+        "Onboard new emission sources in minutes, not weeks",
+        "Know where Scope 3 and operational data gaps exist and fix them fast",
+        "Trust that client data flows into disclosures without manual bridges",
+        "Manage hundreds of suppliers without touching spreadsheets",
       ],
     },
     {
-      name: "Sustainability / ESG Lead",
+      name: "Chief Sustainability Officer",
       rank: "Tertiary",
-      context: "Client-side, portfolio level, 50 to 500+ sites",
+      context: "Client-side, executive accountable for net-zero commitments",
       summary:
-        "Cares about interval data only insofar as it feeds compliance reporting, Scope 1/2 targets, and portfolio benchmarks. Needs the numbers right and reports auditable.",
+        "Cares about disclosures, SBTi-aligned targets, and portfolio progress. Needs the numbers right and reports auditable for board and investors.",
       outcomes: [
-        "Interval data feeds ESG reports without manual aggregation",
-        "Portfolio benchmarks include interval-granularity sites",
-        "Audit trail proves data provenance for compliance",
-        "One reporting surface for all data types",
+        "Sustainability data feeds CSRD, ISSB, and CDP without manual aggregation",
+        "Portfolio benchmarks include all sites and Maisons",
+        "Audit trail proves data provenance for assurance",
+        "One reporting surface for all data types and frameworks",
       ],
     },
     {
-      name: "Executive / VP of Energy",
+      name: "Executive / CFO",
       rank: "Inform",
-      context: "Client-side, consumes outcomes only",
+      context: "Client-side, consumes outcomes and capital allocation only",
       summary:
-        "Receives dashboards and summary reports. Never interacts with interval data directly but makes investment decisions based on the insights it enables.",
+        "Receives dashboards and summary reports. Never interacts with emissions data directly but makes investment decisions based on the insights it enables.",
       outcomes: [
-        "See verified savings against targets",
-        "Confidence that reported numbers are trustworthy",
-        "One dashboard covering the full portfolio",
-        "Actionable insights, not raw data",
+        "See verified progress against SBTi-aligned targets",
+        "Confidence that reported numbers are trustworthy for investors",
+        "One dashboard covering the full portfolio and Scope 3",
+        "Actionable insights and capital allocation guidance, not raw data",
       ],
     },
   ],
 };
 
-// Jobs to Be Done (10 jobs, operational vs analytical)
+// Jobs to Be Done
 export const jobsToBeDone = {
   intro:
-    "The jobs users hire Energy Efficiency to do. Not features, not screens, but outcomes. Operational covers the daily rhythm of detecting, monitoring, tracking, and proving. Analytical covers investigation sessions: root cause, comparison, pattern discovery, insight packaging. Every one of these jobs assumes IDM 2.0 as the underlying spine, so interval data, asset context, and audit IP show up in the same place. In both modes, Sera is the primary interface.",
+    "The jobs users hire RA+ Sustainability to do. Not features, not screens, but outcomes. Operational covers the continuous rhythm of detecting, monitoring, tracking, and proving. Analytical covers investigation sessions: root cause, comparison, pattern discovery, insight packaging. Every one of these jobs assumes the RA+ sustainability spine as the underlying foundation, so emissions, supply chain, risk, and engagement IP show up in the same place. In both modes, Sera is the primary interface.",
   ecmInsight:
-    "ECM identification is not a separate job. It is what happens when jobs 3, 6, and 8 are done well with IDM-grade data and good AI. Customers do not ask for ECMs. They ask Sera to find waste, explain anomalies, and show patterns. The output of those conversations, grounded in the IDM 2.0 spine, is an ECM.",
+    "Decarbonization measure identification is not a separate job. It is what happens when jobs 3, 6, and 8 are done well with trusted client data and good AI. Customers do not ask for measure libraries. They ask Sera to find emission hotspots, explain anomalies, and show patterns. The output of those conversations, grounded in the sustainability spine, is a measure.",
   jobs: [
-    { num: 1, type: "Operational", title: "Detect anomalies", description: "When responsible for energy performance across sites, know immediately if something is consuming abnormally, so problems can be addressed before they become costly. Powered by continuous IDM 2.0 interval data, not periodic exports." },
-    { num: 2, type: "Operational", title: "Monitor performance", description: "When managing daily operations, see real-time consumption against expected baselines, so deviations are caught early. Baselines and live readings sit on the same IDM spine." },
-    { num: 3, type: "Operational", title: "Identify waste", description: "When reviewing a facility's energy profile, pinpoint where energy is consumed unnecessarily, so savings opportunities can be quantified and prioritized using IDM-grade submeter and asset context." },
-    { num: 4, type: "Operational", title: "Validate data quality", description: "When making decisions based on energy data, confirm readings are complete and accurate, so action is taken with confidence and audit-ready records are maintained. IDM 2.0 makes quality status visible in-product, not in a separate tool." },
-    { num: 5, type: "Operational", title: "Track against targets", description: "When managing energy reduction commitments, track performance against targets continuously, so drift is corrected early and compliance can be proven against the same IDM-backed numbers used everywhere else." },
-    { num: 6, type: "Analytical", title: "Diagnose root cause", description: "When detecting an anomaly or unexpected consumption pattern, understand the root cause quickly by letting Sera reason over IDM telemetry plus asset and ECM context, so the right corrective action is taken." },
-    { num: 7, type: "Analytical", title: "Compare performance", description: "When evaluating a site's performance, compare it fairly against similar sites or time periods using a shared IDM-grade baseline, so real underperformance is distinguished from expected variation." },
-    { num: 8, type: "Analytical", title: "Discover patterns", description: "When managing energy across a portfolio over time, surface slow drifts and seasonal patterns not visible day-to-day. IDM 2.0 keeps the history queryable so problems are caught early and structural improvements identified." },
-    { num: 9, type: "Analytical", title: "Drive action from insights", description: "When an insight is worth acting on, package it into a clear deliverable for the right audience, so decisions are driven from leadership, finance, or operations, backed by traceable IDM evidence." },
-    { num: 10, type: "Analytical", title: "Manage action plans and follow-through", description: "When committing to an energy improvement, track action items, site-level progress, and target attainment against IDM-measured outcomes, so follow-through is ensured and continuous improvement is provable. Validated by SE Corporate. Absent from RA Classic." },
-    { num: 11, type: "Analytical", title: "Prioritize across portfolio", description: "When responsible for multiple sites, know which buildings need attention most urgently using portfolio-wide IDM signals, so time is spent where it has the greatest impact." },
-    { num: 12, type: "Operational", title: "Bring interval data into the workflow", description: "When working in RA+, expect IDM 2.0 telemetry, asset context, and audit IP in the same screens, with no module hop, no spreadsheet export, and no re-stitching by hand." },
-    { num: 13, type: "Analytical", title: "Reason over IDM with Sera", description: "When investigating a question, ask Sera in natural language and have it reason over the IDM-backed context layer, blending telemetry with field and consultancy work product." },
+    { num: 1, type: "Operational", title: "Detect emissions drift", description: "When responsible for sustainability performance across sites and Maisons, know immediately if emissions or risk are diverging from target, so problems can be addressed before they threaten the year-end disclosure. Powered by continuous client data, not annual exports." },
+    { num: 2, type: "Operational", title: "Monitor performance", description: "When managing day-to-day operations, see emissions and risk against expected baselines, so deviations are caught early. Baselines and live readings sit on the same spine." },
+    { num: 3, type: "Operational", title: "Identify emission hotspots", description: "When reviewing a portfolio's footprint, pinpoint where emissions are concentrated unnecessarily, so reduction opportunities can be quantified and prioritized using detailed Scope 1, 2, 3 context." },
+    { num: 4, type: "Operational", title: "Validate data quality", description: "When making decisions based on sustainability data, confirm activity and emissions records are complete and accurate, so action is taken with confidence and audit-ready records are maintained. RA+ makes quality status visible in-product, not in a separate spreadsheet." },
+    { num: 5, type: "Operational", title: "Track against SBTi targets", description: "When managing net-zero commitments, track performance against validated targets continuously, so drift is corrected early and compliance can be proven against the same numbers used everywhere else." },
+    { num: 6, type: "Analytical", title: "Diagnose root cause", description: "When detecting an anomaly or unexpected emissions pattern, understand the root cause quickly by letting Sera reason over client data plus supplier and engagement context, so the right corrective action is taken." },
+    { num: 7, type: "Analytical", title: "Compare performance", description: "When evaluating a site or Maison's performance, compare it fairly against similar peers or time periods using a shared baseline, so real underperformance is distinguished from expected variation." },
+    { num: 8, type: "Analytical", title: "Discover patterns", description: "When managing sustainability across a portfolio over time, surface slow drifts and structural patterns not visible cycle-to-cycle. The spine keeps the history queryable so structural improvements are identified." },
+    { num: 9, type: "Analytical", title: "Drive action from insights", description: "When an insight is worth acting on, package it into a clear deliverable for the right audience, so decisions are driven from leadership, finance, or operations, backed by traceable client evidence." },
+    { num: 10, type: "Analytical", title: "Manage action plans and follow-through", description: "When committing to a decarbonization improvement, track action items, site-level progress, and target attainment against measured outcomes, so follow-through is ensured and continuous improvement is provable." },
+    { num: 11, type: "Analytical", title: "Prioritize across portfolio", description: "When responsible for multiple Maisons or sites, know which units need attention most urgently using portfolio-wide signals, so time is spent where it has the greatest abatement and risk impact." },
+    { num: 12, type: "Operational", title: "Bring sustainability data into the workflow", description: "When working in RA+, expect emissions, risk, supplier, and engagement context in the same screens, with no tool hop, no spreadsheet export, and no re-stitching by hand." },
+    { num: 13, type: "Analytical", title: "Reason over sustainability data with Sera", description: "When investigating a question, ask Sera in natural language and have it reason over the RA+ context layer, blending client data with GSP methodologies, CLICK research, and NTBS offsetting options." },
   ],
 };
 
 
-// VOC Evidence: 3 customer interviews + SE Corporate
+// VOC Evidence: real GSP case studies
 export const vocEvidence = {
   intro:
-    "Three external customer interviews plus SE Corporate evidence gathered through Bureau leadership. Both sources are treated as real evidence, clearly attributed.",
+    "Four GSP customer engagements treated as Voice of Customer evidence. Each case validates the demand for embedded sustainability advisory, methodological rigor, and continuous platform-supported delivery.",
   signals: [
-    { label: "Persona Validation", value: "High", detail: "3 clients across 4 personas" },
-    { label: "JTBD Validation", value: "High", detail: "Jobs 1, 3, 4, 5, 7, 8, 9 validated" },
-    { label: "AI-First Demand", value: "High", detail: "3/3 customers demand AI" },
-    { label: "Alert Fatigue Risk", value: "High", detail: "All 3 flagged unprompted" },
+    { label: "Persona Validation", value: "High", detail: "4 clients across CSO, ESG Lead, Finance, Operations" },
+    { label: "JTBD Validation", value: "High", detail: "Jobs 1, 3, 5, 6, 9, 10, 11 validated" },
+    { label: "AI-First Demand", value: "High", detail: "Enterprise accounts mandating AI in every platform" },
+    { label: "Multi-Service Pull", value: "High", detail: "All accounts pull GHG + risk + reporting + offsetting" },
   ],
   customers: [
     {
-      name: "Alfa Laval",
-      contact: "Magnus Roth, Head of Global Sustainability",
-      context: "63 service centers, long-term RA Classic client",
+      name: "Syngenta",
+      contact: "Tzutzuy Ramirez, Head of Climate & Nature",
+      context: "Decentralized agriculture business, ~90% emissions in Scope 3",
       findings: [
-        "Reports go in the drawer. Automated daily and weekly hints are the #1 request.",
-        "Sera concept directly validated: pushed insights without requiring expertise.",
-        "Hierarchy UX is a blocker. Meter names are numeric codes.",
-        "Expansion blocked. 90% of 63 service centers are unconnected.",
+        "Scope 3 data complexity across decentralized business required centralized data, hotspot analysis, and capacity building",
+        "Significant farm-level emissions from residue decomposition led to a biochar feasibility program with the seeds business",
+        "3 pilots advancing regenerative agriculture by reducing usage of conventional fertilizers",
+        "Climate scenario analysis across global sites confirmed and updated risk picture, informing strategic resilience planning",
       ],
-      quote: "It does not have to be a thorough analysis, but more of a hint, because then you get it built into your daily work.",
+      quote: "Over 90% of Syngenta's emissions are in Scope 3. We're committed to reducing these emissions in the years ahead and value having a strong partner who has expertly pinpointed key emission sources and effective decarbonization levers.",
     },
     {
-      name: "Velux",
-      contact: "Rasmus Sorensen and Maja Lewinska, Energy Program Lead and Global Sustainability Lead",
-      context: "~24 sites, ISO 50001 certified",
+      name: "Laing O'Rourke",
+      contact: "UK&I Advisory Team",
+      context: "One of the UK's largest privately-owned construction and engineering companies, global operations",
       findings: [
-        "Daily login confirmed. Rasmus uses RA daily, many times.",
-        "Diagnosis AND prognosis. AI must flag risk of missing targets.",
-        "ISO 50001 is the strategic driver. Standardized KPIs across all sites.",
+        "Early-stage governance and maturing sustainability capability strengthened through CDP, TCFD, TNFD gap analyses",
+        "High-emitting, complex construction sector with limited low-carbon technologies required regional climate scenario analysis",
+        "Set near-term and net-zero SBTs with realistic decarbonisation pathways and financial impacts",
+        "Built board understanding and engagement through clear commercial framing of climate insights",
       ],
-      quote: "I need you to tell me if I am at risk of missing my targets. The diagnosis and the prognosis.",
+      quote: "A trusted, multi-year consultancy partnership delivering robust climate governance, approved science-based targets and a practical decarbonisation pathway aligned to future climate priorities.",
     },
     {
-      name: "Tetra Pak",
-      contact: "Ramzi Cherad, Global Energy Program Lead",
-      context: "45 factories, 4,000+ meters",
+      name: "Hertz",
+      contact: "Page Motes, VP, Chief Compliance & Sustainability Officer",
+      context: "Long-time customer (8+ years), multi-region regulatory exposure (Australia CASB261)",
       findings: [
-        "AI should find what humans spend months finding. Continuous, automatic detection.",
-        "Continuous, not historical. Catch anomalies when they start.",
-        "Competitive AI bypass risk. Users will route data through Copilot or Notebook LM if RA does not offer native AI.",
-        "Enterprise AI mandate. Tetra Pak requires every platform to incorporate AI.",
+        "Needed a region-specific climate risk assessment and emissions inventory for Australia to meet new national regulatory requirements",
+        "First set of third-party assured climate-risk and emissions engagements prompted complex discussions on methodologies",
+        "Tight collaboration across Americas reporting & risk teams and Australian teams to align methodologies and demonstrate SE alignment",
+        "Built GSP organizational capacity for multi-region regulatory reporting",
       ],
-      quote: "It is the continuous finding it when it happens. That is the important bit. Not historic.",
+      quote: "Thank you ALL for your diligence and partnership on this engagement. It was great to see some faces today and just wanted to express our gratitude for your expertise.",
+    },
+    {
+      name: "LVMH",
+      contact: "Arnaud Lajoinie, Climate & Circularity Director",
+      context: "Strategic multi-year partnership, 20+ Maisons, €1.3M in 2025 revenues",
+      findings: [
+        "Group targets of -50% Scope 1&2 by 2026 and -48% Scope 3 by 2030 require coordinated Group-wide climate program",
+        "Tennaxia platform deployment strengthened consistency and reliability of environmental reporting across Maisons",
+        "Energy audits, climate risk on 7,300 sites, 6 deep-dive risk assessments across the value chain",
+        "Expansion of opportunities at Group and Maison levels: energy management (incl. RA+), EU Taxonomy, nature-based solutions, biodiversity, water, insetting and offsetting",
+      ],
+      quote: "The deployment of the Tennaxia platform has significantly strengthened the consistency and reliability of our environmental reporting across Maisons. For the first time, we can collect, validate and consolidate ESG data through a unified, structured workflow.",
     },
   ],
 };
 
 // SE Corporate as the MVP blueprint
 export const seCorporateBlueprint = {
-  title: "SE Corporate: RA Classic IDM Client",
+  title: "SE Corporate: GSP Reference Customer",
   intro: "",
   scale: [
-    { value: "4,800+", label: "Meters connected", detail: "Electricity, gas, water, HVAC, lighting, IT, distribution, process lines, PV, generators" },
-    { value: "1,200", label: "Monthly logins", detail: "62+ individual users with 10+ IDM sessions in the past 12 months" },
-    { value: "40+", label: "Unique data systems", detail: "Many sites have 25+ interval streams pushing into monthly KPIs" },
-    { value: "243", label: "Alerts and alarms", detail: "Configured across sites and systems, with 100s of dashboards" },
+    { value: "Multi-scope", label: "Inventory coverage", detail: "Scope 1, 2, 3 emissions across global sites, supplier base, and product footprints" },
+    { value: "Global", label: "Footprint", detail: "Operations across 100+ countries with sustainability reporting under multiple regulatory regimes" },
+    { value: "Multi-framework", label: "Disclosure stack", detail: "CDP, CSRD, ISSB, TCFD, TNFD, SBTi aligned" },
+    { value: "Live", label: "Decarbonization program", detail: "Active SBTi-aligned targets and transition plan in execution" },
   ],
   trainingSignal:
-    "RA IDM scored 4.8 / 5 in the Energy Performance Training program, the highest-rated module (PME scored 3.3). Confirms the product works when users are enabled. The opportunity is making that enablement the default interface, not a paid service.",
+    "SE Corporate is uniquely positioned as the lead reference for RA+ Sustainability: an enterprise account with the same scale, regulatory exposure, and complexity as flagship GSP clients. Lessons learned land directly back into the platform.",
   phaseMap: [] as { phase: string; detail: string }[],
   conclusion: "",
 };
 
-// RA Classic Pain Inventory
+// Legacy Pain Inventory
 export const painInventory = {
   intro:
-    "RA Classic limitations that the platform shift eliminates. Every must-fix item stems from the module architecture: separate hierarchies, disconnected filters, siloed data.",
+    "Legacy GSP delivery limitations that the platform shift eliminates. Every must-fix item stems from sustainability living outside the platform: documents, spreadsheets, and siloed vendor tools.",
   pains: [
-    { id: "P1", severity: "Must fix", title: "Two competing data models", detail: "Standard RA bottoms out at Account; PAM goes deeper to locations, meters, nodes. Users do not know which world they are in." },
-    { id: "P2", severity: "Must fix", title: "Dashboard filters silently fail on PAM widgets", detail: "Division/Group and Data Stream filters do not affect PAM widgets. Users apply filters expecting everything to respond; PAM widgets stay unchanged." },
-    { id: "P3", severity: "Must fix", title: "5-step bridge to monthly reporting", detail: "To get a PAM measurement into a standard RA report: create PAM measurement, create RA stream, map via Site Mapping, enable import, wait for daily aggregation. Performed daily across 150+ sites." },
-    { id: "P4", severity: "Must fix", title: "Corrected data is not persisted", detail: "PAM corrections are computed on the fly. Only raw metered values are stored. No audit trail. Corrected values do not reach standard RA." },
-    { id: "P5", severity: "Must fix", title: "Spreadsheet-driven commissioning", detail: "Hierarchy Setup and Manual Meter Readings require generating an Excel template, editing offline, uploading, validating, applying. Drives Bureau onboarding timelines." },
-    { id: "P6", severity: "Must fix", title: "Separate report system", detail: "Interval Data Reports are saved PAM analyses packaged for email. Completely disconnected from standard RA Reporting." },
+    { id: "P1", severity: "Must fix", title: "Methodology lives in documents", detail: "GHG accounting, SBTi, TCFD, and TNFD methodologies sit in Word and SharePoint. Consultants rebuild context each engagement; users do not know which version is current." },
+    { id: "P2", severity: "Must fix", title: "Factors and assumptions are inconsistent", detail: "Emission factors and assumptions vary by consultant and region. No single governed source. Disclosures across the same client may not reconcile." },
+    { id: "P3", severity: "Must fix", title: "Multi-step bridge to disclosure", detail: "To get inventory data into CDP, CSRD, and TCFD outputs: extract from vendor tool, transform in Excel, validate, paste into disclosure template, re-validate. Repeated each cycle across hundreds of sites." },
+    { id: "P4", severity: "Must fix", title: "Corrected data is not persisted", detail: "Corrections made during engagement only live in that engagement's deliverable. No audit trail for the platform. Corrected values do not flow back into the client's master record." },
+    { id: "P5", severity: "Must fix", title: "Spreadsheet-driven supplier onboarding", detail: "Scope 3 supplier engagement requires generating Excel templates, emailing suppliers, collecting responses, validating, applying. Drives multi-month engagement timelines." },
+    { id: "P6", severity: "Must fix", title: "Disconnected disclosure systems", detail: "CDP, CSRD, TCFD, and TNFD disclosures are produced from separate workflows. Cross-framework consistency is enforced manually, framework by framework." },
   ],
 };
 
-// Two product scope: Energy Efficiency vs Asset Planning
+// Two product scope: RA+ Sustainability vs Asset Planning
 export const productScope = {
   intro:
-    "RA+ organizes interval data capabilities into two separately-sold products within the Efficiency family. This playbook covers Energy Efficiency. Asset Planning is a separate discovery.",
+    "RA+ organizes sustainability capabilities into two separately-sold products within the Sustainability family. This playbook covers RA+ Sustainability. Asset Planning is a separate discovery.",
   products: [
     {
-      name: "Energy Efficiency",
+      name: "RA+ Sustainability",
       tag: "This Discovery",
-      summary: "The daily-use product. Monitoring, analysis, alerting, data quality, meter management, and operational optimization.",
+      summary: "The daily-use product. Monitoring, analysis, alerting, data quality, supplier management, and disclosure-ready outputs.",
       capabilities: [
-        "Real-time and near-real-time energy monitoring",
-        "Anomaly detection and proactive alerting",
-        "Interval data analysis (trend, load profile, heatmap, comparison, Sankey)",
+        "Continuous emissions and risk monitoring",
+        "Anomaly detection and proactive alerting on emissions drift",
+        "Inventory analysis (trend, hotspot, scope, sector comparison)",
         "Data quality: completeness, gap detection, correction, audit trails",
-        "Meter and source onboarding (self-serve)",
+        "Source and supplier onboarding (self-serve)",
         "Unified data model integration with RA+ platform",
-        "Schedule management and segmentation",
+        "Methodology management and segmentation",
         "Action tracking and workflow support",
       ],
     },
     {
       name: "Asset Planning",
       tag: "Separate Discovery",
-      summary: "The project-oriented product. Baseline modeling, M&V, savings verification, capital investment planning, and project portfolio tracking.",
+      summary: "The project-oriented product. Baseline modeling, transition plan execution, capital investment planning, and project portfolio tracking.",
       capabilities: [
-        "Baseline modeling (IPMVP Option C/D)",
-        "Measurement and Verification (CUSUM, savings quantification)",
-        "Project tagging, tracking, and savings reporting",
-        "Capital asset lifecycle planning",
-        "Dollar/unit savings analysis",
-        "Schneider PASS Analytics",
+        "Baseline modeling for SBTi-aligned pathways",
+        "Transition plan execution and tracking",
+        "Project tagging, abatement tracking, and outcome reporting",
+        "Capital asset lifecycle and decarbonization planning",
+        "Cost and abatement analysis",
+        "Schneider Sustainability Impact tracking",
       ],
     },
   ],
   whyEEFirst: [
-    "Foundation: Energy Efficiency creates the data infrastructure that Asset Planning builds on.",
-    "Frequency: Energy Efficiency is a daily-use product, and daily-use products drive adoption.",
-    "Pain severity: All 6 must-fix items from the RA Classic pain inventory are Energy Efficiency problems.",
-    "Dependency: Asset Planning consumes Energy Efficiency's substrate. Reliable interval data, baselines, a unified hierarchy.",
+    "Foundation: RA+ Sustainability creates the data infrastructure that Asset Planning builds on.",
+    "Frequency: RA+ Sustainability is a daily-use product, and daily-use products drive adoption.",
+    "Pain severity: All 6 must-fix items from the legacy pain inventory are RA+ Sustainability problems.",
+    "Dependency: Asset Planning consumes RA+ Sustainability's substrate. Reliable emissions data, baselines, a unified hierarchy.",
   ],
   boundary:
     "These products are sold separately, but they build on each other. The platform must ensure the boundary between them is a licensing boundary, not a technical one.",
@@ -1644,14 +1657,14 @@ export const productScope = {
 
 export const architectureDecision = {
   intro:
-    "Two viable paths to bring Energy Efficiency live in RA+ by Q4 2026. The choice shapes integration cost, time to value, and the long-term shape of the platform.",
+    "Two viable paths to bring RA+ Sustainability live by Q4 2026. The choice shapes integration cost, time to value, and the long-term shape of the platform.",
   options: [
     {
       id: "plan-a",
       label: "Plan A",
       title: "Build native in RA+",
       summary:
-        "Stand up ECM guidance and IDM signals as first-class RA+ services, consumed directly by Strategy and the Energy Efficiency MVP.",
+        "Stand up sustainability guidance and client data signals as first-class RA+ services, consumed directly by Strategy and the Sustainability MVP.",
       pros: [
         "Cleanest long-term architecture and shared services across modules",
         "No bridge code to maintain or sunset later",
@@ -1665,57 +1678,57 @@ export const architectureDecision = {
     {
       id: "plan-b",
       label: "Plan B",
-      title: "Bridge from RA Classic",
+      title: "Bridge from vendor stack",
       summary:
-        "Expose existing RA Classic capabilities through a controlled bridge into RA+ to hit the Q4 2026 milestone, with a planned migration to native services later.",
+        "Expose existing Tennaxia and vendor software capabilities through a controlled bridge into RA+ to hit the Q4 2026 milestone, with a planned migration to native services later.",
       pros: [
-        "Faster path to a usable RA+ Energy Efficiency MVP",
+        "Faster path to a usable RA+ Sustainability MVP",
         "Lower delivery risk for the committed timeline",
-        "Keeps RA Classic investment productive during the transition",
+        "Keeps vendor software investment productive during the transition",
       ],
       cons: [
         "Bridge code becomes technical debt that must be retired",
-        "Risk of carrying RA Classic data-model issues into RA+",
+        "Risk of carrying vendor data-model issues into RA+",
         "Sera experience may feel less coherent until native services land",
       ],
     },
   ],
   decisionCriteria: [
     "Confidence that native services can be delivered by Q4 2026",
-    "Severity of RA Classic pain points that would leak into RA+",
+    "Severity of vendor pain points that would leak into RA+",
     "SE Corporate readiness to use a Plan B experience in March 2027",
-    "Engineering capacity available without slowing parallel RA Classic work",
+    "Engineering capacity available without slowing parallel advisory work",
   ],
   status: "Open decision flagged for the working group, no commitment made.",
 };
 
 export const maturityLadder = {
   intro:
-    "Customer maturity progresses through four stages. RA+ Energy Efficiency must meet customers where they are and pull them up the ladder over time.",
+    "Customer sustainability maturity progresses through four stages. RA+ Sustainability must meet customers where they are and pull them up the ladder over time.",
   stages: [
     {
       num: "01",
       label: "Accountability",
       description:
-        "Customers know who owns what, can see consumption by site or business unit, and have a baseline they trust.",
+        "Customers know who owns sustainability, can see emissions by site, Maison, or business unit, and have an inventory baseline they trust.",
     },
     {
       num: "02",
-      label: "Cost Allocation",
+      label: "Disclosure",
       description:
-        "Energy and carbon are allocated cleanly to cost centers and tenants, enabling chargeback and clear ownership of spend.",
+        "Sustainability data is structured cleanly to support CDP, CSRD, ISSB, TCFD, and TNFD disclosures with traceable methodologies.",
     },
     {
       num: "03",
       label: "Performance Management",
       description:
-        "Targets, baselines, and variances are tracked continuously. Anomalies and drift are surfaced before they become problems.",
+        "SBTi targets, baselines, and variances are tracked continuously. Anomalies and drift are surfaced before they become annual-report problems.",
     },
     {
       num: "04",
-      label: "Optimization",
+      label: "Transformation",
       description:
-        "Customers act on prioritized recommendations, manage action plans, and verify outcomes through M&V loops.",
+        "Customers act on prioritized decarbonization recommendations, embed sustainability in operating and capital models, and verify outcomes through assurance loops.",
     },
   ],
   note:
@@ -1724,12 +1737,12 @@ export const maturityLadder = {
 
 export const seraKPIs = {
   intro:
-    "Sera-specific signals confirm that the interface is producing real daily value, not just dashboards.",
+    "Sera-specific signals confirm that the interface is producing real continuous value, not just dashboards.",
   kpis: [
-    { label: "Morning briefings consumed", description: "Energy Managers open the daily briefing as part of their routine" },
-    { label: "Anomaly narration accuracy", description: "Sera explanations of anomalies are confirmed as useful by Data Ops" },
-    { label: "Alert top-3 prioritization", description: "Top-3 alerts are acted on, lower-priority noise stays suppressed" },
-    { label: "Target risk prognosis use", description: "Sustainability Leads use forward-looking target risk views in reviews" },
-    { label: "Action plan attainment", description: "Action plans created in Sera reach committed completion rates" },
+    { label: "Weekly briefings consumed", description: "Sustainability Leads open the briefing as part of their routine" },
+    { label: "Anomaly narration accuracy", description: "Sera explanations of emissions drift are confirmed as useful by Data Ops" },
+    { label: "Target risk prognosis use", description: "CSOs use forward-looking SBTi target risk views in reviews" },
+    { label: "Disclosure draft acceleration", description: "Sera-prepared CDP, CSRD, and TCFD drafts shorten the assurance cycle" },
+    { label: "Action plan attainment", description: "Decarbonization action plans created in Sera reach committed completion rates" },
   ],
 };

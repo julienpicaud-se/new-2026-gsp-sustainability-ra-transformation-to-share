@@ -43,13 +43,13 @@ export const ExecutiveTakeaway = () => {
 
           {/* Main Headline */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6 sm:mb-8 text-foreground">
-            Energy Efficiency as a{" "}
-            <span className="text-primary">platform capability</span>, with Sera as the interface and IDM as the foundation.
+            Sustainability as a{" "}
+            <span className="text-primary">platform capability</span>, with Sera as the interface and the GSP as the expert foundation.
           </h2>
 
           {/* Description */}
           <p className="text-sm sm:text-base lg:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto mb-10 sm:mb-12">
-            Moving from siloed RA Classic modules to a governed RA+ platform turns Bureau expertise into a continuous, in-product experience. Energy Managers act daily, Data Ops investigate deeply, Sustainability reports with confidence, and Executives see the value, all on one foundation.
+            Moving from document-driven advisory to a governed RA+ platform turns GSP expertise into a continuous, in-product experience. Sustainability Leads act daily, Data Ops investigate deeply, CSOs disclose with confidence, and Executives see the net-zero progress, all on one foundation.
           </p>
 
           {/* Back to Top Button */}
@@ -67,7 +67,7 @@ export const ExecutiveTakeaway = () => {
       <div className="mt-16 pt-6 border-t border-border/30">
         <div className="container px-4">
           <p className="text-center text-sm text-muted-foreground">
-            © 2026 Efficiency Transformation • Efficiency Transformation with RA+ • Internal Only and Confidential
+            © 2026 Sustainability Transformation • Sustainability Transformation with RA+ • Internal Only and Confidential
           </p>
         </div>
       </div>
