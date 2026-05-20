@@ -1043,7 +1043,7 @@ export const intelligenceFlywheel = {
     { name: "Output", description: "Living disclosures, guided findings, advisory deliverables, and executive narratives", icon: "FileText" },
     { name: "Improve", description: "Continuous optimization, assurance feedback, and next-best recommendations", icon: "Zap" },
   ],
-  keyInsight: "The future platform advantage is not another ESG dashboard. It is an intelligence layer that connects trusted client data, expert GSP knowledge, and NTBS offsetting pathways so RA+ can move users from sustainability ambition to measurable improvement.",
+  keyInsight: "The future platform advantage is not another ESG dashboard. It is the RA+ intelligence layer (sustainability graph, governed lineage, EF library, SERA agents) connecting trusted client data, expert GSP knowledge, and NTBS offsetting pathways so users move from sustainability ambition to measurable improvement.",
   differentiators: [
     { label: "Data availability", status: "Baseline" },
     { label: "Expert context (400+ experts)", status: "Essential" },
