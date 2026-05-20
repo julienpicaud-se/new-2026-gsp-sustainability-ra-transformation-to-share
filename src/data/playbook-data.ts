@@ -826,7 +826,7 @@ export const quarterlyRoadmap = [
     color: "violet",
     deliverables: [
       "Go live with SE Corporate as the lead reference customer in March 2027",
-      "Improve measure metadata quality and expand beyond the top 200 based on usage and CLICK review",
+      "Improve measure metadata quality and expand beyond the top 200 based on usage",
       "Deepen emissions integration for data-quality visibility, trend context, and assurance support",
       "Refine assumption defaults, applicability rules, and expert escalation triggers",
       "Add structured handoff outputs for GSP advisory and engagement preparation",
