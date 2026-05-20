@@ -1022,7 +1022,7 @@ export const serviceModelComparison = [
 
 export const intelligenceFlywheel = {
   title: "Strategy-to-Improvement Flywheel",
-  subtitle: "The operating model that connects advisory, NTBS offsetting, CLICK research, DIH digital assets, and continuous performance improvement in RA+",
+  subtitle: "The operating model that connects advisory, NTBS offsetting, DIH digital assets, and continuous performance improvement in RA+",
   veeExplainer: {
     title: "DQA: Data Quality Assurance",
     description:
