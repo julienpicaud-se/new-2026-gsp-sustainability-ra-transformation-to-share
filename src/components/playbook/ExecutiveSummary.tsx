@@ -90,7 +90,7 @@ const sections: Section[] = [
     icon: Wrench,
     tone: "muted",
     body:
-      "The practical sequence is to finalize the unified sustainability taxonomy, publish a provisional decarbonization knowledge base with CLICK and SME review, define clean service boundaries, and connect trusted client signals to Strategy first. From there, RA+ can introduce Portfolio View, rule-based opportunity surfacing, customer self-service exploration, and platform-native disclosure outputs.",
+      "The practical sequence is to finalize the unified sustainability taxonomy, publish a provisional decarbonization knowledge base with SME review, define clean service boundaries, and connect trusted client signals to Strategy first. From there, RA+ can introduce Portfolio View, rule-based opportunity surfacing, customer self-service exploration, and platform-native disclosure outputs.",
   },
   {
     num: "05",
