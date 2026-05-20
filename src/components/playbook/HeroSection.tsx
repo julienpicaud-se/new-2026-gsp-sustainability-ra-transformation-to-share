@@ -65,30 +65,30 @@ export const HeroSection = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8 animate-fade-in">
             <Sparkles className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-primary">Efficiency Transformation</span>
+            <span className="text-sm font-medium text-primary">Sustainability Transformation</span>
           </div>
 
           {/* Main headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in-up">
-            <span className="gradient-text">Efficiency Transformation</span>
+            <span className="gradient-text">Sustainability Transformation</span>
             <br />
             <span className="text-foreground">with RA+</span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-            From internal productivity to scalable revenue and in-product efficiency advisory. Transform expert knowledge into scalable product value.
+            From world-class GSP advisory to scalable, in-product sustainability intelligence. Turn 400+ climate experts and 7,500+ engagements into a recurring RA+ capability.
           </p>
 
           {/* Key pillars preview */}
           <div className="flex flex-wrap justify-center gap-4 mb-12 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
             <div className="flex items-center gap-2 px-4 py-2 rounded-lg glass-card">
               <Target className="w-5 h-5 text-primary" />
-              <span className="text-sm font-medium">Productivity Gains</span>
+              <span className="text-sm font-medium">Advisory Productivity</span>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 rounded-lg glass-card">
               <Zap className="w-5 h-5 text-primary" />
-              <span className="text-sm font-medium">Upsell Engine</span>
+              <span className="text-sm font-medium">Advisory Upsell</span>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 rounded-lg glass-card">
               <Sparkles className="w-5 h-5 text-primary" />

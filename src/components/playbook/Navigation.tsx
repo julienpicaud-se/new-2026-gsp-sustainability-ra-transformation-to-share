@@ -45,7 +45,7 @@ const groups: NavGroup[] = [
     label: "Vision",
     items: [
       { id: "what-if", label: "What If Tomorrow" },
-      { id: "platform-shift", label: "Efficiency Transformation" },
+      { id: "platform-shift", label: "Sustainability Transformation" },
       { id: "key-challenges", label: "Why Now" },
     ],
   },
@@ -175,7 +175,7 @@ export const Navigation = ({ onPresentationMode }: NavigationProps) => {
               <span className="text-primary-foreground font-bold text-sm">SE</span>
             </div>
             <div className="hidden sm:block">
-              <div className="font-semibold text-foreground text-sm">Efficiency Transformation</div>
+              <div className="font-semibold text-foreground text-sm">Sustainability Transformation</div>
             </div>
           </div>
 
@@ -262,7 +262,7 @@ export const Navigation = ({ onPresentationMode }: NavigationProps) => {
                       <span className="text-primary-foreground font-bold text-sm">SE</span>
                     </div>
                     <div>
-                      <SheetTitle className="text-foreground text-sm">Efficiency Transformation</SheetTitle>
+                      <SheetTitle className="text-foreground text-sm">Sustainability Transformation</SheetTitle>
                     </div>
                   </div>
                 </SheetHeader>
