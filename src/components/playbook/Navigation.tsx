@@ -77,7 +77,7 @@ const groups: NavGroup[] = [
     label: "Delivery",
     items: [
       { id: "phasing", label: "Phasing" },
-      { id: "idm-vision", label: "RA+ Vision" },
+      
       { id: "success-metrics", label: "Success Metrics" },
       { id: "start-stop", label: "Start / Stop" },
       { id: "takeaway", label: "Executive Takeaway" },
