@@ -1022,7 +1022,7 @@ export const serviceModelComparison = [
 
 export const intelligenceFlywheel = {
   title: "Strategy-to-Improvement Flywheel",
-  subtitle: "The operating model that connects advisory, NTBS offsetting, DIH digital assets, and continuous performance improvement in RA+",
+  subtitle: "The operating model that connects advisory, NTBS offsetting, and continuous performance improvement in RA+",
   veeExplainer: {
     title: "DQA: Data Quality Assurance",
     description:
@@ -1043,12 +1043,12 @@ export const intelligenceFlywheel = {
     { name: "Output", description: "Living disclosures, guided findings, advisory deliverables, and executive narratives", icon: "FileText" },
     { name: "Improve", description: "Continuous optimization, assurance feedback, and next-best recommendations", icon: "Zap" },
   ],
-  keyInsight: "The future platform advantage is not another ESG dashboard. It is an intelligence layer that connects trusted client data, expert GSP knowledge, NTBS offsetting pathways, and continuous research from CLICK so RA+ can move users from sustainability ambition to measurable improvement.",
+  keyInsight: "The future platform advantage is not another ESG dashboard. It is an intelligence layer that connects trusted client data, expert GSP knowledge, and NTBS offsetting pathways so RA+ can move users from sustainability ambition to measurable improvement.",
   differentiators: [
     { label: "Data availability", status: "Baseline" },
     { label: "Expert context (400+ experts)", status: "Essential" },
     { label: "Implementation path (Advisory + NTBS)", status: "Advantage" },
-    { label: "Continuous outcomes and research (CLICK)", status: "Differentiator" },
+    { label: "Continuous outcomes and assurance", status: "Differentiator" },
   ],
 };
 
@@ -1230,7 +1230,7 @@ export const ecmIngestionEngine = {
     "Over a decade of GSP IP sits in scattered SharePoints, consultant desktops, and disclosure decks across Schneider. The knowledge engine turns that latent expertise into a structured, queryable sustainability foundation that powers smart recommendations.",
   prototype: {
     title: "Deliverable Extraction Prototype",
-    subtitle: "Built with the DIH team.",
+    subtitle: "Built with the GSP team.",
     flow: [
       {
         step: "01",
@@ -1294,7 +1294,7 @@ export const efficiencyStrategicContext = {
     implications: [
       {
         label: "GSP capability scale",
-        detail: "Turn proven advisory, NTBS offsetting, and DIH digital assets into RA+ services where they create platform leverage.",
+        detail: "Turn proven advisory and NTBS offsetting into RA+ services where they create platform leverage.",
       },
       {
         label: "Phased evolution",
