@@ -314,7 +314,7 @@ export const valuePillars = [
 export const strategicContext = {
   summary: "Today, sustainability advisory relies heavily on manual workflows, Excel templates, and PowerPoint deliverables. Client context is fragmented across tools and documents, GSP expertise is delivered engagement by engagement and does not scale, and early advice is not productized to generate recurring value inside RA+.",
   northStarTitle: "A governed GSP capability embedded in RA+",
-  northStar: "The north star is an authoritative sustainability foundation inside RA+ that connects client emissions and operational data, expert GSP knowledge from advisory, NTBS, CLICK and DIH, and guided workflows. It should power goal-based Strategy recommendations, site-level Portfolio View discovery, structured disclosure deliverables, and a clear path from early insight to expert engagement.",
+  northStar: "The north star is an authoritative sustainability foundation inside RA+ that connects client emissions and operational data, expert GSP knowledge from advisory, NTBS and DIH, and guided workflows. It should power goal-based Strategy recommendations, site-level Portfolio View discovery, structured disclosure deliverables, and a clear path from early insight to expert engagement.",
 };
 
 export const supportingScorecard = [
