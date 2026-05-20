@@ -42,7 +42,7 @@ const whyWeWin = [
   "Sera as a unified guided interface reasoning over RA+ sustainability data across CSOs, Sustainability Leads, Data Ops, and Procurement",
   "Three engagement profiles (self-serve, expert-supported, fully-managed) on a single sustainability-powered platform, opening segments competitors cannot serve",
   "Assurance-ready methodologies (GHG Protocol, SBTi, CSRD, ISSB) governed centrally instead of rebuilt per engagement",
-  "NTBS offsetting and DIH digital assets pulled into the same workflow, closing the loop from disclosure to action",
+  "NTBS offsetting pulled into the same workflow, closing the loop from disclosure to action",
 ];
 
 
