@@ -322,7 +322,7 @@ export const exportToPptx = async () => {
       s2,
       "JUDGMENT LAYER",
       "Where Schneider Experts Add Value",
-      "Service advisors become the judgment layer on top of RA+ and Sera — across four roles, across three engagement tiers.",
+      "Service advisors become the judgment layer on top of RA+ and Sera , across four roles, across three engagement tiers.",
     );
     const pillars = [
       { t: "Validation", d: "Pressure-test RA+ baselines, ECM assumptions, and Sera outputs against engineering and field reality." },
