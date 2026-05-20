@@ -858,10 +858,10 @@ export const optionalClientContext = [
 ];
 
 export const existingTools = [
-  { name: "GSP Methodologies", description: "Global Sustainability Practice methodologies for GHG accounting, SBTi, climate risk, and disclosure", limitation: "Documented in SharePoints and Word, not yet native to RA+ workflows" },
-  { name: "Vendor Software Stack", description: "Tennaxia, Watershed, Persefoni and other third-party sustainability platforms supported by GSP", limitation: "Disconnected from RA+ recommendations and advisory upsell paths" },
-  { name: "Existing Carbon and ESG Tools", description: "Carbon footprint platforms, CDP and CSRD reporting modules across the SE estate", limitation: "Reporting-focused, no actionable sustainability advisory layer" },
-  { name: "DIH Digital Assets", description: "Digital Innovation Hub assets for physical climate risk, transition risk, biodiversity, and financial quantification", limitation: "Powerful but client-by-client deployed, not yet productized in RA+" },
+  { name: "GSP Methodologies", description: "Global Sustainability Practice methodologies for GHG accounting, SBTi, climate risk, and disclosure", limitation: "Documented in SharePoints and Word, not yet wired into the RA+ sustainability graph, EF library, or SERA workflows" },
+  { name: "Vendor Software Stack", description: "Tennaxia, Watershed, Persefoni and other third-party sustainability platforms supported by GSP", limitation: "Disconnected from the RA+ governed data spine, lineage, and advisory upsell paths" },
+  { name: "Existing Carbon and ESG Tools", description: "Carbon footprint platforms, CDP and CSRD reporting modules across the SE estate", limitation: "Reporting-focused, no shared sustainability graph or agentic action layer" },
+  { name: "GSP Digital Assets", description: "Digital assets for physical climate risk, transition risk, biodiversity, and financial quantification", limitation: "Powerful but client-by-client deployed, not yet productized on the RA+ platform foundation" },
 ];
 
 export const idmCapabilities = {
