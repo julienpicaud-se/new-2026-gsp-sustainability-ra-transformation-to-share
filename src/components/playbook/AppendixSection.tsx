@@ -14,7 +14,7 @@ import { ECMIngestionEngineSection } from "@/components/playbook/ECMIngestionEng
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { Button } from "@/components/ui/button";
 import { useState, useEffect, useRef } from "react";
-import { InitiativesDomain } from "@/components/playbook/InitiativesDomain";
+
 import { ChevronsDownUp, ChevronsUpDown } from "lucide-react";
 import {
   Accordion,
@@ -57,7 +57,7 @@ const APPENDIX_SECTIONS = [
   "se-corporate-blueprint",
   "pain-inventory",
   "voc-evidence",
-  "initiatives-by-domain",
+  
   "strategy-flywheel",
   "capability-matrix",
   "value-pillar-deep-dive",
@@ -389,30 +389,6 @@ export const AppendixSection = () => {
             </AccordionContent>
           </AccordionItem>
 
-        {/* ============ Initiatives by Domain ============ */}
-          <AccordionItem
-            value="initiatives-by-domain"
-            ref={setItemRef("initiatives-by-domain")}
-            data-section="initiatives-by-domain"
-            className={itemClass("initiatives-by-domain")}
-          >
-            <AccordionTrigger className="px-6 py-4 hover:no-underline hover:bg-muted/30">
-              <div className="text-left">
-                <span className="text-primary text-xs font-semibold uppercase tracking-wider block mb-1">
-                  Domain Reference
-                </span>
-                <h3 className="text-lg sm:text-xl font-bold text-foreground">
-                  Initiatives by Domain
-                </h3>
-              </div>
-            </AccordionTrigger>
-            <AccordionContent className="px-6 pb-6">
-              <p className="text-sm text-muted-foreground max-w-3xl mb-6">
-                Detailed view of key initiatives organized by product domain. Click on any domain to explore the full roadmap.
-              </p>
-              <InitiativesDomain embedded />
-            </AccordionContent>
-          </AccordionItem>
 
         {/* ============ Strategy-to-Improvement Flywheel ============ */}
           <AccordionItem
