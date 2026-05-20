@@ -1396,7 +1396,7 @@ export const platformShift = {
       "Sustainability spine inside RA+ as the agent-ready context layer for emissions, risk, nature, and supply chain data",
       "One unified data model across all products, with client sustainability data as a first-class citizen",
       "Emissions and risk data live in dashboards, disclosures, and pathways natively, no tool hop",
-      "Client data blended with GSP methodology, NTBS offsetting, and CLICK research that Sera can reason over",
+      "Client data blended with GSP methodology and NTBS offsetting that Sera can reason over",
       "Sera as the primary interface from day one across all engagement profiles",
       "Self-serve onboarding, no spreadsheets, no export and re-import loop",
       "Disclosure digitization via existing sustainability surfaces, fed by the spine",
