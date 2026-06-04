@@ -386,6 +386,18 @@ export const Navigation = ({ onPresentationMode }: NavigationProps) => {
                     Presentation Mode
                   </Button>
                   <Button
+                    variant="outline"
+                    className="w-full justify-start gap-2"
+                    onClick={() => {
+                      setIsMobileMenuOpen(false);
+                      handleExportPdf();
+                    }}
+                    disabled={isExportingPdf}
+                  >
+                    <FileText className="w-4 h-4" />
+                    {isExportingPdf ? "Exporting..." : "Export PDF"}
+                  </Button>
+                  <Button
                     className="w-full bg-primary hover:bg-primary/90 text-primary-foreground gap-2"
                     onClick={() => {
                       setIsMobileMenuOpen(false);
