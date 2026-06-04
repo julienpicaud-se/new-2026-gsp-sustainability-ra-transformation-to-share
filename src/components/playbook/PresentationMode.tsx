@@ -23,7 +23,7 @@ const sections = [
   // How
   { id: "existing-tools", title: "Technology Landscape" },
   { id: "raplus-platform-foundation", title: "RA+ Platform Foundation" },
-  { id: "ecm-mapping", title: "Capability Mapping" },
+  { id: "sustainability-mapping", title: "Capability Mapping" },
   { id: "regional-journeys", title: "Regional Journeys" },
   { id: "operating-model", title: "Operating Model" },
   { id: "expert-services", title: "Expert Services" },
