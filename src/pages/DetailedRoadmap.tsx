@@ -64,7 +64,7 @@ const quarterlyRoadmap = {
       "Climate risk integrated with Compliance & Reporting",
     ],
     value: [
-      "Measurable and attributable cost savings, linking energy insights to ECM execution, realized savings, and faster budget decisions",
+      "Measurable and attributable cost savings, linking energy insights to decarbonization execution, realized savings, and faster budget decisions",
       "Sustained operational efficiency and reduced risk, through automated, traceable energy and sustainability workflows that stand up to finance and audit scrutiny",
       "A scalable, enterprise-ready platform, enabling rapid rollout across sites and expansion into broader sustainability and energy capabilities",
       "Lower compliance and assurance risk, through integrated reporting and climate risk grounded in the same governed data and traceability",
@@ -125,7 +125,7 @@ const simpleQuarterlyOverview = [
   {
     quarter: "Q4 2026",
     summary:
-      "Deliver energy-driven savings at scale by linking interval insights to ECM execution, realized savings, and faster site and corporate budget decisions.",
+      "Deliver energy-driven savings at scale by linking interval insights to decarbonization execution, realized savings, and faster site and corporate budget decisions.",
   },
 ];
 
@@ -152,7 +152,7 @@ const valueDriversRoadmap = {
       "Advanced carbon measurement and strategy, including robust carbon accounting and decarbonization methods",
       "Broader sustainability performance beyond carbon enabled through extended metrics reuse (waste, water, workforce)",
       "Climate risk introduced with physical risk assessments",
-      "ECM library launched to directly connect sustainability data to operational and cost-reduction actions",
+      "decarbonization library launched to directly connect sustainability data to operational and cost-reduction actions",
     ],
     whyItMatters: "Transforms sustainability from a reporting exercise into a decision engine, accelerating decarbonization and cost savings while reducing operational friction and increasing confidence.",
   },
@@ -176,7 +176,7 @@ const valueDriversRoadmap = {
     theme: "Scale value creation through energy intelligence",
     valueDrivers: [
       "Energy management introduced with interval data management and connection with BMS on the shared platform foundation",
-      "Savings attribution and value tracking strengthened to link interval-driven energy insights to ECM execution, realized savings, and budget decisions at site and corporate levels",
+      "Savings attribution and value tracking strengthened to link interval-driven energy insights to decarbonization execution, realized savings, and budget decisions at site and corporate levels",
       "Automation of recurring energy workflows (ingestion, validation, monitoring, alerts) to reduce ongoing operational effort",
       "Analytics and benchmarking expanded across sustainability and energy domains to support site- and corporate-level decisions and prioritization",
       "Scaled rollout toolkit delivered to accelerate onboarding of new sites and business units with repeatable configuration and minimal rework",
@@ -202,7 +202,7 @@ const boardViewRoadmap = [
     theme: "Decisions",
     highlights: [
       "Advanced emissions accounting and decarbonization workflows",
-      "Smart insights, recommendations, invoice processing, and ECM library",
+      "Smart insights, recommendations, invoice processing, and decarbonization library",
       "Climate risk and broader sustainability metrics reuse (waste, water, workforce)",
       "Strong data handling with gap filling and extrapolation",
     ],

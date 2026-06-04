@@ -53,7 +53,7 @@ const APPENDIX_SECTIONS = [
   "strategic-context",
   "competitive-landscape",
   "data-requirements",
-  "ecm-ingestion-engine",
+  "decarbonization-ingestion-engine",
   "se-corporate-blueprint",
   "pain-inventory",
   "voc-evidence",
@@ -294,12 +294,12 @@ export const AppendixSection = () => {
             </AccordionContent>
           </AccordionItem>
 
-        {/* ============ ECM Ingestion Engine ============ */}
+        {/* ============ Decarbonization Ingestion Engine ============ */}
           <AccordionItem
-            value="ecm-ingestion-engine"
-            ref={setItemRef("ecm-ingestion-engine")}
-            data-section="ecm-ingestion-engine"
-            className={itemClass("ecm-ingestion-engine")}
+            value="decarbonization-ingestion-engine"
+            ref={setItemRef("decarbonization-ingestion-engine")}
+            data-section="decarbonization-ingestion-engine"
+            className={itemClass("decarbonization-ingestion-engine")}
           >
             <AccordionTrigger className="px-6 py-4 hover:no-underline hover:bg-muted/30">
               <div className="text-left">

@@ -22,7 +22,7 @@ export const ECMIngestionEngineSection = () => {
 
   return (
     <section
-      id="ecm-ingestion-engine"
+      id="decarbonization-ingestion-engine"
       ref={ref as React.RefObject<HTMLElement>}
       className={`py-24 bg-muted/30 section-fade ${isVisible ? "visible" : ""}`}
     >

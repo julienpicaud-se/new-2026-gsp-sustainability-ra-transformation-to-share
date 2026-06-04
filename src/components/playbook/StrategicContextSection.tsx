@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { efficiencyStrategicContext } from "@/data/playbook-data";
+import { sustainabilityStrategicContext } from "@/data/playbook-data";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import {
   CalendarClock,
@@ -16,7 +16,7 @@ import {
 export const StrategicContextSection = () => {
   const { ref, isVisible } = useScrollAnimation();
   const { intro, raClassicSunset, customerArchetypes, ghgTailwind } =
-    efficiencyStrategicContext;
+    sustainabilityStrategicContext;
 
   return (
     <section

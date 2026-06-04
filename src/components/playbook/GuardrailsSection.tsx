@@ -100,7 +100,7 @@ export const GuardrailsSection = () => {
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Why Guardrails Matter</h3>
                 <p className="text-sm text-muted-foreground">
-                  Customer-facing efficiency advice must balance accessibility with credibility. 
+                  Customer-facing sustainability advice must balance accessibility with credibility. 
                   These guardrails ensure recommendations build trust while creating clear paths 
                   to deeper expert engagements.
                 </p>

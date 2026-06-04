@@ -72,7 +72,7 @@ const Index = () => {
       {/* Response */}
       <StrategicPillars />
       <KeyObjectivesSection />
-      {/* How – ECM Foundation cluster */}
+      {/* How – Sustainability Foundation cluster */}
       <ExistingToolsSection />
       <RAPlusPlatformFoundationSection />
       

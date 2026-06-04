@@ -28,7 +28,7 @@ export const domainRoadmaps: DomainRoadmap[] = [
     id: "sales-discovery",
     domain: "Sales Discovery",
     icon: "Search",
-    description: "Faster qualification with early efficiency insights and data-light ranges",
+    description: "Faster qualification with early sustainability insights and data-light ranges",
     overview: "Enable account executives and SDRs to spot opportunities from minimal site facts, provide data-light ROM ranges with confidence labels, and build credibility with evidence snippets and case patterns. Primary users: Account executives, SDRs, Solution consultants.",
     initiatives: [
       {
@@ -79,7 +79,7 @@ export const domainRoadmaps: DomainRoadmap[] = [
         horizon: "Next",
         pillars: ["Upsell Engine"],
         valueDriver: "Early value",
-        initiative: "Pre-meeting site-relevant efficiency opportunities",
+        initiative: "Pre-meeting site-relevant sustainability opportunities",
         objective: "O3",
         primaryKR: "KR7",
         proofMetric: "Meeting preparation time",
@@ -104,13 +104,13 @@ export const domainRoadmaps: DomainRoadmap[] = [
     domain: "Pre-sales Scoping",
     icon: "Settings",
     description: "Consistent scoping with parameterized templates and scenario analysis",
-    overview: "Support solution architects and sales engineers with parameterized efficiency templates, stacking logic for interactions and saturation effects, sensitivity analysis, and seamless CPQ export. Primary users: Solution architects, Sales engineers.",
+    overview: "Support solution architects and sales engineers with parameterized sustainability templates, stacking logic for interactions and saturation effects, sensitivity analysis, and seamless CPQ export. Primary users: Solution architects, Sales engineers.",
     initiatives: [
       {
         horizon: "Now",
         pillars: ["Productivity"],
         valueDriver: "Consistency",
-        initiative: "Parameterized efficiency templates with inputs and default assumptions",
+        initiative: "Parameterized sustainability templates with inputs and default assumptions",
         objective: "O1",
         primaryKR: "KR1",
         proofMetric: "Template coverage %",
@@ -346,7 +346,7 @@ export const domainRoadmaps: DomainRoadmap[] = [
         horizon: "Now",
         pillars: ["Recurring Revenue"],
         valueDriver: "Continuous value",
-        initiative: "Next-best efficiency suggestions as data evolves",
+        initiative: "Next-best sustainability suggestions as data evolves",
         objective: "O2",
         primaryKR: "KR5",
         proofMetric: "Suggestion relevance score",
@@ -404,7 +404,7 @@ export const domainRoadmaps: DomainRoadmap[] = [
     domain: "Guardrails & Trust",
     icon: "Shield",
     description: "Protecting trust while exposing expert content for upsell",
-    overview: "Implement transparency standards, data quality checks, risk compliance, commercial separation, and user experience guardrails to protect trust while enabling customer-facing advisory. Foundation for all customer-facing efficiency guidance.",
+    overview: "Implement transparency standards, data quality checks, risk compliance, commercial separation, and user experience guardrails to protect trust while enabling customer-facing advisory. Foundation for all customer-facing sustainability guidance.",
     initiatives: [
       {
         horizon: "Now",
@@ -486,7 +486,7 @@ export const domainRoadmaps: DomainRoadmap[] = [
     ]
   },
   {
-    id: "ecm-foundation",
+    id: "sustainability-foundation",
     domain: "Strategy Foundation",
     icon: "Database",
     description: "The governed strategy foundation for opportunity logic, assumptions, and quality standards",
@@ -496,7 +496,7 @@ export const domainRoadmaps: DomainRoadmap[] = [
         horizon: "Now",
         pillars: ["Productivity"],
         valueDriver: "Standardization",
-        initiative: "Finalize and govern unified efficiency taxonomy",
+        initiative: "Finalize and govern unified sustainability taxonomy",
         objective: "O1",
         primaryKR: "KR1",
         proofMetric: "Taxonomy completion %",
@@ -575,19 +575,19 @@ export const domainRoadmaps: DomainRoadmap[] = [
     id: "strategy-integration",
     domain: "Strategy Integration",
     icon: "Target",
-    description: "Top-down goal-based efficiency guidance powering customer strategy",
-    overview: "Connect the efficiency strategy foundation to Strategy for goal-based recommendations. Feed guidance directly into Actions and planning workflows. First customer-facing milestone that proves value early.",
+    description: "Top-down goal-based sustainability guidance powering customer strategy",
+    overview: "Connect the sustainability strategy foundation to Strategy for goal-based recommendations. Feed guidance directly into Actions and planning workflows. First customer-facing milestone that proves value early.",
     initiatives: [
       {
         horizon: "Now",
         pillars: ["Recurring Revenue"],
         valueDriver: "Customer value",
-        initiative: "Connect efficiency guidance to Strategy via clean service boundary",
+        initiative: "Connect sustainability guidance to Strategy via clean service boundary",
         objective: "O2",
         primaryKR: "KR4",
         proofMetric: "Integration live date",
         aiLeverage: "Service interface design",
-        customerROI: "Goal-based efficiency access"
+        customerROI: "Goal-based sustainability access"
       },
       {
         horizon: "Now",
@@ -615,7 +615,7 @@ export const domainRoadmaps: DomainRoadmap[] = [
         horizon: "Next",
         pillars: ["Recurring Revenue"],
         valueDriver: "Customer engagement",
-        initiative: "Customer-facing efficiency recommendations in Strategy",
+        initiative: "Customer-facing sustainability recommendations in Strategy",
         objective: "O3",
         primaryKR: "KR7",
         proofMetric: "Customer engagement rate",

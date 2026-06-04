@@ -15,21 +15,21 @@ import {
   idmCapabilities,
   ecmIngestionEngine,
   regionalJourneys,
-  efficiencyStrategicContext,
+  sustainabilityStrategicContext,
 } from "@/data/playbook-data";
 
 const executiveSummarySlides = [
   {
-    title: "Efficiency CoE expertise is proven, but not yet scaled through RA+",
-    body: "The Efficiency CoE already delivers trusted advisory, implementation, IDM, and Global Energy Bureau capabilities across public and private sectors. The RA+ opportunity is to convert that operating strength into a repeatable platform capability that reaches customers earlier, guides action faster, and supports continuous improvement.",
+    title: "Sustainability CoE expertise is proven, but not yet scaled through RA+",
+    body: "The Sustainability CoE already delivers trusted advisory, implementation, IDM, and Global Energy Bureau capabilities across public and private sectors. The RA+ opportunity is to convert that operating strength into a repeatable platform capability that reaches customers earlier, guides action faster, and supports continuous improvement.",
   },
   {
-    title: "A governed Efficiency CoE capability embedded in RA+",
-    body: "The north star is an authoritative efficiency foundation inside RA+ that connects IDM as the trusted interval-data system of record, expert CoE knowledge, and guided workflows. It should power goal-based Strategy recommendations, site-level Building View discovery, structured deliverables, and a clear path from early insight to expert engagement.",
+    title: "A governed Sustainability CoE capability embedded in RA+",
+    body: "The north star is an authoritative sustainability foundation inside RA+ that connects IDM as the trusted interval-data system of record, expert CoE knowledge, and guided workflows. It should power goal-based Strategy recommendations, site-level Building View discovery, structured deliverables, and a clear path from early insight to expert engagement.",
   },
   {
-    title: "Efficiency becomes a continuous RA+ operating model",
-    body: "The end state is a credible, governed efficiency layer in RA+ that links strategy, design, execution, and continuous improvement. Customers receive contextual recommendations, teams reuse a consistent knowledge base, and expert services are pulled in at the right moments for deeper analysis without turning early guidance into a contractual commitment.",
+    title: "Sustainability becomes a continuous RA+ operating model",
+    body: "The end state is a credible, governed sustainability layer in RA+ that links strategy, design, execution, and continuous improvement. Customers receive contextual recommendations, teams reuse a consistent knowledge base, and expert services are pulled in at the right moments for deeper analysis without turning early guidance into a contractual commitment.",
   },
 ];
 
@@ -53,8 +53,8 @@ export const exportToPptx = async () => {
   const pptx = new PptxGenJS();
 
   pptx.author = "Schneider Electric";
-  pptx.title = "Efficiency Transformation with RA+";
-  pptx.subject = "Efficiency Transformation with RA+";
+  pptx.title = "Sustainability Transformation with RA+";
+  pptx.subject = "Sustainability Transformation with RA+";
   pptx.company = "Schneider Electric";
 
   pptx.defineSlideMaster({
@@ -87,8 +87,8 @@ export const exportToPptx = async () => {
 
   const buildTitle = () => {
     const s = newSlide();
-    s.addText("Efficiency Transformation", { x: 0.5, y: 1.8, w: 9, h: 0.8, fontSize: 18, color: BRAND_GREEN, align: "center" });
-    s.addText("Efficiency Transformation", { x: 0.5, y: 2.5, w: 9, h: 0.8, fontSize: 40, bold: true, color: BRAND_GREEN, align: "center" });
+    s.addText("Sustainability Transformation", { x: 0.5, y: 1.8, w: 9, h: 0.8, fontSize: 18, color: BRAND_GREEN, align: "center" });
+    s.addText("Sustainability Transformation", { x: 0.5, y: 2.5, w: 9, h: 0.8, fontSize: 40, bold: true, color: BRAND_GREEN, align: "center" });
     s.addText("with RA+", { x: 0.5, y: 3.2, w: 9, h: 0.8, fontSize: 40, bold: true, color: TEXT_WHITE, align: "center" });
     s.addText("Internal Only and Confidential", { x: 0.5, y: 4.5, w: 9, h: 0.5, fontSize: 14, color: TEXT_MUTED, align: "center" });
   };
@@ -105,8 +105,8 @@ export const exportToPptx = async () => {
 
   const buildStrategicContext = () => {
     const s = newSlide();
-    addTitle(s, "STRATEGIC CONTEXT", "Forces That Make Now the Window", efficiencyStrategicContext.intro);
-    const sunset = efficiencyStrategicContext.raClassicSunset;
+    addTitle(s, "STRATEGIC CONTEXT", "Forces That Make Now the Window", sustainabilityStrategicContext.intro);
+    const sunset = sustainabilityStrategicContext.raClassicSunset;
     s.addShape("rect" as PptxGenJS.ShapeType, {
       x: 0.5, y: 2.0, w: 9, h: 1.4,
       fill: { color: CARD_BG }, line: { color: BRAND_GREEN, width: 1 },
@@ -138,10 +138,10 @@ export const exportToPptx = async () => {
 
   const buildWhatIf = () => {
     const whatIfScenarios = [
-      { title: "Show opportunities in minutes", description: "Walk into a first meeting and show site-relevant efficiency opportunities in RA+ within minutes." },
+      { title: "Show opportunities in minutes", description: "Walk into a first meeting and show site-relevant sustainability opportunities in RA+ within minutes." },
       { title: "Replace PowerPoint with platform", description: "Replace audit PowerPoint decks with structured, visual, interactive deliverables in the platform." },
       { title: "Centralize context once", description: "Centralize all client context once on the RA+ spine and reuse it across audits, quotes, and follow-ups." },
-      { title: "One-click audit requests", description: "Let customers discover early efficiency insights, then request deeper expert audits with one click." },
+      { title: "One-click audit requests", description: "Let customers discover early sustainability insights, then request deeper expert audits with one click." },
       { title: "Continuous improvement", description: "Turn every delivered audit into data that improves future recommendations." },
     ];
     const s = newSlide();
@@ -160,7 +160,7 @@ export const exportToPptx = async () => {
 
   const buildPlatformShift = () => {
     const s = newSlide();
-    addTitle(s, "PLATFORM SHIFT", "Efficiency Transformation with RA+", platformShift.intro);
+    addTitle(s, "PLATFORM SHIFT", "Sustainability Transformation with RA+", platformShift.intro);
     [platformShift.classic, platformShift.raPlus].forEach((col, i) => {
       const xPos = 0.5 + i * 4.6;
       s.addShape("rect" as PptxGenJS.ShapeType, {
@@ -196,7 +196,7 @@ export const exportToPptx = async () => {
 
   const buildJTBD = () => {
     const s = newSlide();
-    addTitle(s, "JOBS TO BE DONE", "What Users Hire Energy Efficiency to Do", jobsToBeDone.intro);
+    addTitle(s, "JOBS TO BE DONE", "What Users Hire Sustainability to Do", jobsToBeDone.intro);
     jobsToBeDone.jobs.slice(0, 11).forEach((j, i) => {
       const xPos = 0.3 + (i % 2) * 4.7;
       const yPos = 1.95 + Math.floor(i / 2) * 0.55;
@@ -227,7 +227,7 @@ export const exportToPptx = async () => {
 
   const buildTechnologyLandscape = () => {
     const s = newSlide();
-    addTitle(s, "TECHNOLOGY LANDSCAPE", "Where We Are Today, Where IDM Goes Next", "Existing tools that anchor today's efficiency work, with IDM evolving into the RA+ data backbone.");
+    addTitle(s, "TECHNOLOGY LANDSCAPE", "Where We Are Today, Where IDM Goes Next", "Existing tools that anchor today's sustainability work, with IDM evolving into the RA+ data backbone.");
     existingTools.forEach((t, i) => {
       const xPos = 0.3 + (i % 2) * 4.7;
       const yPos = 1.95 + Math.floor(i / 2) * 1.55;
@@ -244,7 +244,7 @@ export const exportToPptx = async () => {
 
   const buildCapabilityMapping = () => {
     const s = newSlide();
-    addTitle(s, "CAPABILITY MAPPING", "ECM Library across the Efficiency Journey", "How the ECM knowledge base plugs into each stage of the customer journey.");
+    addTitle(s, "CAPABILITY MAPPING", "Decarbonization Library across the Sustainability Journey", "How the decarbonization knowledge base plugs into each stage of the customer journey.");
     const journeyStages = [
       { name: "Lead Intake", note: "Surface relevant opportunities by sector and geography" },
       { name: "Data Collection", note: "Match required inputs to available IDM, BMS, and utility feeds" },
@@ -297,7 +297,7 @@ export const exportToPptx = async () => {
       {
         title: "Self-Serve Operator",
         tagline: "FULL AUTONOMY, AI-DRIVEN",
-        body: "Wants the keys. Runs RA+ analytics, builds ECM scenarios, and acts on Sera recommendations without waiting for a human. RA+ is their cockpit; expert services are a-la-carte.",
+        body: "Wants the keys. Runs RA+ analytics, builds decarbonization scenarios, and acts on Sera recommendations without waiting for a human. RA+ is their cockpit; expert services are a-la-carte.",
       },
       {
         title: "Guided Decision Client",
@@ -325,8 +325,8 @@ export const exportToPptx = async () => {
       "Service advisors become the judgment layer on top of RA+ and Sera , across four roles, across three engagement tiers.",
     );
     const pillars = [
-      { t: "Validation", d: "Pressure-test RA+ baselines, ECM assumptions, and Sera outputs against engineering and field reality." },
-      { t: "Interpretation", d: "Turn RA+ telemetry and ECM stacks into a clear portfolio narrative and realistic envelope of action." },
+      { t: "Validation", d: "Pressure-test RA+ baselines, decarbonization assumptions, and Sera outputs against engineering and field reality." },
+      { t: "Interpretation", d: "Turn RA+ telemetry and decarbonization stacks into a clear portfolio narrative and realistic envelope of action." },
       { t: "Risk translation", d: "Frame downside, tenant impact, compliance, and execution risk around RA+ surfaced measures." },
       { t: "Exec communication", d: "Package RA+ evidence and Sera reasoning into board-grade recommendations and capital narratives." },
     ];
@@ -371,7 +371,7 @@ export const exportToPptx = async () => {
   const buildPhasing = () => {
     const phases = [
       { phase: "Phase 1", title: "IDM Evolution", tagline: "Urgent, no-regret", timing: "MVP Q4 2025 / Q1 2026", summary: "Re-platform IDM into RA+ to drive market differentiation through agentic capabilities, richer context, and SaaS-ready delivery." },
-      { phase: "Phase 2", title: "ECM Library", tagline: "Cross-COE feeder", timing: "Sequenced with Pricing & Savings Accelerator", summary: "Connects efficiency, consultancy, and construction services into one knowledge backbone that powers Sera reasoning." },
+      { phase: "Phase 2", title: "Decarbonization Library", tagline: "Cross-COE feeder", timing: "Sequenced with Pricing & Savings Accelerator", summary: "Connects sustainability, consultancy, and construction services into one knowledge backbone that powers Sera reasoning." },
       { phase: "Phase 3", title: "Disclosure & Reporting Engine", tagline: "Close the loop from data to disclosure", timing: "Sequencing TBD", summary: "Turn the sustainability data spine and Decarbonization Library into auditable disclosures (CSRD/ESRS, GHG Protocol, CDP) generated directly from RA+ context, with traceability back to source evidence." },
     ];
     const s = newSlide();
@@ -485,7 +485,7 @@ export const exportToPptx = async () => {
     const s = newSlide();
     addTitle(s, "EXECUTIVE TAKEAWAY", "Why This, Why Now");
     s.addText(
-      "Efficiency Transformation turns proven CoE expertise into a governed RA+ capability: earlier customer reach, faster guided action, continuous improvement.",
+      "Sustainability Transformation turns proven CoE expertise into a governed RA+ capability: earlier customer reach, faster guided action, continuous improvement.",
       { x: 0.5, y: 2.0, w: 9, h: 2.5, fontSize: 16, color: TEXT_WHITE, align: "center", fit: "shrink" },
     );
   };
@@ -565,7 +565,7 @@ export const exportToPptx = async () => {
 
   const buildPainInventory = () => {
     const s = newSlide();
-    addTitle(s, "APPENDIX · PAIN INVENTORY", "What the Efficiency Transformation Eliminates", painInventory.intro);
+    addTitle(s, "APPENDIX · PAIN INVENTORY", "What the Sustainability Transformation Eliminates", painInventory.intro);
     painInventory.pains.forEach((p, i) => {
       const xPos = 0.3 + (i % 2) * 4.7;
       const yPos = 1.95 + Math.floor(i / 2) * 1.2;
@@ -594,7 +594,7 @@ export const exportToPptx = async () => {
   const buildThankYou = () => {
     const s = newSlide();
     s.addText("Thank You", { x: 0.5, y: 2, w: 9, h: 1, fontSize: 44, bold: true, color: TEXT_WHITE, align: "center" });
-    s.addText("Efficiency Transformation with RA+", { x: 0.5, y: 3.2, w: 9, h: 0.5, fontSize: 18, color: BRAND_GREEN, align: "center" });
+    s.addText("Sustainability Transformation with RA+", { x: 0.5, y: 3.2, w: 9, h: 0.5, fontSize: 18, color: BRAND_GREEN, align: "center" });
     s.addText("Internal Only and Confidential", { x: 0.5, y: 4, w: 9, h: 0.5, fontSize: 12, color: TEXT_MUTED, align: "center" });
   };
 
@@ -642,5 +642,5 @@ export const exportToPptx = async () => {
 
   buildThankYou();
 
-  await pptx.writeFile({ fileName: "Efficiency-Transformation-with-RA-Plus.pptx" });
+  await pptx.writeFile({ fileName: "Sustainability-Transformation-with-RA-Plus.pptx" });
 };

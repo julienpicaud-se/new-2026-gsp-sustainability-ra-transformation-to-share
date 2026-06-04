@@ -45,7 +45,7 @@ export const OutOfScopeSection = () => {
               What Stays Out of Scope
             </h2>
             <p className="text-sm sm:text-base lg:text-lg text-muted-foreground max-w-3xl mx-auto">
-              To protect credibility and enable scale, these areas remain outside the Efficiency Transformation scope
+              To protect credibility and enable scale, these areas remain outside the Sustainability Transformation scope
             </p>
           </div>
 
@@ -83,7 +83,7 @@ export const OutOfScopeSection = () => {
             <CardContent className="p-6 text-center">
               <ShieldAlert className="w-8 h-8 text-orange-400 mx-auto mb-3" />
               <p className="text-foreground">
-                These boundaries ensure that efficiency advisory builds trust, not risk. 
+                These boundaries ensure that sustainability advisory builds trust, not risk. 
                 Expert escalation paths connect customers to deeper engagements when needed.
               </p>
             </CardContent>
