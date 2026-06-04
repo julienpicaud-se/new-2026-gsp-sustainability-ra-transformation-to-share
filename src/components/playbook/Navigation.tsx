@@ -254,6 +254,18 @@ export const Navigation = ({ onPresentationMode }: NavigationProps) => {
             </Button>
 
             <Button
+              variant="outline"
+              className="hidden sm:flex gap-2"
+              size="sm"
+              onClick={handleExportPdf}
+              disabled={isExportingPdf}
+              title="Export high-fidelity PDF"
+            >
+              <FileText className="w-4 h-4" />
+              {isExportingPdf ? "Exporting..." : "Export PDF"}
+            </Button>
+
+            <Button
               className="hidden sm:flex bg-primary hover:bg-primary/90 text-primary-foreground gap-2 shadow-md shadow-primary/20"
               size="sm"
               onClick={handleExport}
