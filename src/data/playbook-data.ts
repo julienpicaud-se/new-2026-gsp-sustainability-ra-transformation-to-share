@@ -1197,7 +1197,7 @@ export const regionalJourneys = {
         "Inventory & Materiality": { level: "core", note: "Carbon footprint platform, energy audits" },
         "Analysis & Guidance": { level: "core", note: "Climate risk on 7,300+ sites, deep-dives" },
         "Recommendations": { level: "core", note: "Decarbonization and transition plan" },
-        "Implementation": { level: "core", note: "Energy efficiency, EU Taxonomy, nature-based solutions" },
+        "Implementation": { level: "core", note: "Sustainability, EU Taxonomy, nature-based solutions" },
         "Assurance & Monitoring": { level: "core", note: "Biodiversity, water, insetting and offsetting strategies" },
       },
     },
@@ -1211,7 +1211,7 @@ export const regionalJourneys = {
   divergence: [
     {
       title: "Implementation",
-      detail: "Southern Europe and UK&I deepen into implementation (efficiency, nature-based solutions). Americas and N&C Europe often stop at recommendations or hand-off.",
+      detail: "Southern Europe and UK&I deepen into implementation (sustainability, nature-based solutions). Americas and N&C Europe often stop at recommendations or hand-off.",
     },
     {
       title: "Deliverable",
@@ -1284,7 +1284,7 @@ export const ecmIngestionEngine = {
 };
 
 // Strategic Context: deadlines, customer archetypes, regulatory tailwinds
-export const efficiencyStrategicContext = {
+export const sustainabilityStrategicContext = {
   intro:
     "Three forces shape why this strategy matters now: the RA+ platform transition, proven GSP delivery strength (ranked #1 globally), and the need to convert trusted client sustainability data into guided action.",
   raClassicSunset: {

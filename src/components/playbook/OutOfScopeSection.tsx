@@ -83,7 +83,7 @@ export const OutOfScopeSection = () => {
             <CardContent className="p-6 text-center">
               <ShieldAlert className="w-8 h-8 text-orange-400 mx-auto mb-3" />
               <p className="text-foreground">
-                These boundaries ensure that efficiency advisory builds trust, not risk. 
+                These boundaries ensure that sustainability advisory builds trust, not risk. 
                 Expert escalation paths connect customers to deeper engagements when needed.
               </p>
             </CardContent>

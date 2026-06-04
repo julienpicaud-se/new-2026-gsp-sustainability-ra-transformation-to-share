@@ -587,7 +587,7 @@ export const domainRoadmaps: DomainRoadmap[] = [
         primaryKR: "KR4",
         proofMetric: "Integration live date",
         aiLeverage: "Service interface design",
-        customerROI: "Goal-based efficiency access"
+        customerROI: "Goal-based sustainability access"
       },
       {
         horizon: "Now",

@@ -15,7 +15,7 @@ import {
   idmCapabilities,
   ecmIngestionEngine,
   regionalJourneys,
-  efficiencyStrategicContext,
+  sustainabilityStrategicContext,
 } from "@/data/playbook-data";
 
 const executiveSummarySlides = [
@@ -28,7 +28,7 @@ const executiveSummarySlides = [
     body: "The north star is an authoritative sustainability foundation inside RA+ that connects IDM as the trusted interval-data system of record, expert CoE knowledge, and guided workflows. It should power goal-based Strategy recommendations, site-level Building View discovery, structured deliverables, and a clear path from early insight to expert engagement.",
   },
   {
-    title: "Efficiency becomes a continuous RA+ operating model",
+    title: "Sustainability becomes a continuous RA+ operating model",
     body: "The end state is a credible, governed sustainability layer in RA+ that links strategy, design, execution, and continuous improvement. Customers receive contextual recommendations, teams reuse a consistent knowledge base, and expert services are pulled in at the right moments for deeper analysis without turning early guidance into a contractual commitment.",
   },
 ];
@@ -105,8 +105,8 @@ export const exportToPptx = async () => {
 
   const buildStrategicContext = () => {
     const s = newSlide();
-    addTitle(s, "STRATEGIC CONTEXT", "Forces That Make Now the Window", efficiencyStrategicContext.intro);
-    const sunset = efficiencyStrategicContext.raClassicSunset;
+    addTitle(s, "STRATEGIC CONTEXT", "Forces That Make Now the Window", sustainabilityStrategicContext.intro);
+    const sunset = sustainabilityStrategicContext.raClassicSunset;
     s.addShape("rect" as PptxGenJS.ShapeType, {
       x: 0.5, y: 2.0, w: 9, h: 1.4,
       fill: { color: CARD_BG }, line: { color: BRAND_GREEN, width: 1 },
@@ -244,7 +244,7 @@ export const exportToPptx = async () => {
 
   const buildCapabilityMapping = () => {
     const s = newSlide();
-    addTitle(s, "CAPABILITY MAPPING", "Decarbonization Library across the Efficiency Journey", "How the ECM knowledge base plugs into each stage of the customer journey.");
+    addTitle(s, "CAPABILITY MAPPING", "Decarbonization Library across the Sustainability Journey", "How the decarbonization knowledge base plugs into each stage of the customer journey.");
     const journeyStages = [
       { name: "Lead Intake", note: "Surface relevant opportunities by sector and geography" },
       { name: "Data Collection", note: "Match required inputs to available IDM, BMS, and utility feeds" },
@@ -371,7 +371,7 @@ export const exportToPptx = async () => {
   const buildPhasing = () => {
     const phases = [
       { phase: "Phase 1", title: "IDM Evolution", tagline: "Urgent, no-regret", timing: "MVP Q4 2025 / Q1 2026", summary: "Re-platform IDM into RA+ to drive market differentiation through agentic capabilities, richer context, and SaaS-ready delivery." },
-      { phase: "Phase 2", title: "Decarbonization Library", tagline: "Cross-COE feeder", timing: "Sequenced with Pricing & Savings Accelerator", summary: "Connects efficiency, consultancy, and construction services into one knowledge backbone that powers Sera reasoning." },
+      { phase: "Phase 2", title: "Decarbonization Library", tagline: "Cross-COE feeder", timing: "Sequenced with Pricing & Savings Accelerator", summary: "Connects sustainability, consultancy, and construction services into one knowledge backbone that powers Sera reasoning." },
       { phase: "Phase 3", title: "Disclosure & Reporting Engine", tagline: "Close the loop from data to disclosure", timing: "Sequencing TBD", summary: "Turn the sustainability data spine and Decarbonization Library into auditable disclosures (CSRD/ESRS, GHG Protocol, CDP) generated directly from RA+ context, with traceability back to source evidence." },
     ];
     const s = newSlide();
