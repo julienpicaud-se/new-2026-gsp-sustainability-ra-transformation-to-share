@@ -20,7 +20,7 @@ import { WhatIfSection } from "@/components/playbook/WhatIfSection";
 import { BoundariesSection } from "@/components/playbook/BoundariesSection";
 import { SuccessMetricsSection } from "@/components/playbook/SuccessMetricsSection";
 import { JumpToTop } from "@/components/playbook/JumpToTop";
-import { ECMCapabilityMapping } from "@/components/playbook/ECMCapabilityMapping";
+
 
 import { MaturityLadderSection } from "@/components/playbook/MaturityLadderSection";
 import { AppendixSection } from "@/components/playbook/AppendixSection";
@@ -75,7 +75,7 @@ const Index = () => {
       {/* How – ECM Foundation cluster */}
       <ExistingToolsSection />
       <RAPlusPlatformFoundationSection />
-      <ECMCapabilityMapping />
+      
       
       
       <OperatingModelSection />
