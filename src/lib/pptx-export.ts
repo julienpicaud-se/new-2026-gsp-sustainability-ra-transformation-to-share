@@ -372,7 +372,7 @@ export const exportToPptx = async () => {
     const phases = [
       { phase: "Phase 1", title: "IDM Evolution", tagline: "Urgent, no-regret", timing: "MVP Q4 2025 / Q1 2026", summary: "Re-platform IDM into RA+ to drive market differentiation through agentic capabilities, richer context, and SaaS-ready delivery." },
       { phase: "Phase 2", title: "ECM Library", tagline: "Cross-COE feeder", timing: "Sequenced with Pricing & Savings Accelerator", summary: "Connects efficiency, consultancy, and construction services into one knowledge backbone that powers Sera reasoning." },
-      { phase: "Phase 3", title: "AkitaBox", tagline: "Build vs. integrate decision", timing: "Sequencing TBD", summary: "Confirmed no-regret strategic move. Open question on build inside RA+ vs. standalone module and differentiation vs. BDP / Foresight." },
+      { phase: "Phase 3", title: "Disclosure & Reporting Engine", tagline: "Close the loop from data to disclosure", timing: "Sequencing TBD", summary: "Turn the sustainability data spine and Decarbonization Library into auditable disclosures (CSRD/ESRS, GHG Protocol, CDP) generated directly from RA+ context, with traceability back to source evidence." },
     ];
     const s = newSlide();
     addTitle(s, "PHASING", "What Ships, in What Order, Why", "Capability depth grows along the axis: Phase 1 is in flight, Phase 2 is sequenced, Phase 3 is an open question.");

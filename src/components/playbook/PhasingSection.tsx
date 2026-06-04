@@ -43,21 +43,21 @@ const phases = [
     dependencies: "Builds on the Phase 1 data foundation. Co-evolves with the GSP methodology ingestion workstream.",
   },
   {
-    id: "akitabox",
+    id: "disclosure-engine",
     phase: "Phase 3",
-    title: "AkitaBox",
-    tagline: "Build vs. integrate decision",
+    title: "Disclosure & Reporting Engine",
+    tagline: "Close the loop from data to disclosure",
     icon: Building2,
     status: "exploration" as Status,
     statusLabel: "Open question",
     timing: "Sequencing TBD",
     summary:
-      "AkitaBox is a no-regret strategic move, but the shape is undefined. Open questions: do we build, and if so, inside RA+ or as a separate module?",
+      "Turn the sustainability data spine and Decarbonization Library into auditable disclosures (CSRD/ESRS, GHG Protocol, CDP) generated directly from RA+ context, with traceability back to source evidence.",
     bullets: [
       "Confirmed as one of three no-regret strategic moves",
-      "Build vs. partner vs. integrate not yet decided",
-      "Surface area within RA+ vs. standalone module to be scoped",
-      "Differentiation vs. adjacent S&S products (BDP, Foresight) must be clear",
+      "Reuses Phase 1 data spine and Phase 2 methodology library",
+      "Build vs. partner vs. integrate decision still open",
+      "Differentiation vs. adjacent S&S products must be clear",
     ],
     dependencies: "Sequencing depends on Phase 1 and Decarbonization Library groundwork plus a clearer commercial case.",
   },
@@ -93,7 +93,7 @@ export const PhasingSection = () => {
             Phasing: Three No-Regret Moves
           </h2>
           <p className="text-sm sm:text-base lg:text-lg text-muted-foreground max-w-3xl mx-auto">
-            A clear order of operations for the RA+ Sustainability build. Data Foundation first, then Decarbonization Library, then AkitaBox.
+            A clear order of operations for the RA+ Sustainability build. Data Foundation first, then Decarbonization Library, then Disclosure & Reporting Engine.
           </p>
         </div>
 
