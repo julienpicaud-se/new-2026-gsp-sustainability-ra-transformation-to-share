@@ -150,6 +150,8 @@ export const Navigation = ({ onPresentationMode }: NavigationProps) => {
     setIsMobileMenuOpen(false);
   };
 
+  const [isExportingPdf, setIsExportingPdf] = useState(false);
+
   const handleExport = async () => {
     setIsExporting(true);
     try {
@@ -158,6 +160,17 @@ export const Navigation = ({ onPresentationMode }: NavigationProps) => {
       console.error("Export failed:", error);
     } finally {
       setIsExporting(false);
+    }
+  };
+
+  const handleExportPdf = async () => {
+    setIsExportingPdf(true);
+    try {
+      await exportToPdf();
+    } catch (error) {
+      console.error("PDF export failed:", error);
+    } finally {
+      setIsExportingPdf(false);
     }
   };
 
