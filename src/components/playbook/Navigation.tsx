@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, Download, Maximize2, ChevronRight, Layers, ChevronDown, Map } from "lucide-react";
+import { Menu, Download, Maximize2, ChevronRight, Layers, ChevronDown, Map, FileText } from "lucide-react";
 import { exportToPptx } from "@/lib/pptx-export";
+import { exportToPdf } from "@/lib/pdf-export";
 import { domainRoadmaps } from "@/data/domain-roadmaps";
 import {
   Sheet,
@@ -149,6 +150,8 @@ export const Navigation = ({ onPresentationMode }: NavigationProps) => {
     setIsMobileMenuOpen(false);
   };
 
+  const [isExportingPdf, setIsExportingPdf] = useState(false);
+
   const handleExport = async () => {
     setIsExporting(true);
     try {
@@ -157,6 +160,17 @@ export const Navigation = ({ onPresentationMode }: NavigationProps) => {
       console.error("Export failed:", error);
     } finally {
       setIsExporting(false);
+    }
+  };
+
+  const handleExportPdf = async () => {
+    setIsExportingPdf(true);
+    try {
+      await exportToPdf();
+    } catch (error) {
+      console.error("PDF export failed:", error);
+    } finally {
+      setIsExportingPdf(false);
     }
   };
 
@@ -237,6 +251,18 @@ export const Navigation = ({ onPresentationMode }: NavigationProps) => {
               title="Presentation Mode"
             >
               <Maximize2 className="w-4 h-4" />
+            </Button>
+
+            <Button
+              variant="outline"
+              className="hidden sm:flex gap-2"
+              size="sm"
+              onClick={handleExportPdf}
+              disabled={isExportingPdf}
+              title="Export high-fidelity PDF"
+            >
+              <FileText className="w-4 h-4" />
+              {isExportingPdf ? "Exporting..." : "Export PDF"}
             </Button>
 
             <Button
@@ -358,6 +384,18 @@ export const Navigation = ({ onPresentationMode }: NavigationProps) => {
                   >
                     <Maximize2 className="w-4 h-4" />
                     Presentation Mode
+                  </Button>
+                  <Button
+                    variant="outline"
+                    className="w-full justify-start gap-2"
+                    onClick={() => {
+                      setIsMobileMenuOpen(false);
+                      handleExportPdf();
+                    }}
+                    disabled={isExportingPdf}
+                  >
+                    <FileText className="w-4 h-4" />
+                    {isExportingPdf ? "Exporting..." : "Export PDF"}
                   </Button>
                   <Button
                     className="w-full bg-primary hover:bg-primary/90 text-primary-foreground gap-2"
